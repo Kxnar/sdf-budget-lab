@@ -1,0 +1,8 @@
+{
+  "raw": "../../runs/distortion-v1",
+  "analysis": "../../runs/distortion-v1-analysis-02",
+  "source": "../../runs/distortion-v1-source",
+  "raw_manifest_sha256": "90bf57a016f4f3d219451c848abb63ad38fd0fcee4822bc2e1572c646d3e397e",
+  "source_manifest_sha256": "8564cf9780c2dff9a91ca4c757a324740b2150bf1ee04fe6f7c1f8a84e0c1731",
+  "analysis_manifest_sha256": "c56acc472a3aa86324e5241d78d8c7da1f264d34c881284de2517daddcf5df7e"
+}

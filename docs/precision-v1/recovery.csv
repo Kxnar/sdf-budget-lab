@@ -1,0 +1,37 @@
+shape,budget,method,minimum_feature,physical_size
+double_sphere,8192,f32,not reached,not reached
+double_sphere,8192,q16,not reached,not reached
+double_sphere,8192,q8,0.1,0.1
+double_sphere,8192,joint,0.1,0.1
+double_sphere,16384,f32,not reached,not reached
+double_sphere,16384,q16,not reached,not reached
+double_sphere,16384,q8,0.1,0.1
+double_sphere,16384,joint,0.1,0.1
+double_sphere,32768,f32,0.1,0.1
+double_sphere,32768,q16,0.1,0.1
+double_sphere,32768,q8,0.1,0.1
+double_sphere,32768,joint,0.1,0.1
+thin_box,8192,f32,0.035,0.07
+thin_box,8192,q16,0.035,0.07
+thin_box,8192,q8,0.035,0.07
+thin_box,8192,joint,0.035,0.07
+thin_box,16384,f32,0.035,0.07
+thin_box,16384,q16,0.035,0.07
+thin_box,16384,q8,0.035,0.07
+thin_box,16384,joint,0.035,0.07
+thin_box,32768,f32,0.035,0.07
+thin_box,32768,q16,0.035,0.07
+thin_box,32768,q8,0.035,0.07
+thin_box,32768,joint,0.035,0.07
+torus,8192,f32,not reached,not reached
+torus,8192,q16,0.1,0.2
+torus,8192,q8,0.1,0.2
+torus,8192,joint,0.1,0.2
+torus,16384,f32,0.1,0.2
+torus,16384,q16,0.1,0.2
+torus,16384,q8,0.1,0.2
+torus,16384,joint,0.1,0.2
+torus,32768,f32,0.1,0.2
+torus,32768,q16,0.1,0.2
+torus,32768,q8,0.1,0.2
+torus,32768,joint,0.1,0.2

@@ -1,0 +1,29 @@
+{
+  "frozen_sha256": "d4d55bdd672a954bb91564dbfede2b0661d6f34fed41a869b7a58fbad4cfa533",
+  "helpers": {
+    "generalization_v2_report_amended2.py": "31a61e9b8a41d23daccb043fba86da4079d38ecbf08b4c05a9def0257b6ed02b",
+    "generalization_v2_reproduce_amended2.py": "b73d47d1e761d4174f45e61868233506292130d423a37714cd8bc4e5f6e5da6e"
+  },
+  "scope": "Reporting and reproduction coverage only; no field, gate, evaluator, codec or reference changes",
+  "checks": [
+    "verification full SHA256 manifest and original freeze/evaluator identity",
+    "retain44 base reproduction jobs and add every other contributing fitting-seed crossing and adjacent smaller cap",
+    "compare exact flags, roots/tangencies, signed interval witnesses, surfaces/topology and decoded-invalid outcomes",
+    "deterministic compact/grid comparisons emitted once",
+    "physical encoded-field records versus distinct binary hashes",
+    "conditional qualified-mesh savings with unresolved Fish explicit",
+    "per-gate failures, query/build phases and separate cumulative construction/total process peaks"
+  ],
+  "prior_amendment_sha256": "acbc0cca59841e0ce85914a1fa6d1c9b96344eba9c0a85137268d69656392dd0",
+  "corrections": [
+    "Timing columns are retained separately and excluded from deterministic acceptance equality",
+    "Exact flags/events/witnesses/surfaces remain byte comparisons",
+    "Decoded-invalid outcomes do not assume prediction files",
+    "Mojibake is replaced with ASCII; compact matched-scope cost/peak table and plot links added"
+  ],
+  "focused_tests": {
+    "source_sha256": "cbe348902dcaaf6f1880b5d46a33fc5e1160aa46d9bc2fa6a5aea02f0a97fd2a",
+    "checks": 2,
+    "passed": true
+  }
+}

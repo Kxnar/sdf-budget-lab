@@ -1,0 +1,12 @@
+{
+  "fields": 20,
+  "queries": 4207184,
+  "raw_manifest": "549d4978cc96ea9fa5c1ceb869ab0c7ed41319d10d9a3fd1628eca81c1f3ee50",
+  "source_manifest": "5a1fa23381b621a8911640c4f41a57efd6d17ac6ede3db2169890a47ddd76e2a",
+  "verifier_sha256": {
+    "fidelity_verify.py": "316b82130c9078b89bf2ae13bb80402c1b1ef824f24864f2bd78bfa9ccd0d519",
+    "fidelity_verify_selection.py": "8c74428cfc4fb6d239b14dfda1b5fc24f0fc084679762e9e5d0798574858812b",
+    "distortion_analysis.py": "fe40b539c68245ca6b0c7e69a3c82a9151141acb41d038fb4294aa42dcd05e50",
+    "tail_evidence.py": "05202a43b1e11b17a98ef4df140ce98dbef0aa4110f6082ba025589e47a62024"
+  }
+}

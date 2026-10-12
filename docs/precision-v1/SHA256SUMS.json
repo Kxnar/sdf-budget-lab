@@ -1,0 +1,18 @@
+{
+  "accuracy_crossings.csv": "00c206f7a3d90158789e830d8f5d0ef350e387864269319ee2ffedf0fafd663b",
+  "config.json": "bfe703e2823985319cd0b06f67c565dc75fccd4dbdb5a543a7fb49ec9160f5de",
+  "convergence.csv": "8a82c8b6abeb5b2a91a60d17407e00362c1d8163ad7dc89ab42e816dfefd3b87",
+  "evidence.zip": "eed7ed57e490b838f40bb74ad2eeed76e3e49544704888ff2dd7387906deaec2",
+  "feature_sweep.png": "a5867262e651d4118c2f00b506f369f0d13705a0b80542b937ef984cc87580ae",
+  "machine.json": "5e43640c35ab85fdc452bd3d9632ea36bb65e3e9ef353a5fb8a6d8d9d0859468",
+  "meshes-double_sphere.zip": "8e76161b2cd27b2f984add9fb238dcf3df66adb178621b9d2ff2ff90c588eb29",
+  "meshes-thin_box.zip": "a0281b8389770009e3c5cdbbe363b03001c612777ed9c290fe331d6d94415d35",
+  "meshes-torus.zip": "cadb3e510f45df64432aad34b9aa0dff50e9903b7f13434fe447f940f4fbc5ad",
+  "precision_evidence.py": "c5d1d4e0e561fac3039ec4e034325a2e883ceb4fcb455268c53173bc825e0d9a",
+  "precision_plots.py": "6fbaebbd5c9e248bca399675545acf62f73385c69c4aea6d9fac5f4400642327",
+  "recovery.csv": "4a1de0376d8e81e221af415b4d86823c3ba9bd89a27f6386f946d4952f1f7e6b",
+  "report.html": "609268128f238012ef0501c5988035b09ec881d99f5c414caf7de80fb2b3a1d1",
+  "summary.csv": "ac2d019e5dcf5dfeadc6b18e04516d0e648742168e9e3167a0ce6979691ddf61",
+  "surfaces.png": "d0a7135ecc37afda07b6df8e264fc00e102ff48e6bb075191177c161e6a1f0fc",
+  "tradeoffs.png": "3600d7c85aef285d5ccef52498a82ccbacbe893bfa11bf6e271aa737b7393aa9"
+}

@@ -1,0 +1,8 @@
+{
+  "original_declaration_sha256": "828a1472a56e2c6f0457f36235ae905d55d13c6ee6243446c083edc76937dd68",
+  "supersedes_clarification_sha256": "3e638c41129d779635b8aae80c756a78e422f87e0b89011d88b90f6d5a49ca46",
+  "protocol_sha256": "3e047688935779f9dc5a1bb355a1a48804a04e9f901ae37cecd102ed8129c30c",
+  "max_process_working_set_bytes": 1610612736,
+  "selection_score": "For each mesh minimize max(actual retained bytes of seed240,seed241) over all jointly passing caps;2MiB only if no common crossing; success count then sum scores then physical/logical cost then policy order; smallest requested common passing cap reported separately",
+  "before_screen_outcomes": true
+}

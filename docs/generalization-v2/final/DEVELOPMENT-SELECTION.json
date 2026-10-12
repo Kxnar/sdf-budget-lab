@@ -1,0 +1,82 @@
+{
+  "ranked": [
+    {
+      "name": "Q24",
+      "passing_meshes": 3,
+      "selection_bytes": 141844,
+      "construction_seconds": 1.0805852999999999,
+      "warm_query_ns_sum": 467341.7236328125,
+      "mesh_scores": [
+        {
+          "geometry": "12_goathead",
+          "passing": true,
+          "selection_bytes": 78676
+        },
+        {
+          "geometry": "14_spot",
+          "passing": true,
+          "selection_bytes": 22704
+        },
+        {
+          "geometry": "15_brucewick",
+          "passing": true,
+          "selection_bytes": 40464
+        }
+      ],
+      "order": 2
+    },
+    {
+      "name": "Q28",
+      "passing_meshes": 3,
+      "selection_bytes": 149380,
+      "construction_seconds": 1.0763063000000002,
+      "warm_query_ns_sum": 470912.0361328125,
+      "mesh_scores": [
+        {
+          "geometry": "12_goathead",
+          "passing": true,
+          "selection_bytes": 82820
+        },
+        {
+          "geometry": "14_spot",
+          "passing": true,
+          "selection_bytes": 23948
+        },
+        {
+          "geometry": "15_brucewick",
+          "passing": true,
+          "selection_bytes": 42612
+        }
+      ],
+      "order": 3
+    },
+    {
+      "name": "XOR32",
+      "passing_meshes": 3,
+      "selection_bytes": 205788,
+      "construction_seconds": 1.1153583,
+      "warm_query_ns_sum": 488374.3408203125,
+      "mesh_scores": [
+        {
+          "geometry": "12_goathead",
+          "passing": true,
+          "selection_bytes": 113864
+        },
+        {
+          "geometry": "14_spot",
+          "passing": true,
+          "selection_bytes": 33304
+        },
+        {
+          "geometry": "15_brucewick",
+          "passing": true,
+          "selection_bytes": 58620
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "winner": "Q24",
+  "selection_penalty_only": 2097152,
+  "no_fresh_fitting": true
+}

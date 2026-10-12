@@ -1,0 +1,18 @@
+{
+  "frozen_sha256": "d4d55bdd672a954bb91564dbfede2b0661d6f34fed41a869b7a58fbad4cfa533",
+  "prior_amendment_sha256": "686e21dc0150f1c25309d534411227164993070f745b37b345d5c3b3e4a0c0b7",
+  "helpers": {
+    "generalization_v2_figures3.py": "f322fb8e837abb97e180c97a833cbb87d6969846ab89e72d39e5e765bfb3f63b",
+    "generalization_v2_publish3.py": "a3a49bc146e8b95a0708bff570a21e64ac805d396d573a4a53b29060ad5033ab",
+    "generalization_v2_report_amended6.py": "c80c4919e62ab66de4437d6da1b34565900f584a08693caf165c9da917db43a3"
+  },
+  "commands_sha256": "e9cd921661d8d81bb7234d2b8f6e92b426752a2fd20f1e63f5a72efdbcea3b81",
+  "scope": "Final presentation and publication only; no field, reference, evaluator, gate, codec or fit changes",
+  "corrections": [
+    "Consistent per-method scatter and interval colors in failed-ray diagnostic; Depth 7 legend spacing",
+    "Require exact completed reproduction selection, observed zero exits and original process guard before publication",
+    "Copy rebuild provenance and unchanged hashed test-fixture supplement; retain original CTest missing-fixture failure",
+    "Publish complete twelve compact assessments and 144 explicitly scoped f32/Q24 timing batches",
+    "Bind current command guide and preserve earlier figures2/publish2 helpers and reporting amendment 9"
+  ]
+}

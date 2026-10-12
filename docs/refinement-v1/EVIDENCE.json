@@ -1,0 +1,12 @@
+{
+  "raw": "../../runs/refinement-v1",
+  "raw_manifest_sha256": "773db46ff0677b1413c7c89c89551c53c516f79fcc7cea918fc90915a435d3fa",
+  "analysis": "../../runs/refinement-v1-analysis-02",
+  "analysis_manifest_sha256": "b3b3107f13ecc33cc05f64f61d4a8d501c26842dbe0d0433028b0aeb6dcb7dae",
+  "source": "../../runs/refinement-v1-source",
+  "source_manifest_sha256": "533700db5a588fa2ea019fcd12846a666be6e18254991f8c4b7f1008c885bd32",
+  "development": "../../runs/refinement-v1-dev",
+  "development_manifest_sha256": "d9758a2e4d97fe70f04dc0f54c18d4e4b0851c06eb938ff7b8d2a086e200ac39",
+  "development_source": "../../runs/refinement-v1-dev-source",
+  "development_source_manifest_sha256": "2b3280a2ef4f397b85789ad21b0163867ebf31cce21a7c925be0e71bc7d919cb"
+}

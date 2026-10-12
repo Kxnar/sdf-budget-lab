@@ -1,0 +1,30 @@
+{
+  "frozen_sha256": "01a639c2d02f74eb0986d9abdeeb28eaa4990e5363accf86ada7f6c55688c3a4",
+  "frozen_verifier_sha256": "97bfe769acbabe1ef33f1841b34ce0210d0b2c288c7b8bde64fe330568e77168",
+  "corrected_verifier_sha256": "30fcbd2f3b5c89daca68d88b86b69dadd9f13322f6d2e99be262a66daf88a005",
+  "reason": "Enforce already-frozen per-ray signed endpoint and ordered interval witnesses; native interval/width flags retained separately. No method settings, field fitting, queries, reference labels or native field binaries changed.",
+  "checks": [
+    "both ray endpoints strictly outside",
+    "every frozen reference interval midpoint sign",
+    "every recovered interval midpoint sign"
+  ],
+  "created_utc": "2026-10-12T14:51:29Z",
+  "helper_sha256": {
+    "generalization_common.py": "51509b7edb71f338d667eadd556a0bd23ffc7d74083826b8c71ed20929acc01b",
+    "generalization_run.py": "b5d5c7b129f39d6c69033180e49da1a586ad96400d3a2763bba3fb8e9f3153a6",
+    "distortion_analysis.py": "fe40b539c68245ca6b0c7e69a3c82a9151141acb41d038fb4294aa42dcd05e50"
+  },
+  "regression_tests_sha256": "52243209f981112e02131f2119b872053369908fa080c34b8f75ebfb8c5c839e",
+  "regression": "Reversed signs with identical root count/widths rejected; original native flags determine saved topology evidence.",
+  "evaluator_identity": {
+    "source_sha256": {
+      "generalization_verify.py": "30fcbd2f3b5c89daca68d88b86b69dadd9f13322f6d2e99be262a66daf88a005",
+      "generalization_common.py": "51509b7edb71f338d667eadd556a0bd23ffc7d74083826b8c71ed20929acc01b",
+      "generalization_run.py": "b5d5c7b129f39d6c69033180e49da1a586ad96400d3a2763bba3fb8e9f3153a6",
+      "generalization_prepare.py": "9f1660c2c59445c8e3064dc484c89e0c535f8df56fbcefe9fa8e2fcda9f57e6c",
+      "distortion_analysis.py": "fe40b539c68245ca6b0c7e69a3c82a9151141acb41d038fb4294aa42dcd05e50"
+    },
+    "numpy_version": "2.5.3",
+    "python_version": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]"
+  }
+}

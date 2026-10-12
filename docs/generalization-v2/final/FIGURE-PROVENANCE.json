@@ -1,0 +1,15 @@
+{
+  "frozen_sha256": "d4d55bdd672a954bb91564dbfede2b0661d6f34fed41a869b7a58fbad4cfa533",
+  "verified_manifest_sha256": "68e7676d8f7299794ca10646270de7350e8f8601e5f7c49488ba3bf54ff5afcb",
+  "helper_sha256": "f322fb8e837abb97e180c97a833cbb87d6969846ab89e72d39e5e765bfb3f63b",
+  "sources": {
+    "reference\\01_mushroom\\oracle_0_64.obj": "d63a00ba161836bf9106e745041b9db9b22ba7bccafc84dc1587787627562700",
+    "jobs\\01_mushroom_0_compact_Q24\\surface_64.obj": "ca1efabc97f47cf3abc150889b1a1c318e115ca6a2aac2f758da0c34f732757d",
+    "reference\\02_springer\\oracle_0_96.obj": "0f8fca3833a0d04187adbb6ab02795b6c9b9c9c9ea67161c329535cdc189bdb7",
+    "jobs\\02_springer_0_compact_Q24\\surface_96.obj": "ca38ef9f7dafcba46560dc1de28b201e972144c1273b41c577497b0eadc2e5f6",
+    "reference\\03_hammer\\oracle_0_128.obj": "b7980c126253232ab53df5906bd462d77146b558871671968c332ef79fc57655",
+    "jobs\\03_hammer_0_compact_Q24\\surface_128.obj": "bfefe9a46c8311968024316d7478788a366496706783a57f349dd4c761500df4",
+    "jobs\\01_mushroom_340_candidate\\widths.csv": "0b766734875fe9970452ac2541d7df773072f8905d0bfef13404b6288d2a6e28"
+  },
+  "no_geometry_repairs": true
+}

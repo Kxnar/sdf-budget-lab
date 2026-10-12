@@ -1,0 +1,14 @@
+{
+  "frozen_sha256": "01a639c2d02f74eb0986d9abdeeb28eaa4990e5363accf86ada7f6c55688c3a4",
+  "verified_matrix_sha256": "78cd257f18bed19b66c2944525d95b292b4af10202b735dda383820a3c5601e0",
+  "script_sha256": "460f2df13e3a92ab70b65130931ef637b59925a68cd5ea7dcb453d86a6b0dc0d",
+  "source_mesh_sha256": {
+    "reference\\00_thin_box\\oracle_0_64.obj": "f13eddb0a7de5e681492dfcb0e2fb68b877ad2f533313c728d92d46b8d9982e0",
+    "jobs\\00_thin_box_240_candidate\\candidate_524288_64.obj": "1f8f948db3fcf6365e045c5d84160e285e4a599a12e1222ef5be93dcf294cf08",
+    "reference\\06_capsule\\oracle_0_64.obj": "ffce3b39d87f6d71aff0e9ef320436f94fb4d8dcb6371d0edd974637e9bdc25b",
+    "jobs\\06_capsule_240_candidate\\candidate_131072_64.obj": "6d714eb21575bd87fdb2504c11d3d78ba4f88d18fb981c691062f5c0f9cece10",
+    "reference-fast\\12_goathead\\oracle_0_64.obj": "4689f64a1100ba936b85620efdefe55d3ffaa1abfb1617e69da385d6fa022fc6",
+    "jobs\\12_goathead_240_candidate\\candidate_32768_diagnostic64.obj": "37e59b0cc18e90a598baedc23be1f16ef304dc5574ae9e7d9339131363cc5a3e"
+  },
+  "sources": "saved oracle and represented extracted meshes, no repair or triangulation changes"
+}

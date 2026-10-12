@@ -1,0 +1,15 @@
+{
+  "cpu": {
+    "Name": "Intel(R) Core(TM) i9-10900K CPU @ 3.70GHz",
+    "NumberOfCores": 10,
+    "NumberOfLogicalProcessors": 20
+  },
+  "os": {
+    "Caption": "Microsoft Windows 11 Home",
+    "Version": "10.0.26300",
+    "TotalVisibleMemorySize": 16526884
+  },
+  "query_scope": "Serial native processes; study verification stopped; background host load uncontrolled",
+  "compiler": "MSVC Release /fp:strict compact library",
+  "frozen_sha256": "d4d55bdd672a954bb91564dbfede2b0661d6f34fed41a869b7a58fbad4cfa533"
+}

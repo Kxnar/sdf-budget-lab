@@ -1,0 +1,8 @@
+{
+  "fields": 24,
+  "metric_rows": 72,
+  "all_saved_points_recomputed": true,
+  "byte_coverage": true,
+  "fitting_losses": true,
+  "frozen_thresholds": false
+}

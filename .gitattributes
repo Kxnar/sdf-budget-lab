@@ -1,0 +1,2 @@
+# Frozen evidence must retain exactly the bytes recorded in its hash manifest.
+docs/** -text whitespace=cr-at-eol

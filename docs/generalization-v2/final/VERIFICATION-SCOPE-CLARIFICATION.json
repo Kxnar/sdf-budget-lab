@@ -1,0 +1,8 @@
+{
+  "original_key": "baseline_decoded_queries",
+  "original_mixed_total": 654625536,
+  "baseline_logical_prediction_and_objective_evaluations": 654613872,
+  "compact_independent_decoded_distance_sign_subset_queries": 11664,
+  "scope": "Baseline totals include identical-field cache reuse across caps; compact subset is separate from full scalar metrics and complete ray-event verification",
+  "frozen_sha256": "d4d55bdd672a954bb91564dbfede2b0661d6f34fed41a869b7a58fbad4cfa533"
+}

@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "geometry": "12_goathead",
+      "points": 144,
+      "maximum_difference": 1.1102230246251565e-16,
+      "sign_mismatches_away_2e9_band": 0,
+      "normalized_input_sha256": "ef65fd58095d52e0b59667d385acb8387a6a59afdbc6ebc9104a055e67538ab1",
+      "native_verified_sha256": "ff521086c4fb7b376a4be29b832a46728ae8ebf6162af4c43eb0f39ec2c3bdf6",
+      "method": "Independent brute-force triangle distances and ray parity; inherited reference hit deduplication convention",
+      "missing_interval_detail": null
+    },
+    {
+      "geometry": "14_spot",
+      "points": 144,
+      "maximum_difference": 1.734723475976807e-16,
+      "sign_mismatches_away_2e9_band": 0,
+      "normalized_input_sha256": "566dac562592d382f4537c8ef91ca0ea4a521be5995be6319e58d079783f43f5",
+      "native_verified_sha256": "37efaa80e78652be0f108380ec0018aef433eae5652bdbe3c6fb330850c591ed",
+      "method": "Independent brute-force triangle distances and ray parity; inherited reference hit deduplication convention",
+      "missing_interval_detail": null
+    },
+    {
+      "geometry": "15_brucewick",
+      "points": 152,
+      "maximum_difference": 1.1102230246251565e-16,
+      "sign_mismatches_away_2e9_band": 0,
+      "normalized_input_sha256": "475805dd89959326bce71ee5be435ad1174ef4142cb077cab0335da6fac81065",
+      "native_verified_sha256": "646340ef550f9e653bcee5c65d91f7aabd22003ff15e1f9ecf30b3940496e1f1",
+      "method": "Independent brute-force triangle distances and ray parity; inherited reference hit deduplication convention",
+      "missing_interval_detail": {
+        "ray": 0,
+        "reference_roots": [
+          -0.12204475388142197,
+          -0.05708835486416812,
+          -0.03758021584553209,
+          -0.0373820028107368,
+          2.2295806098640358e-17,
+          0.05997702455341701
+        ],
+        "missing_interval": [
+          -0.03758021584553209,
+          -0.0373820028107368
+        ],
+        "midpoint_world": [
+          -0.23110546842508545,
+          -0.3508662491314064,
+          -0.1835034903819342
+        ],
+        "independent_signed_distance": -7.764288826908334e-06,
+        "virtual_predictions": {
+          "q8": 2.5676276451443663e-05,
+          "f32": 2.5642106636722276e-05,
+          "f64": 2.56421058549181e-05
+        },
+        "containing_cell": [
+          -0.03775263269643009,
+          -0.037285963818726425,
+          -0.2314453125,
+          -0.35107421875,
+          -0.18359375,
+          -0.23095703125,
+          -0.3505859375,
+          -0.18310546875,
+          0.00021975557420513786,
+          0.00020183395188654756,
+          1.1784833876458899e-05,
+          -6.377457994068424e-05,
+          -0.00020881424947902987,
+          -0.00020149530675176285,
+          -0.0004167849898076905,
+          -0.0004671038385789145
+        ],
+        "interpretation": "Missing two transitions on full depth12, also in unquantized interpolation; no numerical ambiguity"
+      }
+    }
+  ],
+  "script_sha256": "8d0fd6b87c3e89742d5addfd77b74692c96c370ac056c97b3dac988b887b7930",
+  "v1_frozen_sha256": "01a639c2d02f74eb0986d9abdeeb28eaa4990e5363accf86ada7f6c55688c3a4"
+}

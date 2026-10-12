@@ -1,0 +1,46 @@
+{
+  "k": 128,
+  "lambda": 0.001,
+  "quadrature": 4,
+  "development_choice": {
+    "experiment": "i3-q4",
+    "worst_target_recall": 1.0,
+    "controls_pass": true,
+    "mean_axis_relative_error": 0.1551454319294233,
+    "raw_sha256": "c785d81c67e0aea527e110a7ab3b0348169b1ec0cf3b74407ae911b9103adf4b",
+    "verification_sha256": "d86a1f77aa3e00d3a6db1702ab2e38b69c9a9316ec36078ed0a950e7654f2d5b"
+  },
+  "confirmation_sha256": "04d844c8227a5fa37d8668771588a519cc25bf29d12978183dafbc8efbd0cb4b",
+  "held_out_seeds": [
+    140,
+    141
+  ],
+  "evaluation_queries_per_distribution": 100000,
+  "source_sha256": {
+    "CMakeLists.txt": "df52fefab6d35438ea994db8eb51cc07c31d4707483ccfd620d1d8269060c2d1",
+    "src/allocation.cpp": "f5926d16ac7c9b132d64a82e3183c896c4299c90aa70bdda794d865b5eb85fea",
+    "src/allocation_benchmark.cpp": "20decb7d94f0f37109a2d1f9f208eef0d5c929b42b1d74cd80660a4c533ba6a1",
+    "src/benchmark.cpp": "e89ed9c46a2d9b9a403923e0a4e78bb5ac69c8f16cf04983aa3785f655f36a69",
+    "src/distortion_benchmark.cpp": "cce5fd028457640d428f6494e2ee9ef9869be0e85c820ee0eea9987400877bf7",
+    "src/fidelity_benchmark.cpp": "7ae3bf14ec18cabb5551c0ee9af3a239f2db49a754f2eccdf88e92ecf7485cb1",
+    "src/field.cpp": "1243ef8ebd6b264d6e6b59520aa42366f76bf758b1c1c4700519ba32bbbf8534",
+    "src/mesh_oracle.cpp": "14caab22ddc83422e053ef6a9f2373db6216bfb46e83942aba7d21939159adba",
+    "src/metrics.cpp": "2c982a4492b3c54c2320e11b8befbf7720c8c16dcf1708a007b2150a2b2829c5",
+    "src/oracle.cpp": "efdaa9edf4d70db844faa83ab70ca6b7948adc5b64519475cf2a2754a8bf12a2",
+    "src/precision.cpp": "398a0f4286b15b731e520f00acfa7c35f8323d8adfb94167d04a8a6926c4610f",
+    "src/precision_benchmark.cpp": "32066503378adb27fea6e04f96fc6762a25d304b165381b14a534074bc22b865",
+    "src/refinement_benchmark.cpp": "114ef18f9ca652d66a04783bc2027a4c6bfc9e8ccba2c58160ff9568b149859d",
+    "src/surface.cpp": "e6dc673e2bbbd24b370a7a281a1842e3a888fe20c56e3c44b122b2fc87035824",
+    "src/tail.cpp": "b65676a2a3357e73febd59ba0015307d6f40fb421dac3fb6a9565943ff095233",
+    "src/tail_benchmark.cpp": "da5270015be936635a869217071a75aeb5fd0a8076388878b1f23086c598a74c",
+    "include/sdf/allocation.hpp": "d8a25bc8a7ccbcc21ba082c3dff22ca3e355b309326626107641a45bb20ca4ca",
+    "include/sdf/field.hpp": "795bb333f822abeed773a6f448fa69e2dfa3ee3b7cd547333950ff5c1a403ebf",
+    "include/sdf/metrics.hpp": "17e64be95261858dc7c2b14a9288e51315403ddc02456f5d85983281eb7d62de",
+    "include/sdf/oracle.hpp": "68e572100fd08a95c970b6821570e4ca0b7a5b85e45c13adde59d4ebd87b7101",
+    "include/sdf/precision.hpp": "cbf3c96f270b2da6445cb9c415831760c22594b089ae9ed7054247811bc635ed",
+    "include/sdf/surface.hpp": "93633dd2d2b287149f3220c84dcb20126b5ed615411edde7cf2356fd1a691efb",
+    "include/sdf/tail.hpp": "31d6c03c717a48721541395d1eb95c56f3ac2f0dac10e716a201c993ed027143",
+    "include/sdf/types.hpp": "680a9fef64a5d860a883ff78f72b632f6c45fedd6418dbd7e534d09cdfc65fe6"
+  },
+  "rule": "Passing larger probe controls; maximize worst target recall, then minimize equal-weight mean absolute relative width error over six target case/axis groups. Full development recovery required before freeze."
+}

@@ -1,0 +1,11 @@
+shape,method,depth,minimum_tested_recovered_feature
+torus,full_q8,5,0.06
+torus,full_q8,6,0.035
+torus,full_f32,5,0.06
+torus,full_f32,6,0.035
+torus,mse_q8,5,0.06
+double_sphere,full_q8,5,0.1
+double_sphere,full_q8,6,0.06
+double_sphere,full_f32,5,0.1
+double_sphere,full_f32,6,0.06
+double_sphere,mse_q8,5,0.1

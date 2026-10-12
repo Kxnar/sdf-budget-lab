@@ -1,0 +1,822 @@
+{
+  "schema": 1,
+  "scope": "Publication path and workflow wording normalization only; experimental settings, outcomes, field buffers, source and executable identities, and license attribution unchanged",
+  "documentation": [
+    {
+      "path": "docs/development/analytic/manifest.json",
+      "original_sha256": "04fe982ea5cd87a7fae796f7499c5b3e3afb00e289e8a05efbc96af37a62b8d3",
+      "published_sha256": "a9e2078648f0f5e943929ab0324417aabe9f3a5f196e4a010a907e0c30029221",
+      "json_field_changes": [
+        {
+          "field": "/executable",
+          "operation": "path normalization",
+          "original_value_sha256": "fb45ca796c71fb2171271185d8ab226a63965ba8af611c65efebfa0ceaf9f4da",
+          "published_value_sha256": "20b6cbb242f591bf4966a2d138102b2016c20e91073efb4769eb215ecae3ea72"
+        },
+        {
+          "field": "/commands/0/0",
+          "operation": "path normalization",
+          "original_value_sha256": "fb45ca796c71fb2171271185d8ab226a63965ba8af611c65efebfa0ceaf9f4da",
+          "published_value_sha256": "20b6cbb242f591bf4966a2d138102b2016c20e91073efb4769eb215ecae3ea72"
+        },
+        {
+          "field": "/commands/1/0",
+          "operation": "path normalization",
+          "original_value_sha256": "fb45ca796c71fb2171271185d8ab226a63965ba8af611c65efebfa0ceaf9f4da",
+          "published_value_sha256": "20b6cbb242f591bf4966a2d138102b2016c20e91073efb4769eb215ecae3ea72"
+        },
+        {
+          "field": "/commands/2/0",
+          "operation": "path normalization",
+          "original_value_sha256": "fb45ca796c71fb2171271185d8ab226a63965ba8af611c65efebfa0ceaf9f4da",
+          "published_value_sha256": "20b6cbb242f591bf4966a2d138102b2016c20e91073efb4769eb215ecae3ea72"
+        },
+        {
+          "field": "/commands/3/0",
+          "operation": "path normalization",
+          "original_value_sha256": "fb45ca796c71fb2171271185d8ab226a63965ba8af611c65efebfa0ceaf9f4da",
+          "published_value_sha256": "20b6cbb242f591bf4966a2d138102b2016c20e91073efb4769eb215ecae3ea72"
+        }
+      ]
+    },
+    {
+      "path": "docs/development/mesh-torus/manifest.json",
+      "original_sha256": "bc68565c1ad981aa691f803991e39dfeab9805c9623e488be8a389bfcb84d39f",
+      "published_sha256": "482308508921f7be5d031f2001d52d2d8c5e0ae65705aad0cef75dc6ce2ce562",
+      "json_field_changes": [
+        {
+          "field": "/executable",
+          "operation": "path normalization",
+          "original_value_sha256": "b5d8d5da3f91181cabf727154d0907592c5a496cf3f7fc4725001307a7ab4b41",
+          "published_value_sha256": "35d2f4548825e38677e43e06bd022fb39192ae0da22e2de0e9456b16279f78d8"
+        },
+        {
+          "field": "/commands/0/0",
+          "operation": "path normalization",
+          "original_value_sha256": "b5d8d5da3f91181cabf727154d0907592c5a496cf3f7fc4725001307a7ab4b41",
+          "published_value_sha256": "35d2f4548825e38677e43e06bd022fb39192ae0da22e2de0e9456b16279f78d8"
+        },
+        {
+          "field": "/commands/0/18",
+          "operation": "path normalization",
+          "original_value_sha256": "3aaf3a8bf90455dfc8bfbd7d11e1ad1b71064cfcc12f5ac62dda9e48676e6233",
+          "published_value_sha256": "5d733c42646a16581b60ca0cfdfc688c352a741d86be67f6ed54cafac1445bf7"
+        },
+        {
+          "field": "/commands/0/20",
+          "operation": "path normalization",
+          "original_value_sha256": "5210ed73dd4e33def6cc52f49cf1152a85aa973aa38cdcbcc19e194e862530a6",
+          "published_value_sha256": "9e7930c10722277559cf2e9a91229fea53791b850f3c7ba7b0390f19e725e9bf"
+        },
+        {
+          "field": "/inputs_sha256/fixtures~1torus.off",
+          "operation": "project path key normalization"
+        },
+        {
+          "field": "/inputs_sha256/fixtures~1torus_probes.csv",
+          "operation": "project path key normalization"
+        }
+      ]
+    },
+    {
+      "path": "docs/development/mesh-torus/mesh-f0.04/config.json",
+      "original_sha256": "68eea90a4e9de8686afe553f8fc6af151025b97a4220f232891aa67c6c998a21",
+      "published_sha256": "73abc3528230b5ea61bb5ae34a9ee7803f33119b5185a71c84641d86cccfba12",
+      "json_field_changes": [
+        {
+          "field": "/mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "3aaf3a8bf90455dfc8bfbd7d11e1ad1b71064cfcc12f5ac62dda9e48676e6233",
+          "published_value_sha256": "5d733c42646a16581b60ca0cfdfc688c352a741d86be67f6ed54cafac1445bf7"
+        },
+        {
+          "field": "/probes",
+          "operation": "path normalization",
+          "original_value_sha256": "5210ed73dd4e33def6cc52f49cf1152a85aa973aa38cdcbcc19e194e862530a6",
+          "published_value_sha256": "9e7930c10722277559cf2e9a91229fea53791b850f3c7ba7b0390f19e725e9bf"
+        }
+      ]
+    },
+    {
+      "path": "docs/development/mesh-torus/mesh-f0.04/summary.json",
+      "original_sha256": "199bcb53ca150a534938037f15d40b0eef8b90d771f741080b884a3c01b6dabd",
+      "published_sha256": "8636a79e53c290af43c94ff75a25b16ae417c56ae431635ed99914fe1787d78b",
+      "json_field_changes": [
+        {
+          "field": "/config/mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "3aaf3a8bf90455dfc8bfbd7d11e1ad1b71064cfcc12f5ac62dda9e48676e6233",
+          "published_value_sha256": "5d733c42646a16581b60ca0cfdfc688c352a741d86be67f6ed54cafac1445bf7"
+        },
+        {
+          "field": "/config/probes",
+          "operation": "path normalization",
+          "original_value_sha256": "5210ed73dd4e33def6cc52f49cf1152a85aa973aa38cdcbcc19e194e862530a6",
+          "published_value_sha256": "9e7930c10722277559cf2e9a91229fea53791b850f3c7ba7b0390f19e725e9bf"
+        }
+      ]
+    },
+    {
+      "path": "docs/development/mesh-wall/manifest.json",
+      "original_sha256": "a4545bb6af2fe6e3c3ca7098bcc43ea6449fbf77dcf6014b0103a90c5bd08485",
+      "published_sha256": "b3abbd5cfd8798340ada3b5613396673939f9b02a5fdedea31fc71ee0f72da68",
+      "json_field_changes": [
+        {
+          "field": "/executable",
+          "operation": "path normalization",
+          "original_value_sha256": "b5d8d5da3f91181cabf727154d0907592c5a496cf3f7fc4725001307a7ab4b41",
+          "published_value_sha256": "35d2f4548825e38677e43e06bd022fb39192ae0da22e2de0e9456b16279f78d8"
+        },
+        {
+          "field": "/commands/0/0",
+          "operation": "path normalization",
+          "original_value_sha256": "b5d8d5da3f91181cabf727154d0907592c5a496cf3f7fc4725001307a7ab4b41",
+          "published_value_sha256": "35d2f4548825e38677e43e06bd022fb39192ae0da22e2de0e9456b16279f78d8"
+        },
+        {
+          "field": "/commands/0/18",
+          "operation": "path normalization",
+          "original_value_sha256": "4b20c6edcd85eab98c2cc961f7cf9ecb19bcb0feb126db1144a806b9e3397a56",
+          "published_value_sha256": "64e533b41f135cedaea5e70cad6e72448da6a0d2676640f0adb227deea3d96dd"
+        },
+        {
+          "field": "/commands/0/20",
+          "operation": "path normalization",
+          "original_value_sha256": "b8c6d1778e3afd993f89bb96e19e75fb51102878f19d0ba50e629f78313ac935",
+          "published_value_sha256": "e83ad09dca64cf64aaf14343361695ad5e0a46b318a148dde18e1ab86311f08a"
+        },
+        {
+          "field": "/inputs_sha256/fixtures~1thin_box.off",
+          "operation": "project path key normalization"
+        },
+        {
+          "field": "/inputs_sha256/fixtures~1thin_box_probes.csv",
+          "operation": "project path key normalization"
+        }
+      ]
+    },
+    {
+      "path": "docs/development/mesh-wall/mesh-f0.04/config.json",
+      "original_sha256": "edcd0d6566dafcca90c261a795f75863c9ddcb4c629f5350a6735bf29b007384",
+      "published_sha256": "22ba3c126dc365e98b7c06c0b796c084b85c36305df5af43dc2d14799b922b0f",
+      "json_field_changes": [
+        {
+          "field": "/mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "4b20c6edcd85eab98c2cc961f7cf9ecb19bcb0feb126db1144a806b9e3397a56",
+          "published_value_sha256": "64e533b41f135cedaea5e70cad6e72448da6a0d2676640f0adb227deea3d96dd"
+        },
+        {
+          "field": "/probes",
+          "operation": "path normalization",
+          "original_value_sha256": "b8c6d1778e3afd993f89bb96e19e75fb51102878f19d0ba50e629f78313ac935",
+          "published_value_sha256": "e83ad09dca64cf64aaf14343361695ad5e0a46b318a148dde18e1ab86311f08a"
+        }
+      ]
+    },
+    {
+      "path": "docs/development/mesh-wall/mesh-f0.04/summary.json",
+      "original_sha256": "438d332c623fbf08c5ff720db7b4a4b708b07586664daef7a3f5a337ae7d8df6",
+      "published_sha256": "93fcf862d316d17c1b8aca4f9bb0f61b4a812a04378bdf190a6f0063863e19a1",
+      "json_field_changes": [
+        {
+          "field": "/config/mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "4b20c6edcd85eab98c2cc961f7cf9ecb19bcb0feb126db1144a806b9e3397a56",
+          "published_value_sha256": "64e533b41f135cedaea5e70cad6e72448da6a0d2676640f0adb227deea3d96dd"
+        },
+        {
+          "field": "/config/probes",
+          "operation": "path normalization",
+          "original_value_sha256": "b8c6d1778e3afd993f89bb96e19e75fb51102878f19d0ba50e629f78313ac935",
+          "published_value_sha256": "e83ad09dca64cf64aaf14343361695ad5e0a46b318a148dde18e1ab86311f08a"
+        }
+      ]
+    },
+    {
+      "path": "docs/fidelity-log.md",
+      "original_sha256": "3d9afa47016ad7421dd8ea32964ca673d3587e6c7401416f34ee2c91b1caca82",
+      "published_sha256": "338a7270caa25de8dd05678ad94632b925b8e9c8af5d63b01e085be6bba8a2dc"
+    },
+    {
+      "path": "docs/fidelity-study.md",
+      "original_sha256": "05ecb9e0ae1656cc82e2dc5865924a04cec204b353fa3d32a85033213347e013",
+      "published_sha256": "b6eaaf7308951fb0d4d64947e5fd85b9e54394b3d2e4aeaf3851f1acb41e2b2d"
+    },
+    {
+      "path": "docs/generalization-v1/ENVIRONMENT.json",
+      "original_sha256": "bbf5fd80c84413bc3129b7a7029b3e5e8a355bb0a7ed3fb2ba2a32a6c7962c70",
+      "published_sha256": "cd4e5058f1e553e4fc9a6c7a9f5a01ecd76e373ad85898bd1f8eb6a29929fa88",
+      "json_field_changes": [
+        {
+          "field": "/cgal_package_dir",
+          "operation": "path normalization",
+          "original_value_sha256": "c7ba105190c81808ea349efb4ae2a11640ec7570739cd60bdb7dd63c6846f5a1",
+          "published_value_sha256": "51a03d66943131e0cc0466a19ea74dc9335811e2143254a089e62bc8b7e51914"
+        }
+      ]
+    },
+    {
+      "path": "docs/generalization-v1/FROZEN.json",
+      "original_sha256": "01a639c2d02f74eb0986d9abdeeb28eaa4990e5363accf86ada7f6c55688c3a4",
+      "published_sha256": "26ac7510451b7c318a14e80e36df8f895c4e34afd019f2ac11de2ec0bc30c5ce",
+      "json_field_changes": [
+        {
+          "field": "/geometries/12/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "22c96dc56a736e14a711935335406a786948093e1a6db2efdbd64775bccc1070",
+          "published_value_sha256": "72441c9278c7a5c0c93aa71d48aee02974af5443a61500849cc7250a3d20c86b"
+        },
+        {
+          "field": "/geometries/12/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "811ad7bfd9bd319d14566dd92c6c56cb2b8df5e9d34881cd3db787cc70dfeda3",
+          "published_value_sha256": "891013aa9ac528a2fb7b8ce8b0de36cf1beaf364cfa06c05ac22c011a7f3d135"
+        },
+        {
+          "field": "/geometries/13/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "6f28b7e58237c062e68ca386edfd39f6b9768fd3765ae3b58b704d2d9a30272d",
+          "published_value_sha256": "c1547f09050965fa73125028d3d68676a119e5634a1e560dc5fc86c47cfc627f"
+        },
+        {
+          "field": "/geometries/13/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "af9f471b17aeda242651e9f264bf22587d8f1c998183b776368af8a51735f9d1",
+          "published_value_sha256": "ed3ffdf4e028e4faefeba34da6b4af62c9568e463a2f13656dd6ce7cfa172c7c"
+        },
+        {
+          "field": "/geometries/14/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "16f4edd58a3261794ea482c8b9e0e830d65e0d9c4c7d285e419d763defa63744",
+          "published_value_sha256": "49992e35808729f3efeb8eddcd39bbdbdfee14b3f86d87cf33404bbfd66c8480"
+        },
+        {
+          "field": "/geometries/14/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "852ab236b99bc90d49db06a404d98be621e061031cd542087e30da3370b3fa5c",
+          "published_value_sha256": "5cf6beb35e49204de427516189ad7826916a984211084e880f728ab274c1943c"
+        },
+        {
+          "field": "/geometries/15/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "db48ba7f29da54b2028fb89584e11904430daac0aff005c6afc2fc75f643119d",
+          "published_value_sha256": "ca52ecc1778ab1b4051f07e5babb1c48aa0d4e82bb617e6fe71c7c9086dc3fe0"
+        },
+        {
+          "field": "/geometries/15/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "8767f7c1aa0bfe2953c201eb41be81a1bb037191b72f1e8ed9bb51947e06dcb1",
+          "published_value_sha256": "3950886d96b805ade141b1e6f53d227d185efe0dd167be17df2c2f0885a524a9"
+        }
+      ]
+    },
+    {
+      "path": "docs/generalization-v1/oracle-audit-provenance.json",
+      "original_sha256": "0e71814335d480f5ce264c2253a4429bd8cd737a29587f41738ae59c493d488c",
+      "published_sha256": "dd0422858e3a92a5a3eefad41b7cff4c23a7b81864f84988a77f45f77aff1f86",
+      "json_field_changes": [
+        {
+          "field": "/0/input_provenance/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "22c96dc56a736e14a711935335406a786948093e1a6db2efdbd64775bccc1070",
+          "published_value_sha256": "72441c9278c7a5c0c93aa71d48aee02974af5443a61500849cc7250a3d20c86b"
+        },
+        {
+          "field": "/0/input_provenance/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "811ad7bfd9bd319d14566dd92c6c56cb2b8df5e9d34881cd3db787cc70dfeda3",
+          "published_value_sha256": "891013aa9ac528a2fb7b8ce8b0de36cf1beaf364cfa06c05ac22c011a7f3d135"
+        },
+        {
+          "field": "/1/input_provenance/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "6f28b7e58237c062e68ca386edfd39f6b9768fd3765ae3b58b704d2d9a30272d",
+          "published_value_sha256": "c1547f09050965fa73125028d3d68676a119e5634a1e560dc5fc86c47cfc627f"
+        },
+        {
+          "field": "/1/input_provenance/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "af9f471b17aeda242651e9f264bf22587d8f1c998183b776368af8a51735f9d1",
+          "published_value_sha256": "ed3ffdf4e028e4faefeba34da6b4af62c9568e463a2f13656dd6ce7cfa172c7c"
+        },
+        {
+          "field": "/2/input_provenance/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "16f4edd58a3261794ea482c8b9e0e830d65e0d9c4c7d285e419d763defa63744",
+          "published_value_sha256": "49992e35808729f3efeb8eddcd39bbdbdfee14b3f86d87cf33404bbfd66c8480"
+        },
+        {
+          "field": "/2/input_provenance/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "852ab236b99bc90d49db06a404d98be621e061031cd542087e30da3370b3fa5c",
+          "published_value_sha256": "5cf6beb35e49204de427516189ad7826916a984211084e880f728ab274c1943c"
+        },
+        {
+          "field": "/3/input_provenance/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "db48ba7f29da54b2028fb89584e11904430daac0aff005c6afc2fc75f643119d",
+          "published_value_sha256": "ca52ecc1778ab1b4051f07e5babb1c48aa0d4e82bb617e6fe71c7c9086dc3fe0"
+        },
+        {
+          "field": "/3/input_provenance/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "8767f7c1aa0bfe2953c201eb41be81a1bb037191b72f1e8ed9bb51947e06dcb1",
+          "published_value_sha256": "3950886d96b805ade141b1e6f53d227d185efe0dd167be17df2c2f0885a524a9"
+        }
+      ]
+    },
+    {
+      "path": "docs/generalization-v2/commands.md",
+      "original_sha256": "e9cd921661d8d81bb7234d2b8f6e92b426752a2fd20f1e63f5a72efdbcea3b81",
+      "published_sha256": "ea48917dbd4adf00f3752f49977be97c43da52acea4533a9abd62ae7962e03a4"
+    },
+    {
+      "path": "docs/generalization-v2/COMPLETION-2026-10-12.md",
+      "original_sha256": "8d869bf612eb56274cb5f0319bf8a17b4b45fe5a3633c8dfa816e0c35b23ee36",
+      "published_sha256": "f5812e22bbaddbd1ef107cc37dc10bad41e26c7bd3ea9eab412daf80ebd3f9cd"
+    },
+    {
+      "path": "docs/generalization-v2/feasibility-checkpoint.md",
+      "original_sha256": "739a1f835acadb104c1bb425875bf0f7ea0b47df96d618d4093d91b9557a9b6c",
+      "published_sha256": "e0b20597d370df9f429dae32938395e4e48a448443ad4277bf962ff2895b21d9"
+    },
+    {
+      "path": "docs/generalization-v2/final/FROZEN.json",
+      "original_sha256": "d4d55bdd672a954bb91564dbfede2b0661d6f34fed41a869b7a58fbad4cfa533",
+      "published_sha256": "9ab4d1f5c9f24781dbec7b7aa4b49daec51ec62738aeb0ee0a63973f77c91e1e",
+      "json_field_changes": [
+        {
+          "field": "/geometries/0/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "b36b58a1df5b0ade304d8f4bc11d625cc6feda97cfaf7e8d0d8ee2a9d60c60e4",
+          "published_value_sha256": "6f9c17eb3e48cc5cd929ff70157533ca71aadb895a2561dce3805f636fa525f9"
+        },
+        {
+          "field": "/geometries/0/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "b7c36b8fd37d86e77f387760b781075f775996d11a2c4e40eccb16fcdeada671",
+          "published_value_sha256": "09a831bb96586c51bcd93629390da3f2b84d7de34119a6878eafbe9b1741a375"
+        },
+        {
+          "field": "/geometries/1/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "60dfff51bbcefedcd10dc56b45384608d86709bce90ffd3055b04519e1f00081",
+          "published_value_sha256": "496bbc867214b9df8e8c032e9f049ff94595a8e5c8fd289bf5cda8c022ae843c"
+        },
+        {
+          "field": "/geometries/1/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "4dee59ec291f0f68f7c9195d466886eff47b42adad72a07df8de34dd9d6a88bb",
+          "published_value_sha256": "9c43431cc2d45a40ad4943a9a7a7e865a667a9b048a7ba95ca2251565da69aa3"
+        },
+        {
+          "field": "/geometries/2/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "e103a931e22ee82936d678694c79c8f33d65ccfcd1454689733ef13d18f4b112",
+          "published_value_sha256": "b18bef824209bf4d389b053cd160c4c8fc8f881c7bedf2f896b0fcf347c7a26a"
+        },
+        {
+          "field": "/geometries/2/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "5e9a1bce23bd21950d9650de68f4fe7e7ad13aa5182fc2c5643d3b04f08c866e",
+          "published_value_sha256": "c1841befd3e653d1ef480d91419f98c89a6e04076152812ca2d050d1f90de02d"
+        },
+        {
+          "field": "/geometries/3/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "5cceccd977db4ce1b49352e422c04842dd0b13a67e19ee414fa3978d877c3d23",
+          "published_value_sha256": "f8704612e56b1004e264af48f5228e82e9f303520129e274cd18f802b9a8b7fe"
+        },
+        {
+          "field": "/geometries/3/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "db4909b0999aaf63ddaf57c25f0f3f7263bec5cb08bb7b0825f5eeaac0ccecda",
+          "published_value_sha256": "b6b7dcffe11baf34d602ccb257de6d374c0d7282e456cfdbb916298b76e650b3"
+        }
+      ]
+    },
+    {
+      "path": "docs/generalization-v2/final/REBUILD-PROVENANCE.json",
+      "original_sha256": "7b89f5b850ab0ff4384414f5e50dd00ed86fded8973c3d44adbfe056f339d14a",
+      "published_sha256": "6a6e94616534a229e3e804e36b1f48ec802c9a260c2d7c2e712f0625519afd5f",
+      "json_field_changes": [
+        {
+          "field": "/commands/0",
+          "operation": "path normalization",
+          "original_value_sha256": "9af3c3bed1b7288f237b5a3fc5601926d2ceade78c703a83ce8748d03941a44f",
+          "published_value_sha256": "18e52777716a089303488f71890ea20b985df30daa4ca2ac97ac466dd0303b2b"
+        }
+      ]
+    },
+    {
+      "path": "docs/generalization-v2/final/REFERENCES_COMPLETE.json",
+      "original_sha256": "fab63d78a5a2b9cd113dc75d834697169a7c1e779fbdece564e8454a396ef903",
+      "published_sha256": "8f5ff4ed59e65e701e47c039cc052cb9c0113aedb1b0d3cf06e74866fe78558d",
+      "json_field_changes": [
+        {
+          "field": "/geometries/0/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "b36b58a1df5b0ade304d8f4bc11d625cc6feda97cfaf7e8d0d8ee2a9d60c60e4",
+          "published_value_sha256": "6f9c17eb3e48cc5cd929ff70157533ca71aadb895a2561dce3805f636fa525f9"
+        },
+        {
+          "field": "/geometries/0/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "b7c36b8fd37d86e77f387760b781075f775996d11a2c4e40eccb16fcdeada671",
+          "published_value_sha256": "09a831bb96586c51bcd93629390da3f2b84d7de34119a6878eafbe9b1741a375"
+        },
+        {
+          "field": "/geometries/1/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "60dfff51bbcefedcd10dc56b45384608d86709bce90ffd3055b04519e1f00081",
+          "published_value_sha256": "496bbc867214b9df8e8c032e9f049ff94595a8e5c8fd289bf5cda8c022ae843c"
+        },
+        {
+          "field": "/geometries/1/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "4dee59ec291f0f68f7c9195d466886eff47b42adad72a07df8de34dd9d6a88bb",
+          "published_value_sha256": "9c43431cc2d45a40ad4943a9a7a7e865a667a9b048a7ba95ca2251565da69aa3"
+        },
+        {
+          "field": "/geometries/2/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "e103a931e22ee82936d678694c79c8f33d65ccfcd1454689733ef13d18f4b112",
+          "published_value_sha256": "b18bef824209bf4d389b053cd160c4c8fc8f881c7bedf2f896b0fcf347c7a26a"
+        },
+        {
+          "field": "/geometries/2/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "5e9a1bce23bd21950d9650de68f4fe7e7ad13aa5182fc2c5643d3b04f08c866e",
+          "published_value_sha256": "c1841befd3e653d1ef480d91419f98c89a6e04076152812ca2d050d1f90de02d"
+        },
+        {
+          "field": "/geometries/3/normalized_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "5cceccd977db4ce1b49352e422c04842dd0b13a67e19ee414fa3978d877c3d23",
+          "published_value_sha256": "f8704612e56b1004e264af48f5228e82e9f303520129e274cd18f802b9a8b7fe"
+        },
+        {
+          "field": "/geometries/3/source_mesh",
+          "operation": "path normalization",
+          "original_value_sha256": "db4909b0999aaf63ddaf57c25f0f3f7263bec5cb08bb7b0825f5eeaac0ccecda",
+          "published_value_sha256": "b6b7dcffe11baf34d602ccb257de6d374c0d7282e456cfdbb916298b76e650b3"
+        }
+      ]
+    },
+    {
+      "path": "docs/generalization-v2/README.md",
+      "original_sha256": "2d7067be29b2995d1e8f333c58f829a243b5e1a6e53ec132b6de5a0647b8ee97",
+      "published_sha256": "ae64de3fc6b1748cddc7d11b9ff57bc212250a909dcba243ce6ac12be5523e4c"
+    },
+    {
+      "path": "docs/generalization-v2-compact-plan.md",
+      "original_sha256": "c3e6ba3bee9bca8f127256b0efd3bda42bc488ffce8330e677e1a29bfd2f65b8",
+      "published_sha256": "d4aa0a141d9f46785b5e017b92bc7508dc3fda22a088812f4aa6625e5b582db9"
+    },
+    {
+      "path": "docs/generalization-v2-current-interpretation.md",
+      "original_sha256": "711d9015b2f20871d8884bf02f0a35e96924f7a90755e9dd86f35504c9a80b04",
+      "published_sha256": "2004d28a13ae5c1cc60b0602d209dd3fe7bd6f9a7f819cf4941c535d556e25c9"
+    },
+    {
+      "path": "docs/generalization-v2-plan.md",
+      "original_sha256": "9fade3f2e629fa9dec996d2ef94c5ce57318181083ffdf1b6ea8e009e27ee7ea",
+      "published_sha256": "586ea10224636ead4d74cda7c2381647de6f34560f44f9dfdaba7409a822c461"
+    },
+    {
+      "path": "docs/generalization-v2-protocol.md",
+      "original_sha256": "8d2123e7ff6b166c96bb0efb15f553b89b9109b86e9f97259205e2c6815a288a",
+      "published_sha256": "ee3e8fdecfae8e5a2d4d3028462f6e7e23eb96fccbd00a0eed54fe285a32945d"
+    },
+    {
+      "path": "docs/refinement-v1/selection.json",
+      "original_sha256": "78be5abbe8acfac53abf62ce8ff793e9dac96d1c3e203489d9da0d32826bde1c",
+      "published_sha256": "4ded396b243606c4bb56837a8e35bc8393e81117850a429388f3af7697bd4a64",
+      "json_field_changes": [
+        {
+          "field": "/development_csv",
+          "operation": "path normalization",
+          "original_value_sha256": "ec48ce8d6a1df342c514a3b2c2d1a60ea47b2ffb52cbf2e0c49f3e5ce5cace16",
+          "published_value_sha256": "e36bed70af77a6aadcb64ff49f1bedb832d85c32a9cf2695e1cf35455caa263e"
+        }
+      ]
+    },
+    {
+      "path": "docs/tail-v1/ARCHIVES.json",
+      "original_sha256": "60eb47418fb327fd9ea0ff6c25840d6894d3ecb4ad10f791cfff5d7ad634006d",
+      "published_sha256": "fc86eb86a5a1ba6d21d676f734d80d47313afa974e62b7fb496d8b1cc5c122a5",
+      "json_field_changes": [
+        {
+          "field": "/3/sha256",
+          "operation": "publication metadata update",
+          "original_value_sha256": "80f55678811e731f8a8393b82bee0b110ec86b539c295321ef395ddcbf364896",
+          "published_value_sha256": "2cf30c0baf57cf382bb8f165c34bdc88325528be533ec5a019a35b7e0865d447"
+        },
+        {
+          "field": "/3/files/tail-resolution-v1-source~1run.json",
+          "operation": "publication metadata update",
+          "original_value_sha256": "3b17580ccedcc6bf3067bbde7a783be03ec89b93808ba0bb97323d11ec415e2a",
+          "published_value_sha256": "f7e92e0af0e6100dd864b040ad9312db42b243ef46dbb642f65ec8f0d3426a12"
+        },
+        {
+          "field": "/3/files/tail-resolution-v1-source~1SHA256SUMS.json",
+          "operation": "publication metadata update",
+          "original_value_sha256": "e140257f0e3a6d1772fc93cbd2e2e32f7e9610ecfdeb923d9214d102eb23c38f",
+          "published_value_sha256": "ed06268600a54c9f7c00a7423b1b5f9cb5f8fa0a555a0d6c14e4cba0b8c591c4"
+        },
+        {
+          "field": "/4/sha256",
+          "operation": "publication metadata update",
+          "original_value_sha256": "66ac565f77fde16be4fe82548483eec6d4f07f888f26c4e78700b5502874b57d",
+          "published_value_sha256": "ba3a45f0b4024261bf0b1cfec6837292532c848c884200b147e2b2a6a888eb57"
+        },
+        {
+          "field": "/4/files/tail-development-v1-source~1run.json",
+          "operation": "publication metadata update",
+          "original_value_sha256": "e1454e8c280eb4a3417eb2a1c0eb43bd86e44ffab894fffba31103e6076cca04",
+          "published_value_sha256": "e7e0bd5a8d523094589ebdd2e1fa35eeb4ee42bb8423b0736a41c18a3c0baf57"
+        },
+        {
+          "field": "/4/files/tail-development-v1-source~1SHA256SUMS.json",
+          "operation": "publication metadata update",
+          "original_value_sha256": "ed31341ef03748209a9c091d9f88af34e538ce8b566062f5aef3c35d794db258",
+          "published_value_sha256": "320a4ea846ef25527f4b97f43eff27c4821c1a18cd20a1bc49501b836f7f0ee0"
+        },
+        {
+          "field": "/16/sha256",
+          "operation": "publication metadata update",
+          "original_value_sha256": "07a08c0a317943c0cbdf1d7b2bbdb905270d18fd909b71ed883ccb71b83cc617",
+          "published_value_sha256": "c410ec882e412f536c4504fa8d5d71658b5a43e51a411a2c379d91a9d4b86c48"
+        },
+        {
+          "field": "/16/files/tail-evaluation-v1-source~1run.json",
+          "operation": "publication metadata update",
+          "original_value_sha256": "1febcb5de324d54d15b731d047c04346bc90e1c3822c8264852c97ba1be6e526",
+          "published_value_sha256": "6e87d7fdb32ef03a6646518c6c3b1c9a047b31ed628553a1715a68f3f92dcbe6"
+        },
+        {
+          "field": "/16/files/tail-evaluation-v1-source~1SHA256SUMS.json",
+          "operation": "publication metadata update",
+          "original_value_sha256": "51df2b3ce5fd49c77b619aba79027231ee710ae6915321112b0b4c238423d03e",
+          "published_value_sha256": "474c4f9d3c5e258c9f1f381c2a5f7f346f7dfa1b98b710d509b8a6dfa0ffc10a"
+        }
+      ]
+    },
+    {
+      "path": "docs/generalization-v2/final/SHA256SUMS.json",
+      "original_sha256": "cf6a300858b465765613a15c340464dd131c337ddfa7dc8b447e6fcc1e7aa342",
+      "published_sha256": "defabfcfcf4c8f8d168f615a99548517c88bb80f25d85bef395bf12035464eb6",
+      "json_field_changes": [
+        {
+          "field": "/FROZEN.json",
+          "operation": "publication metadata update",
+          "original_value_sha256": "2a2944e151b3511c653cdbc67da0bf0686abc1e7b8e1fd70f776f797082b8def",
+          "published_value_sha256": "1ff73c31fb487e92ef70912b2ede65cf739808ecb05377280e0df3f4022520e8"
+        },
+        {
+          "field": "/REBUILD-PROVENANCE.json",
+          "operation": "publication metadata update",
+          "original_value_sha256": "391155f9a9028d594f4415cf17ab2cb151e0fc85bfebfc51d1b62b351a298c15",
+          "published_value_sha256": "71517250666c845e4c2d9f9a32be491dce36d4857363e282af4f22d999547fba"
+        },
+        {
+          "field": "/REFERENCES_COMPLETE.json",
+          "operation": "publication metadata update",
+          "original_value_sha256": "d273e5c08695102e62e1714b7a16e78be3a532cf5d3f0068a533db37a02ccdc8",
+          "published_value_sha256": "251cd536ebe0b067ab2935ca985fb01c080ff56e8f9142dfc662faf527fc7e94"
+        }
+      ]
+    },
+    {
+      "path": "docs/distortion-v1/SHA256SUMS.json",
+      "original_sha256": "d534bbaa6ae664698decf65b543914ac99fe77b795dfcffde0746bce4cdcb484",
+      "published_sha256": "923d3ed1fffe8fbbe7a97b129955f3a32f8e8c115e6e8fcca9c77c8b41334291",
+      "json_field_changes": []
+    },
+    {
+      "path": "docs/fidelity-v1/SHA256SUMS.json",
+      "original_sha256": "3ae1a2a6d49c00bc98ed3754ee5bab93e5e1414976e6b86fc5b5b7a5d15fc8b0",
+      "published_sha256": "997185a56b29931ae7dc4f82c6b4ec0c218c95227534494a13da88a00750fd79",
+      "json_field_changes": []
+    },
+    {
+      "path": "docs/generalization-v1/SHA256SUMS.json",
+      "original_sha256": "b75730ef5254d1c88ffce928b09ac822a640ccc31cb6f1bc037f3ed85a72800d",
+      "published_sha256": "62aa65c41bb5f67912219e674a8fa9659e998eb1a964e3c39de97e584df59dd1",
+      "json_field_changes": [
+        {
+          "field": "/ENVIRONMENT.json",
+          "operation": "publication metadata update",
+          "original_value_sha256": "0077757af2c261b2e94f5585b097e192ffe41119a88910c84ef749af3e720c25",
+          "published_value_sha256": "651e0c7b4ede2daac7df3007198025194253dc74303fa5aae621570fc1a04a12"
+        },
+        {
+          "field": "/FROZEN.json",
+          "operation": "publication metadata update",
+          "original_value_sha256": "9a4050337ea20e99cf21aa2c963b06076f72704340aedf2fbe46cfaf8677d48c",
+          "published_value_sha256": "853ef17d66974be864b087dace7f0edfc2d3bb918fd9293d611210379c22c5cd"
+        },
+        {
+          "field": "/oracle-audit-provenance.json",
+          "operation": "publication metadata update",
+          "original_value_sha256": "1fdde4aa5b6e416679a94471d189c55041c9249a4a2a0eb682add3161aa93266",
+          "published_value_sha256": "903c810602dd843bc750861048a21c829b3c5538635bc698aedbcca6a7671894"
+        }
+      ]
+    },
+    {
+      "path": "docs/generalization-v2/SHA256SUMS.json",
+      "original_sha256": "cac56888ad6fa28d304259ea730d8571f3e33a313181f27d7600258560d838ca",
+      "published_sha256": "7a3577bd1466d4753f9127190e8180a3c3c7195cc9abc99856e6330faf1b7410",
+      "json_field_changes": [
+        {
+          "field": "/feasibility-checkpoint.md",
+          "operation": "publication metadata update",
+          "original_value_sha256": "0851e52521474c63ff70ef84fbf1fbfcf07514a142ce2a85291d1bcc615899ed",
+          "published_value_sha256": "835603bcd0245918207fb4a1db90e7a3c487cc93647a68b0634b246edfb180aa"
+        },
+        {
+          "field": "/README.md",
+          "operation": "publication metadata update",
+          "original_value_sha256": "9a77e2985007244f9d3210387bfd75ca5eee33da8bfc5850c01009a45348e28a",
+          "published_value_sha256": "619cb005cae397417f443276d5f732e1aab98a54a870ffe40d5f090af9054d20"
+        }
+      ]
+    },
+    {
+      "path": "docs/precision-v1/SHA256SUMS.json",
+      "original_sha256": "d58795613e741c27197960ef30ca75893db2a6980c195c89047b203ba22cbbfb",
+      "published_sha256": "a106b5bd16f138c1a1f3bc2d5f714e52035e3ee3f129a0e673da655c67a300b5",
+      "json_field_changes": [
+        {
+          "field": "/evidence.zip",
+          "operation": "publication metadata update",
+          "original_value_sha256": "475b6ad69708a6a9943abb3ca102cf60048f79d5024541f4dd1f14fb872c6d76",
+          "published_value_sha256": "ca9bff0d41d92712ccd837db11aa8f2e2906cb3fbd40a38575024db192d8a3f8"
+        }
+      ]
+    },
+    {
+      "path": "docs/refinement-v1/SHA256SUMS.json",
+      "original_sha256": "70eb42115cc89416e65977cb17b047f43840d2a6a8b10b70c8f56d981782d432",
+      "published_sha256": "a0f773f1307e3b4ec43b67ddd2f101fa2addc714ffbb08fd91797506a20825f7",
+      "json_field_changes": [
+        {
+          "field": "/selection.json",
+          "operation": "publication metadata update",
+          "original_value_sha256": "5bbc992ce39944a3cc8fc3e4149eee7fece1989760a28591827e0a96179a9afe",
+          "published_value_sha256": "fa0ab47daba8c9041d483e3b14ef8d74882f5bdd3fe1e48e3312389715b4cd50"
+        }
+      ]
+    },
+    {
+      "path": "docs/tail-v1/SHA256SUMS.json",
+      "original_sha256": "79c36fef3fb49a283006142cd7058b15aa2b256718210d17f3d0b58c1669fafe",
+      "published_sha256": "a6e420a1819bc2cf596fd9eeba9b2554dd3f20a51655e75475546b75a3b30810",
+      "json_field_changes": [
+        {
+          "field": "/ARCHIVES.json",
+          "operation": "publication metadata update",
+          "original_value_sha256": "7c7e27378736ec44e3ae23e5042a82edc6fba39bb5bfadf43c9c9271b1382bbd",
+          "published_value_sha256": "388d814259c9a7b9cb2c7c8407f50c10293c0028aa8677834e02016b1767caaa"
+        },
+        {
+          "field": "/tail-development-v1-01.zip",
+          "operation": "publication metadata update",
+          "original_value_sha256": "66ac565f77fde16be4fe82548483eec6d4f07f888f26c4e78700b5502874b57d",
+          "published_value_sha256": "ba3a45f0b4024261bf0b1cfec6837292532c848c884200b147e2b2a6a888eb57"
+        },
+        {
+          "field": "/tail-evaluation-v1-12.zip",
+          "operation": "publication metadata update",
+          "original_value_sha256": "07a08c0a317943c0cbdf1d7b2bbdb905270d18fd909b71ed883ccb71b83cc617",
+          "published_value_sha256": "c410ec882e412f536c4504fa8d5d71658b5a43e51a411a2c379d91a9d4b86c48"
+        },
+        {
+          "field": "/tail-resolution-v1-04.zip",
+          "operation": "publication metadata update",
+          "original_value_sha256": "80f55678811e731f8a8393b82bee0b110ec86b539c295321ef395ddcbf364896",
+          "published_value_sha256": "2cf30c0baf57cf382bb8f165c34bdc88325528be533ec5a019a35b7e0865d447"
+        }
+      ]
+    },
+    {
+      "path": "docs/generalization-v2/final/FINAL-QA.json",
+      "original_sha256": "a14d23cff39d81f03a2965ccb203f3764c7b8c40309ce9df5ef93dc9b2c6c654",
+      "published_sha256": "f364381a2cf53df185282c7185d0ae1be7d8e87933a46d8f6615c63ce3f50f4a",
+      "json_field_changes": [
+        {
+          "field": "/independent_recovery_audit",
+          "operation": "technical review label normalization"
+        },
+        {
+          "field": "/independent_visual_qa",
+          "operation": "technical review label normalization"
+        }
+      ]
+    },
+    {
+      "path": "docs/allocation-v1/SHA256SUMS",
+      "original_sha256": "e83c6aec50d7d12fffe462195093e7d4300cde3963304b72ae0e41410b64b6a6",
+      "published_sha256": "0681e9ff6e5ff2c998853909e0e1232ef3038a48966295354afa3587b80204dd",
+      "plaintext_manifest_entries": [
+        {
+          "file": "evidence.zip",
+          "original_sha256": "deec85b3d038eed48665232172861baa7334f541789e902def351bd68e392c46",
+          "published_sha256": "6dc18bcaf1fe88fdcaa76ca2c05fa6d6c48bd3979e1c69152f5c6eff4ed30c77",
+          "operation": "publication archive checksum update"
+        }
+      ]
+    }
+  ],
+  "archives": [
+    {
+      "path": "docs/allocation-v1/evidence.zip",
+      "original_sha256": "deec85b3d038eed48665232172861baa7334f541789e902def351bd68e392c46",
+      "published_sha256": "6dc18bcaf1fe88fdcaa76ca2c05fa6d6c48bd3979e1c69152f5c6eff4ed30c77",
+      "metadata_members": [
+        {
+          "member": "manifest.json",
+          "original_sha256": "f0968342ea18a0f3525ce525e8ba0a24f641a969d8e41aed523229e1d20d0b4a",
+          "published_sha256": "0238da313b86952a07b5679d1920f09e05a4600d4d214e1d3b92bc6848eab176"
+        }
+      ],
+      "all_other_member_bytes_unchanged": true
+    },
+    {
+      "path": "docs/precision-v1/evidence.zip",
+      "original_sha256": "a130dd4b7f62f23e22989672812015015abf9acce3711c97e5bb891fa1e8d72d",
+      "published_sha256": "eed7ed57e490b838f40bb74ad2eeed76e3e49544704888ff2dd7387906deaec2",
+      "metadata_members": [
+        {
+          "member": "source/invocation.json",
+          "original_sha256": "c3a4cee1dd1279dd5cf9242f5d3b12b1e33c2399c79194f20b5b1741c31e088f",
+          "published_sha256": "f280be55243e0c068ca70053e83ab5b284284609c5268f177bc8ae4411dc78f3"
+        },
+        {
+          "member": "SHA256SUMS.json",
+          "original_sha256": "fd21bcf66a8cdfdf7dd80fbc3cc6419fe391dffc9c40cc7582b0c2ab5c4b0408",
+          "published_sha256": "35e73a48c0627e39f83c49e54e36ce4e790c5df3a7ddf2124b3415e401a2ac56"
+        }
+      ],
+      "all_other_member_bytes_unchanged": true
+    },
+    {
+      "path": "docs/tail-v1/tail-development-v1-01.zip",
+      "original_sha256": "07b7767f0576567f42eda48db988e943bd21a1d47f642c045fbcfec76802aae3",
+      "published_sha256": "21daf63a0fdfea42ecfc2708bac4ea11bab22b9f3c185d0c94ec36d36577e555",
+      "metadata_members": [
+        {
+          "member": "tail-development-v1-source/run.json",
+          "original_sha256": "1a59388d6b5eff8f0856634e7ec43805bda276c3a9947562a20d91fc1d11056f",
+          "published_sha256": "01a45bb0493acedb8fb0bb5a71d315afce28f187310aa94ac7fe1ef7390c7ebd"
+        },
+        {
+          "member": "tail-development-v1-source/SHA256SUMS.json",
+          "original_sha256": "b0f4b9c24e10aba801b00568d6f8e2373a8ff59e02f78a05c38d57c879b72f9e",
+          "published_sha256": "0e3e659a21f7d6e99d1d02cd4c1f0b81d1a958d18d96c9101321e703454279ff"
+        }
+      ],
+      "all_other_member_bytes_unchanged": true
+    },
+    {
+      "path": "docs/tail-v1/tail-evaluation-v1-12.zip",
+      "original_sha256": "5b78dc9485007de6ec829169a30184560ef93744d55ad9a2aeff4e89bd391d35",
+      "published_sha256": "9e9e46289d1a59c55eb006dc43b279379ced641d76e7e661e31371de00883aa1",
+      "metadata_members": [
+        {
+          "member": "tail-evaluation-v1-source/run.json",
+          "original_sha256": "65cb7361499e7a68cb086ee3e88ba84ea516de22321962e3fddda07187e49bbf",
+          "published_sha256": "3b1c8f67d03b100824de0a422d0b3b8d43378b1745d1775b6ed0f1dc6e548c97"
+        },
+        {
+          "member": "tail-evaluation-v1-source/SHA256SUMS.json",
+          "original_sha256": "c64672d2fed911f66eda05944e38b0d1b60f2bceb8bee8b3ed5f1018c2d71e2b",
+          "published_sha256": "b7b7ea159d4e568b9731ef498cfccf44afe5a4afddb7e46590fbcfb4a5b5e535"
+        }
+      ],
+      "all_other_member_bytes_unchanged": true
+    },
+    {
+      "path": "docs/tail-v1/tail-resolution-v1-04.zip",
+      "original_sha256": "4cf56503883e5a91b6d376ddc6d856f86cfc39f35cfe0efd9bde1b098b20baa1",
+      "published_sha256": "57c5b7587d5ddf559c510032ecb5b1d792b7cff6751015657e30b197354c21cf",
+      "metadata_members": [
+        {
+          "member": "tail-resolution-v1-source/run.json",
+          "original_sha256": "2822e55ff032792f9cd6bba936da0a1df24a314f66449147a023a65d563e35b0",
+          "published_sha256": "72fac462912d6aaa719e491e738841c36c975246f8a7502179f43af0ae45ea35"
+        },
+        {
+          "member": "tail-resolution-v1-source/SHA256SUMS.json",
+          "original_sha256": "a1ed87ec15dfda63a7ef325b6b14e79218afdbd7e5a220df6ee30f945e311b58",
+          "published_sha256": "9fdf0187b1277931dbc09035a2cc0da9550175fe32b5b1e0d5117bcabd9e56c7"
+        }
+      ],
+      "all_other_member_bytes_unchanged": true
+    }
+  ],
+  "original_snapshots_retained_locally": true,
+  "frozen_identity_note": "Frozen experiment and source hashes identify original snapshots; path-normalized publication derivatives are independently hashed in current publication manifests."
+}

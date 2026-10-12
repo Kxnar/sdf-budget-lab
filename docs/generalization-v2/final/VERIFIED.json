@@ -1,0 +1,21 @@
+{
+  "jobs": 156,
+  "logical_cap_rows": 2028,
+  "baseline_decoded_queries": 654625536,
+  "frozen_sha256": "d4d55bdd672a954bb91564dbfede2b0661d6f34fed41a869b7a58fbad4cfa533",
+  "evaluator": {
+    "source_sha256": {
+      "generalization_v2_verify.py": "21f624ece9f4627ea1ceae229bb79c001f05619d08c53e1b7cb82eb8ef9a2510",
+      "generalization_common.py": "51509b7edb71f338d667eadd556a0bd23ffc7d74083826b8c71ed20929acc01b",
+      "generalization_v2_run.py": "c1f4fa6f2151841d559a0b109fec1b9124e782ad2c4955a499def46e2d2bc0c1",
+      "generalization_v2_rays.py": "a200e2257dfcc9c6b156ef3f06af3cd32081965aceba62ba1f3347096325bac8",
+      "generalization_prepare.py": "9f1660c2c59445c8e3064dc484c89e0c535f8df56fbcefe9fa8e2fcda9f57e6c",
+      "distortion_analysis.py": "fe40b539c68245ca6b0c7e69a3c82a9151141acb41d038fb4294aa42dcd05e50",
+      "compact_mesh.py": "2c28852fee37a283397b0a3536bf2e0c8ca743c63027c3e0132b97766ed06d28",
+      "compact_verify.py": "2ec028622d66f93b6648c6178798698252ea9a466174a02c52f0d0b33ed4c235"
+    },
+    "numpy_version": "2.5.3",
+    "python_version": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "complete": true
+}

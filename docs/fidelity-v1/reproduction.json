@@ -1,0 +1,52 @@
+{
+  "comparisons": [
+    {
+      "group": "fields",
+      "files": 20,
+      "identical": true
+    },
+    {
+      "group": "samples",
+      "files": 50,
+      "identical": true
+    },
+    {
+      "group": "predictions",
+      "files": 80,
+      "identical": true
+    },
+    {
+      "group": "meshes",
+      "files": 90,
+      "identical": true
+    },
+    {
+      "group": "metrics.csv",
+      "files": 1,
+      "identical": true
+    },
+    {
+      "group": "allocation.csv",
+      "files": 1,
+      "identical": true
+    },
+    {
+      "group": "selection.csv",
+      "files": 1,
+      "identical": true
+    },
+    {
+      "group": "surfaces.csv",
+      "files": 1,
+      "identical": true
+    },
+    {
+      "group": "policy.json",
+      "files": 1,
+      "identical": true
+    }
+  ],
+  "first_manifest": "549d4978cc96ea9fa5c1ceb869ab0c7ed41319d10d9a3fd1628eca81c1f3ee50",
+  "reproduction_manifest": "d0e7a69cee053362b7019f01dc42ecdbabd31793e8a1bbab64176b163b9c371c",
+  "timing": "Construction times are independently measured and excluded from exact comparison."
+}

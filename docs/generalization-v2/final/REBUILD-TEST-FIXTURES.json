@@ -1,0 +1,18 @@
+{
+  "original_frozen_sha256": "d4d55bdd672a954bb91564dbfede2b0661d6f34fed41a869b7a58fbad4cfa533",
+  "reason": "v2 snapshot omitted fixtures/*.off; frozen source unmodified",
+  "source": "unchanged v1 frozen fixtures, byte-equal to current repository fixtures",
+  "fixture_sha256": {
+    "allocation_cases.csv": "88c49be4e03b7353f6fca7511f1c79e24b8210d30f6d4dfd84ebf6aee88b46ac",
+    "cube.off": "6c21864720e4f4ffc9fbd6785fc0a844c451a264f4bd361b2c64f2eecf4708e0",
+    "degenerate.off": "40199be0ba3207ea64a167a950d2cdcba6ce50ecd5d19ebc71cb1967734b468a",
+    "intersecting.off": "c0d18ea76941bad6460511aa68a5d600060af238fcab101ac5be55507cdc81fe",
+    "open.off": "57939a62dac8594371190134c795a6e1a185da374430d8bfc5618d4794e51bf3",
+    "outside.off": "c77544d354681a2cce69629bbf8eb66f557f5e4a1ad20db437475db48c0f69de",
+    "thin_box.off": "c18c1087113dc8e4dda1f326e96b2f5568be5a748b88e19477b6eaa2842c05dd",
+    "thin_box_probes.csv": "337910ebdc14870275492a679ce0fe24ddbc404d0a84d484019f968e8ea7d9b6",
+    "torus.off": "1a9f8136730b904d5800ab756d4e854dbe504ae0fa78f777eea06affc2e28dee",
+    "torus_probes.csv": "40c7afd5085aae1e76da613630afb7df22dfee9f315182821949acb65d4241fe"
+  },
+  "ctest_failure_preserved": "rebuilt/Testing/Temporary/LastTest.log"
+}

@@ -1,0 +1,31 @@
+{
+  "frozen_sha256": "d4d55bdd672a954bb91564dbfede2b0661d6f34fed41a869b7a58fbad4cfa533",
+  "runner_sha256": "7436042fdcc1f71501009fcb65e9b13916ee542a281ee91fc7b7a90b48bd720e",
+  "scope": "Completion and resume checks only; all geometry, codec, native executables, evaluation behavior and source hashes unchanged",
+  "gates": {
+    "max_abs_all_sets": 0.02,
+    "uniform_cvar99": 0.015,
+    "near_cvar99": 0.01,
+    "group_inside_recall": 0.95,
+    "group_outside_recall": 0.95,
+    "group_width_mean": 0.1,
+    "group_width_p95": 0.15,
+    "ray_requirements": [
+      "complete leaf/grid cubic transitions or decoded-triangle exact events",
+      "exact signed transition count",
+      "outside endpoints",
+      "alternating ordered reference and recovered interval midpoints",
+      "no unresolved or zero-width intervals"
+    ],
+    "topology": [
+      "closed edge and cyclic vertex manifold",
+      "expected component Euler",
+      "both independently qualified ladder levels"
+    ]
+  },
+  "completion": "Require COMPLETE, EXIT_CODE zero, original frozen job identity and full immutable native manifest; nonzero/resource/incomplete checkpoints never count as completed",
+  "preparation_declaration_sha256": "55284f7254b284a88b0c185f7c5683e13d5e08c2bf4665ad6ae8b398c078c27a",
+  "development_selection_sha256": "03a2eeb838e845a6356ea1ad6ab543b1ad747cd9d85854786470762078dc7693",
+  "current_native_job": "00_fish_0_compact_f64",
+  "boundary_driver_stop": "Owned Python driver stopped; in-flight frozen native process continues unchanged, then explicitly sealed after native COMPLETE and observed exit zero"
+}

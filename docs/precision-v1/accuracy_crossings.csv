@@ -1,0 +1,97 @@
+case,method,rmse_budget,accuracy_budget
+double_sphere_0.020000_0,f32,32768,not reached
+double_sphere_0.020000_0,q16,16384,not reached
+double_sphere_0.020000_0,q8,16384,not reached
+double_sphere_0.020000_0,joint,16384,not reached
+double_sphere_0.020000_1,f32,32768,not reached
+double_sphere_0.020000_1,q16,16384,not reached
+double_sphere_0.020000_1,q8,16384,not reached
+double_sphere_0.020000_1,joint,16384,not reached
+double_sphere_0.035000_0,f32,32768,not reached
+double_sphere_0.035000_0,q16,16384,not reached
+double_sphere_0.035000_0,q8,16384,not reached
+double_sphere_0.035000_0,joint,16384,not reached
+double_sphere_0.035000_1,f32,32768,not reached
+double_sphere_0.035000_1,q16,16384,not reached
+double_sphere_0.035000_1,q8,16384,not reached
+double_sphere_0.035000_1,joint,16384,not reached
+double_sphere_0.060000_0,f32,32768,not reached
+double_sphere_0.060000_0,q16,32768,not reached
+double_sphere_0.060000_0,q8,16384,not reached
+double_sphere_0.060000_0,joint,16384,not reached
+double_sphere_0.060000_1,f32,32768,not reached
+double_sphere_0.060000_1,q16,16384,not reached
+double_sphere_0.060000_1,q8,16384,not reached
+double_sphere_0.060000_1,joint,16384,not reached
+double_sphere_0.100000_0,f32,32768,32768
+double_sphere_0.100000_0,q16,32768,32768
+double_sphere_0.100000_0,q8,16384,16384
+double_sphere_0.100000_0,joint,16384,16384
+double_sphere_0.100000_1,f32,32768,32768
+double_sphere_0.100000_1,q16,32768,32768
+double_sphere_0.100000_1,q8,16384,16384
+double_sphere_0.100000_1,joint,16384,16384
+thin_box_0.020000_0,f32,32768,not reached
+thin_box_0.020000_0,q16,16384,not reached
+thin_box_0.020000_0,q8,16384,not reached
+thin_box_0.020000_0,joint,16384,not reached
+thin_box_0.020000_1,f32,32768,not reached
+thin_box_0.020000_1,q16,16384,not reached
+thin_box_0.020000_1,q8,16384,not reached
+thin_box_0.020000_1,joint,16384,not reached
+thin_box_0.035000_0,f32,32768,32768
+thin_box_0.035000_0,q16,32768,32768
+thin_box_0.035000_0,q8,16384,16384
+thin_box_0.035000_0,joint,16384,16384
+thin_box_0.035000_1,f32,32768,32768
+thin_box_0.035000_1,q16,32768,32768
+thin_box_0.035000_1,q8,16384,16384
+thin_box_0.035000_1,joint,16384,16384
+thin_box_0.060000_0,f32,32768,32768
+thin_box_0.060000_0,q16,32768,32768
+thin_box_0.060000_0,q8,16384,16384
+thin_box_0.060000_0,joint,16384,16384
+thin_box_0.060000_1,f32,32768,32768
+thin_box_0.060000_1,q16,16384,16384
+thin_box_0.060000_1,q8,16384,16384
+thin_box_0.060000_1,joint,16384,16384
+thin_box_0.100000_0,f32,32768,32768
+thin_box_0.100000_0,q16,16384,16384
+thin_box_0.100000_0,q8,16384,16384
+thin_box_0.100000_0,joint,16384,16384
+thin_box_0.100000_1,f32,32768,32768
+thin_box_0.100000_1,q16,16384,16384
+thin_box_0.100000_1,q8,16384,16384
+thin_box_0.100000_1,joint,16384,16384
+torus_0.020000_0,f32,not reached,not reached
+torus_0.020000_0,q16,not reached,not reached
+torus_0.020000_0,q8,not reached,not reached
+torus_0.020000_0,joint,not reached,not reached
+torus_0.020000_1,f32,not reached,not reached
+torus_0.020000_1,q16,not reached,not reached
+torus_0.020000_1,q8,not reached,not reached
+torus_0.020000_1,joint,not reached,not reached
+torus_0.035000_0,f32,not reached,not reached
+torus_0.035000_0,q16,not reached,not reached
+torus_0.035000_0,q8,not reached,not reached
+torus_0.035000_0,joint,not reached,not reached
+torus_0.035000_1,f32,not reached,not reached
+torus_0.035000_1,q16,not reached,not reached
+torus_0.035000_1,q8,not reached,not reached
+torus_0.035000_1,joint,not reached,not reached
+torus_0.060000_0,f32,not reached,not reached
+torus_0.060000_0,q16,not reached,not reached
+torus_0.060000_0,q8,not reached,not reached
+torus_0.060000_0,joint,not reached,not reached
+torus_0.060000_1,f32,not reached,not reached
+torus_0.060000_1,q16,not reached,not reached
+torus_0.060000_1,q8,not reached,not reached
+torus_0.060000_1,joint,not reached,not reached
+torus_0.100000_0,f32,32768,32768
+torus_0.100000_0,q16,32768,32768
+torus_0.100000_0,q8,16384,16384
+torus_0.100000_0,joint,16384,16384
+torus_0.100000_1,f32,32768,32768
+torus_0.100000_1,q16,32768,32768
+torus_0.100000_1,q8,16384,16384
+torus_0.100000_1,joint,16384,16384

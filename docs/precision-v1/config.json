@@ -1,0 +1,1 @@
+{"protocol":"precision-v1","smoke":false,"depth":4,"fit":4096,"test":32768,"seeds":2,"field_object_bytes":64,"configuration":"Release","compiler":"MSVC 194435228","budgets":[8192,16384,32768],"resolutions":[32,64,96],"features":[0.02,0.035000000000000003,0.059999999999999998,0.10000000000000001]}

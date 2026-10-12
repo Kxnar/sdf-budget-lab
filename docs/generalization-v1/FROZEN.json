@@ -1,0 +1,1508 @@
+{
+  "protocol": "generalization-v1",
+  "status": "frozen_before_final_fitting",
+  "domain": [
+    [
+      -1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "length_scale": 2,
+  "fit_seeds": [
+    240,
+    241,
+    242,
+    243,
+    244
+  ],
+  "query_namespace": 880001,
+  "fit_count": 10000,
+  "uniform_count": 100000,
+  "near_count": 100000,
+  "caps": [
+    8192,
+    12288,
+    16384,
+    24576,
+    32768,
+    49152,
+    65536,
+    98304,
+    131072,
+    196608,
+    262144,
+    524288,
+    1048576
+  ],
+  "methods": [
+    "grid",
+    "mse",
+    "sign",
+    "cvar99",
+    "selective32",
+    "candidate_original",
+    "coverage_q8",
+    "candidate"
+  ],
+  "candidate": {
+    "depth": 5,
+    "k": 4096,
+    "k7": 2048,
+    "quadrature": 4,
+    "global_quadrature": 1,
+    "covered_ranking": 1,
+    "probe_max_gate": true,
+    "lambda": 0,
+    "maximum_depth": 7
+  },
+  "candidate_original": {
+    "depth": 5,
+    "k": 128,
+    "lambda_": 0.001,
+    "quadrature": 4,
+    "global_quadrature": 0,
+    "k7": 0
+  },
+  "selection_sha256": "218b7b862131f5d177221e750ff843f3a8c748b4aadaddaff07def5d5135459e",
+  "selection_declaration_sha256": "9c4abea9fff9eac21a38f5d57e55a5e1dab8880729154360fcc5fa4a95556fdd",
+  "final_policy_sha256": "cea6fe933abe3845235929047040a46c35fb4f0a8cd0c252e1c7aa92215070cb",
+  "sign_baseline_penalty": 0.0025,
+  "cvar_grid_points": 9,
+  "gates": {
+    "feature_inside_recall": 0.95,
+    "feature_outside_recall": 0.95,
+    "sampled_max": 0.02,
+    "sampled_max_datasets": [
+      "uniform",
+      "near",
+      "audit",
+      "probes",
+      "boundary"
+    ],
+    "uniform_cvar99": 0.015,
+    "near_cvar99": 0.01,
+    "width_mean_relative_error": 0.1,
+    "width_p95_relative_error": 0.15,
+    "topology": "closed edge and vertex manifold and expected component Euler at both qualified levels"
+  },
+  "geometries": [
+    {
+      "id": "00_thin_box",
+      "shape": "thin_box",
+      "stratum": "familiar_stress",
+      "parameters": [
+        0.042,
+        0,
+        0
+      ],
+      "rotation": [
+        [
+          0.37201051808794383,
+          -0.5363272750262524,
+          -0.7576022891298931
+        ],
+        [
+          -0.35903296740225077,
+          0.6695144706012925,
+          -0.6502658702206394
+        ],
+        [
+          0.855981017751138,
+          0.5139099412527312,
+          0.05650725202432378
+        ]
+      ],
+      "translation": [
+        0.02848603315913597,
+        0.040410049933765214,
+        -0.01949480669551462
+      ],
+      "noise": 0.021,
+      "expected_euler": [
+        2
+      ],
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 5.7309064865112305,
+      "oracle": "analytic-exact-formula",
+      "reference_subdir": "reference/00_thin_box"
+    },
+    {
+      "id": "01_thin_box",
+      "shape": "thin_box",
+      "stratum": "familiar_stress",
+      "parameters": [
+        0.081,
+        0,
+        0
+      ],
+      "rotation": [
+        [
+          0.7930295568895274,
+          -0.23555117360129305,
+          0.5618004685959719
+        ],
+        [
+          0.5754066966078261,
+          -0.013178190101158522,
+          -0.8177612541595053
+        ],
+        [
+          0.20002813651701443,
+          0.9717725968150734,
+          0.12508702842748887
+        ]
+      ],
+      "translation": [
+        -0.035696271134875,
+        -0.050237130420734286,
+        -0.044827699584706227
+      ],
+      "noise": 0.035,
+      "expected_euler": [
+        2
+      ],
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 4.231570482254028,
+      "oracle": "analytic-exact-formula",
+      "reference_subdir": "reference/01_thin_box"
+    },
+    {
+      "id": "02_torus",
+      "shape": "torus",
+      "stratum": "familiar_stress",
+      "parameters": [
+        0.047,
+        0,
+        0
+      ],
+      "rotation": [
+        [
+          -0.44825500797741186,
+          -0.2544046243611636,
+          -0.8569397498814171
+        ],
+        [
+          -0.6201539546645621,
+          -0.601920810173944,
+          0.5030908573940167
+        ],
+        [
+          -0.6437985091137401,
+          0.7569475710927396,
+          0.1120439836837635
+        ]
+      ],
+      "translation": [
+        -0.006294689782352543,
+        0.013309809161878218,
+        -0.005335229974404075
+      ],
+      "noise": 0.0235,
+      "expected_euler": [
+        0
+      ],
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 1.483555555343628,
+      "oracle": "analytic-exact-formula",
+      "reference_subdir": "reference/02_torus"
+    },
+    {
+      "id": "03_torus",
+      "shape": "torus",
+      "stratum": "familiar_stress",
+      "parameters": [
+        0.073,
+        0,
+        0
+      ],
+      "rotation": [
+        [
+          0.7011916060665546,
+          0.08715345871306708,
+          0.7076260355697459
+        ],
+        [
+          0.2669662310033336,
+          0.8882023965592145,
+          -0.3739325263337526
+        ],
+        [
+          -0.6611046536560459,
+          0.4511106043763742,
+          0.5995330345639862
+        ]
+      ],
+      "translation": [
+        -0.03124406503008839,
+        0.04630445803599741,
+        -0.049769165705073476
+      ],
+      "noise": 0.035,
+      "expected_euler": [
+        0
+      ],
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 2.3381576538085938,
+      "oracle": "analytic-exact-formula",
+      "reference_subdir": "reference/03_torus"
+    },
+    {
+      "id": "04_double_sphere",
+      "shape": "double_sphere",
+      "stratum": "familiar_stress",
+      "parameters": [
+        0.052,
+        0,
+        0
+      ],
+      "rotation": [
+        [
+          0.6039384126776234,
+          -0.14789866266943513,
+          0.7831885975121352
+        ],
+        [
+          -0.34768213376290596,
+          -0.9330978558638201,
+          0.09189953886943175
+        ],
+        [
+          0.7171997821768391,
+          -0.3278023443524071,
+          -0.6149553605608788
+        ]
+      ],
+      "translation": [
+        0.0456385652375683,
+        0.016732848957862333,
+        0.025679404836456053
+      ],
+      "noise": 0.026,
+      "expected_euler": [
+        2,
+        2
+      ],
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 3.285693645477295,
+      "oracle": "analytic-exact-formula",
+      "reference_subdir": "reference/04_double_sphere"
+    },
+    {
+      "id": "05_double_sphere",
+      "shape": "double_sphere",
+      "stratum": "familiar_stress",
+      "parameters": [
+        0.087,
+        0,
+        0
+      ],
+      "rotation": [
+        [
+          0.08364723093610275,
+          0.2702940966854241,
+          0.9591372383833987
+        ],
+        [
+          -0.2540878062152745,
+          0.9364808018154351,
+          -0.2417500663160794
+        ],
+        [
+          -0.9635572258508736,
+          -0.22348335313425535,
+          0.1470124599564211
+        ]
+      ],
+      "translation": [
+        -0.012212398274195568,
+        0.04500038032221349,
+        -0.05201331431304887
+      ],
+      "noise": 0.035,
+      "expected_euler": [
+        2,
+        2
+      ],
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 3.2514703273773193,
+      "oracle": "analytic-exact-formula",
+      "reference_subdir": "reference/05_double_sphere"
+    },
+    {
+      "id": "06_capsule",
+      "shape": "capsule",
+      "stratum": "novel_family",
+      "parameters": [
+        0.075,
+        0.46,
+        0
+      ],
+      "rotation": [
+        [
+          0.9903182738875732,
+          -0.13866927100600818,
+          -0.006367863299409495
+        ],
+        [
+          -0.03639732550391679,
+          -0.21511961452528025,
+          -0.9759092099896675
+        ],
+        [
+          0.13395876641899787,
+          0.9666924975012257,
+          -0.21808407593023216
+        ]
+      ],
+      "translation": [
+        -0.03460494987046592,
+        0.010532423819348609,
+        -0.03326527582990525
+      ],
+      "noise": 0.035,
+      "expected_euler": [
+        2
+      ],
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 0.8535795211791992,
+      "oracle": "analytic-exact-formula",
+      "reference_subdir": "reference/06_capsule"
+    },
+    {
+      "id": "07_capsule",
+      "shape": "capsule",
+      "stratum": "novel_family",
+      "parameters": [
+        0.14,
+        0.31,
+        0
+      ],
+      "rotation": [
+        [
+          0.2562395980074324,
+          0.47173922685808817,
+          0.8436844020463591
+        ],
+        [
+          -0.18179189940990792,
+          -0.8337310631487218,
+          0.5213868234332739
+        ],
+        [
+          0.9493645104605118,
+          -0.2869749399934343,
+          -0.12787654239084442
+        ]
+      ],
+      "translation": [
+        0.054759923104721324,
+        -0.034435552850299575,
+        -0.030488340574013468
+      ],
+      "noise": 0.035,
+      "expected_euler": [
+        2
+      ],
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 1.2403905391693115,
+      "oracle": "analytic-exact-formula",
+      "reference_subdir": "reference/07_capsule"
+    },
+    {
+      "id": "08_cylinder",
+      "shape": "cylinder",
+      "stratum": "novel_family",
+      "parameters": [
+        0.13,
+        0.37,
+        0
+      ],
+      "rotation": [
+        [
+          0.2654184124708555,
+          0.9473281551760776,
+          0.17922732138862063
+        ],
+        [
+          0.006031895780843279,
+          0.1842595196283175,
+          -0.9828591179104106
+        ],
+        [
+          -0.9641144551113938,
+          0.2619499872819825,
+          0.04319168448010984
+        ]
+      ],
+      "translation": [
+        0.027986885435469337,
+        -0.032867854869352835,
+        0.012634528346858596
+      ],
+      "noise": 0.035,
+      "expected_euler": [
+        2
+      ],
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 1.2026066780090332,
+      "oracle": "analytic-exact-formula",
+      "reference_subdir": "reference/08_cylinder"
+    },
+    {
+      "id": "09_cylinder",
+      "shape": "cylinder",
+      "stratum": "novel_family",
+      "parameters": [
+        0.22,
+        0.055,
+        0
+      ],
+      "rotation": [
+        [
+          -0.5534261987772793,
+          -0.230620339726094,
+          0.8003334938708689
+        ],
+        [
+          0.7153417998931191,
+          0.3605767673827383,
+          0.598557018294404
+        ],
+        [
+          -0.42662108695258383,
+          0.9037691374064704,
+          -0.03458026082840145
+        ]
+      ],
+      "translation": [
+        0.019071080922859106,
+        0.02857935784802549,
+        -0.03794771370506549
+      ],
+      "noise": 0.035,
+      "expected_euler": [
+        2
+      ],
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 0.8735284805297852,
+      "oracle": "analytic-exact-formula",
+      "reference_subdir": "reference/09_cylinder"
+    },
+    {
+      "id": "10_rounded_box",
+      "shape": "rounded_box",
+      "stratum": "novel_family",
+      "parameters": [
+        0.047,
+        0.38,
+        0.23
+      ],
+      "rotation": [
+        [
+          0.925240311548655,
+          -0.05181195316753341,
+          -0.3758269380902773
+        ],
+        [
+          -0.08370755957565455,
+          0.9383359778342105,
+          -0.33543797812979437
+        ],
+        [
+          0.3700316342628506,
+          0.34182029520038953,
+          0.8638492203121344
+        ]
+      ],
+      "translation": [
+        0.023281650753888862,
+        -0.02078925228725452,
+        -0.005252829586967517
+      ],
+      "noise": 0.0235,
+      "expected_euler": [
+        2
+      ],
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 2.505653142929077,
+      "oracle": "analytic-exact-formula",
+      "reference_subdir": "reference/10_rounded_box"
+    },
+    {
+      "id": "11_shell",
+      "shape": "shell",
+      "stratum": "novel_family",
+      "parameters": [
+        0.042,
+        0.46,
+        0
+      ],
+      "rotation": [
+        [
+          0.5425223483116531,
+          0.15881922539954602,
+          0.8248914808784835
+        ],
+        [
+          0.7949612900574337,
+          0.22029063625684703,
+          -0.5652509025979298
+        ],
+        [
+          -0.27148857967257134,
+          0.9624180428592565,
+          -0.006742543016412588
+        ]
+      ],
+      "translation": [
+        -0.03011940581976147,
+        0.03372733252887281,
+        0.052224908852178654
+      ],
+      "noise": 0.021,
+      "expected_euler": [
+        2,
+        2
+      ],
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 7.425690174102783,
+      "oracle": "analytic-exact-formula",
+      "reference_subdir": "reference/11_shell"
+    },
+    {
+      "id": "12_goathead",
+      "shape": "mesh",
+      "stratum": "real_mesh",
+      "parameters": [
+        0.04,
+        1,
+        0
+      ],
+      "rotation": [
+        [
+          -0.8525205271834121,
+          0.10603062708562172,
+          -0.5118263932729017
+        ],
+        [
+          -0.3243341342955253,
+          0.660589494209573,
+          0.6770737695928802
+        ],
+        [
+          0.40989769462841497,
+          0.74322205716715,
+          -0.5287767522107419
+        ]
+      ],
+      "translation": [
+        -0.02869421718823183,
+        -0.026739020621359442,
+        -8.469977521674554e-05
+      ],
+      "noise": 0.02,
+      "expected_euler": [
+        2
+      ],
+      "normalized_mesh": "runs/generalization-v1/inputs/goathead-normalized.obj",
+      "source_mesh": "runs/generalization-v1/inputs/goathead.obj",
+      "source_revision": "835213277571d625722d25880c9c3010c6f45a5a",
+      "source_url": "https://raw.githubusercontent.com/odedstein/meshes/835213277571d625722d25880c9c3010c6f45a5a/objects/goathead/goathead.obj",
+      "license_text": "# Goat head\n\nMesh of a goat heat, remeshed from a mesh by by [hugoelec via Thingiverse](https://www.thingiverse.com/thing:42256).\n\n![goathead](goathead.png)\n\nThe mesh is hereby released under the [Creative Commons Attribution 3.0 Unported (CC BY 3.0) license](https://creativecommons.org/licenses/by/3.0/), with appropriate attribution to the original contributor.\n\nYou can cite this object in your work using this bibtex snippet:\n```\n@misc{goathead-mesh,\n  title = {{Goat head}},\n  author = {hugoelec},\n  note = {Downloaded modified version from odedstein-meshes \\url{github.com/odedstein/meshes/tree/master/objects/goathead}, originally from \\url{thingiverse.com/thing:42256}. Asset licensed under CC BY 3.0.},\n  year = {2019}\n}\n```\n",
+      "source_sha256": "b0aa414ce3c46e5e30ee506261f1e3cb85025e2a33b5b18bc638b08a7c57a6cb",
+      "normalized_sha256": "ef65fd58095d52e0b59667d385acb8387a6a59afdbc6ebc9104a055e67538ab1",
+      "normalization": {
+        "original_center": [
+          0.7988499999999998,
+          2.7070454999999995,
+          0.714709
+        ],
+        "original_radius": 10.696591163496306,
+        "scale_to_domain": 0.0701157956339853,
+        "original_units": "unspecified in upstream OBJ; distances convert by dividing scale_to_domain",
+        "normalized_bounding_sphere_radius": 0.75
+      },
+      "vertices": 2763,
+      "triangles": 5522,
+      "oracle": "CGAL:EPICK-audited",
+      "oracle_comparison_sha256": "57fb5839e9ed8faac7a520193768f08127aa0940a4e097af96f6dcd32d54e705",
+      "epeck_validation_sha256": "57fb5839e9ed8faac7a520193768f08127aa0940a4e097af96f6dcd32d54e705",
+      "reference_subdir": "reference-fast/12_goathead",
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1,
+        2
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 12.838992595672607
+    },
+    {
+      "id": "13_penguin",
+      "shape": "mesh",
+      "stratum": "real_mesh",
+      "parameters": [
+        0.04,
+        1,
+        0
+      ],
+      "rotation": [
+        [
+          -0.03137697116921201,
+          0.9995074351151519,
+          0.0006105978846465907
+        ],
+        [
+          0.08206047111993428,
+          0.001967240662638176,
+          0.9966254105950489
+        ],
+        [
+          0.9961333067214553,
+          0.031321192724823865,
+          -0.08208177706698103
+        ]
+      ],
+      "translation": [
+        -0.010090846286138194,
+        0.02530174966885751,
+        -0.01781223528750303
+      ],
+      "noise": 0.02,
+      "expected_euler": [
+        2
+      ],
+      "normalized_mesh": "runs/generalization-v1/inputs/penguin-normalized.obj",
+      "source_mesh": "runs/generalization-v1/inputs/penguin.obj",
+      "source_revision": "835213277571d625722d25880c9c3010c6f45a5a",
+      "source_url": "https://raw.githubusercontent.com/odedstein/meshes/835213277571d625722d25880c9c3010c6f45a5a/objects/penguin/penguin.obj",
+      "license_text": "# Penguin\n\nControl mesh and high-resolution mesh of a penguin.\n\nPenguin:\n![penguin](penguin.png)\n\nHigher-resolution penguin:\n![Higher-resolution penguin](penguin_hr.png)\n\nPenguin control mesh:\n![penguin_control_mesh](penguin_control_mesh.png)\n\nThe mesh is hereby released under the [Creative Commons Attribution 4.0 International (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/).\n\nYou can cite this object in your work using this bibtex snippet:\n```\n@misc{penguin-mesh,\n  title = {{Penguin}},\n  author = {Stein, Oded},\n  note = {Downloaded from odedstein-meshes \\url{github.com/odedstein/meshes/tree/master/objects/pengiun}. Asset licensed under CC BY 4.0.},\n  year = {2023}\n}\n```\n",
+      "source_sha256": "ff6c992f97ea34c1a1f6a9477a2bcd68148a60fae68797d85765f7730d5ee9f2",
+      "normalized_sha256": "9d63eb53fea73dae44d51a6bf8b0439e4004f52f6d32816d3d066888a8382248",
+      "normalization": {
+        "original_center": [
+          0.02658900000000003,
+          -0.1274320000000001,
+          -0.0903815
+        ],
+        "original_radius": 1.6596359092982562,
+        "scale_to_domain": 0.4519063463245517,
+        "original_units": "unspecified in upstream OBJ; distances convert by dividing scale_to_domain",
+        "normalized_bounding_sphere_radius": 0.75
+      },
+      "vertices": 3362,
+      "triangles": 6720,
+      "oracle": "CGAL:EPICK-audited",
+      "oracle_comparison_sha256": "bfdbe8c74268813130753a03c432dee193e37d66db2a620d3796566f5b75dc16",
+      "epeck_validation_sha256": "bfdbe8c74268813130753a03c432dee193e37d66db2a620d3796566f5b75dc16",
+      "reference_subdir": "reference-fast/13_penguin",
+      "qualified_levels": [],
+      "reference_status": "oracle_resolution_unresolved",
+      "feature_groups": [
+        0,
+        1,
+        2
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 77.92828416824341
+    },
+    {
+      "id": "14_spot",
+      "shape": "mesh",
+      "stratum": "real_mesh",
+      "parameters": [
+        0.04,
+        1,
+        0
+      ],
+      "rotation": [
+        [
+          -0.26169390472859333,
+          0.9258914901335028,
+          -0.27247247333678226
+        ],
+        [
+          0.062144932174199995,
+          -0.2655601671630933,
+          -0.9620892916051887
+        ],
+        [
+          -0.9631481234124718,
+          -0.26870568679257895,
+          0.011956013230272348
+        ]
+      ],
+      "translation": [
+        0.025320707979265146,
+        -0.0005281845626807988,
+        0.03025815029852455
+      ],
+      "noise": 0.02,
+      "expected_euler": [
+        2
+      ],
+      "normalized_mesh": "runs/generalization-v1/inputs/spot-normalized.obj",
+      "source_mesh": "runs/generalization-v1/inputs/spot_low_resolution.obj",
+      "source_revision": "835213277571d625722d25880c9c3010c6f45a5a",
+      "source_url": "https://raw.githubusercontent.com/odedstein/meshes/835213277571d625722d25880c9c3010c6f45a5a/objects/spot/spot_low_resolution.obj",
+      "license_text": "# Spot\n\nThe quad control mesh and textures, as well as triangle meshes with two different resolutions of Spot the cow by [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/).\n\nSpot:\n![spot](spot.png)\n\nLow-resolution spot:\n![spot_low_resolution](spot_low_resolution.png)\n\nSpot control mesh:\n![spot_control_mesh](spot_control_mesh.png)\n\nThe original quad mesh was released into the public domain by its creator.\nThe remeshed versions are hereby also released into the public domain.\n\nYou can cite this object in your work using this bibtex snippet:\n```\n@misc{spot-mesh,\n  title = {{Spot}},\n  author = {Crane, Keenan},\n  note = {Downloaded modified version from odedstein-meshes \\url{github.com/odedstein/meshes/tree/master/objects/spot}, originally from \\url{cs.cmu.edu/~kmcrane/Projects/ModelRepository}.},\n  year = {2019}\n}\n```\n",
+      "source_sha256": "87e930ef794271d6c6ab18ded4f8b8343d414720fe655489336c09cc9e7d5430",
+      "normalized_sha256": "566dac562592d382f4537c8ef91ca0ea4a521be5995be6319e58d079783f43f5",
+      "normalization": {
+        "original_center": [
+          0.008706499999999978,
+          0.1460075,
+          0.18894199999999994
+        ],
+        "original_radius": 1.108548749482629,
+        "scale_to_domain": 0.6765602327818535,
+        "original_units": "unspecified in upstream OBJ; distances convert by dividing scale_to_domain",
+        "normalized_bounding_sphere_radius": 0.75
+      },
+      "vertices": 829,
+      "triangles": 1654,
+      "oracle": "CGAL:EPICK-audited",
+      "oracle_comparison_sha256": "e33776dce0216ef8f149bde24af4f1ebe16d2963950ff7e3d20f3a933dfc684b",
+      "epeck_validation_sha256": "e33776dce0216ef8f149bde24af4f1ebe16d2963950ff7e3d20f3a933dfc684b",
+      "reference_subdir": "reference-fast/14_spot",
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1,
+        2
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 8.847062349319458
+    },
+    {
+      "id": "15_brucewick",
+      "shape": "mesh",
+      "stratum": "real_mesh",
+      "parameters": [
+        0.04,
+        1,
+        0
+      ],
+      "rotation": [
+        [
+          -0.22197960734389544,
+          -0.9541219139965812,
+          -0.2009388642223067
+        ],
+        [
+          -0.2761781371823861,
+          -0.1361158737166583,
+          0.9514189957452068
+        ],
+        [
+          -0.935120682300374,
+          0.2666905363035054,
+          -0.2332926646515735
+        ]
+      ],
+      "translation": [
+        -0.024432651101843134,
+        0.016627493616778052,
+        0.02561929331964615
+      ],
+      "noise": 0.02,
+      "expected_euler": [
+        2
+      ],
+      "normalized_mesh": "runs/generalization-v1/inputs/brucewick-normalized.obj",
+      "source_mesh": "runs/generalization-v1/inputs/brucewick.obj",
+      "source_revision": "835213277571d625722d25880c9c3010c6f45a5a",
+      "source_url": "https://raw.githubusercontent.com/odedstein/meshes/835213277571d625722d25880c9c3010c6f45a5a/objects/brucewick/brucewick.obj",
+      "license_text": "# Brucewick\n\nMesh of a head created by [Josh Holinaty](https://holinaty.com/).\n\n![brucewick](brucewick.png)\n\nLicensed under the [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/) License.\n\nYou can cite this object in your work using this bibtex snippet:\n```\n@misc{brucewick-mesh,\n  title = {{Brucewick}},\n  author = {Holinaty, Josh},\n  note = {Downloaded from odedstein-meshes \\url{github.com/odedstein/meshes/tree/master/objects/brucewick}. Asset licensed under CC BY-NC 4.0.},\n  year = {2023}\n}\n```\n",
+      "source_sha256": "dd15ece1a38ecaf8cf35be6e8bd5085ab57e48d6da2b7014936cd906182a2401",
+      "normalized_sha256": "475805dd89959326bce71ee5be435ad1174ef4142cb077cab0335da6fac81065",
+      "normalization": {
+        "original_center": [
+          -0.5673414999999999,
+          0.15245599999999998,
+          0.30720949999999997
+        ],
+        "original_radius": 1.4728197921156208,
+        "scale_to_domain": 0.5092272686821164,
+        "original_units": "unspecified in upstream OBJ; distances convert by dividing scale_to_domain",
+        "normalized_bounding_sphere_radius": 0.75
+      },
+      "vertices": 1431,
+      "triangles": 2858,
+      "oracle": "CGAL:EPICK-audited",
+      "oracle_comparison_sha256": "7ae2ca31b52bffaca0e52433440b6a9131cc6058e1fb1cad569372ef37d251c2",
+      "epeck_validation_sha256": "7ae2ca31b52bffaca0e52433440b6a9131cc6058e1fb1cad569372ef37d251c2",
+      "reference_subdir": "reference-fast/15_brucewick",
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1,
+        2
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 12.167105197906494
+    }
+  ],
+  "source_sha256": {
+    "CMakeLists.txt": "954a25f6317b1382f9aa583d4ffd3fd0962b1465106f76d196c73cd943267a3a",
+    "docs/generalization-protocol.md": "48ecdd5b0d5cf4678c0cab9a01609c17086f61e7ca357e73df482bab474c2eb2",
+    "src/allocation.cpp": "f5926d16ac7c9b132d64a82e3183c896c4299c90aa70bdda794d865b5eb85fea",
+    "src/allocation_benchmark.cpp": "20decb7d94f0f37109a2d1f9f208eef0d5c929b42b1d74cd80660a4c533ba6a1",
+    "src/benchmark.cpp": "e89ed9c46a2d9b9a403923e0a4e78bb5ac69c8f16cf04983aa3785f655f36a69",
+    "src/distortion_benchmark.cpp": "cce5fd028457640d428f6494e2ee9ef9869be0e85c820ee0eea9987400877bf7",
+    "src/fidelity_benchmark.cpp": "7ae3bf14ec18cabb5551c0ee9af3a239f2db49a754f2eccdf88e92ecf7485cb1",
+    "src/field.cpp": "1243ef8ebd6b264d6e6b59520aa42366f76bf758b1c1c4700519ba32bbbf8534",
+    "src/generalization_benchmark.cpp": "2f2119da07f0a0de9b3d9930c33738248e2126f7c1477eb632c7755062aa1a16",
+    "src/mesh_oracle.cpp": "14caab22ddc83422e053ef6a9f2373db6216bfb46e83942aba7d21939159adba",
+    "src/mesh_oracle_fast.cpp": "a4221e030cdb330bf69d2c902bcf4fe5c542a9b6ad9d10f202a1fc1aeb2bc854",
+    "src/metrics.cpp": "2c982a4492b3c54c2320e11b8befbf7720c8c16dcf1708a007b2150a2b2829c5",
+    "src/oracle.cpp": "79b25858a5edf3ec20a424a0fd5dbbaee67d5973f69d606df15d19438743d486",
+    "src/precision.cpp": "3b32ad9e11308dae255aed704170389b34adefcc587b8706e621fc0b77b0f9ad",
+    "src/precision_benchmark.cpp": "32066503378adb27fea6e04f96fc6762a25d304b165381b14a534074bc22b865",
+    "src/refinement_benchmark.cpp": "114ef18f9ca652d66a04783bc2027a4c6bfc9e8ccba2c58160ff9568b149859d",
+    "src/surface.cpp": "e6dc673e2bbbd24b370a7a281a1842e3a888fe20c56e3c44b122b2fc87035824",
+    "src/tail.cpp": "b65676a2a3357e73febd59ba0015307d6f40fb421dac3fb6a9565943ff095233",
+    "src/tail_benchmark.cpp": "da5270015be936635a869217071a75aeb5fd0a8076388878b1f23086c598a74c",
+    "include/sdf/allocation.hpp": "d8a25bc8a7ccbcc21ba082c3dff22ca3e355b309326626107641a45bb20ca4ca",
+    "include/sdf/field.hpp": "eef89a8b701c3580561af925bcc84c994d4f19fe0335d19376682a06499bcea7",
+    "include/sdf/generalization.hpp": "3d2f0a9cb96629980400f862802e240bd1f3a59f8482b0f45c20da1b83402bd7",
+    "include/sdf/metrics.hpp": "17e64be95261858dc7c2b14a9288e51315403ddc02456f5d85983281eb7d62de",
+    "include/sdf/oracle.hpp": "bdebe286c6af1a18211d2361c778b8e1eb05b5d2693dd83d68a0689fe924f7ba",
+    "include/sdf/precision.hpp": "da0d456bb44124c7ac9fc209f2061a08b33b009b7c43969117ff646934756777",
+    "include/sdf/surface.hpp": "93633dd2d2b287149f3220c84dcb20126b5ed615411edde7cf2356fd1a691efb",
+    "include/sdf/tail.hpp": "31d6c03c717a48721541395d1eb95c56f3ac2f0dac10e716a201c993ed027143",
+    "include/sdf/types.hpp": "680a9fef64a5d860a883ff78f72b632f6c45fedd6418dbd7e534d09cdfc65fe6",
+    "tests/test_allocation.cpp": "124e49db394709868b68f9d8e4bd96cc6098be420c400f2ad8a170355237a91c",
+    "tests/test_core.cpp": "cd9a14fb663ae6612cc26d9d87ae2c6babc2a68499929a3616600d51226734c7",
+    "tests/test_generalization.cpp": "9966c461fe08a6088d664bbd96443d1aa4a42e8a938bb88caba6ca73d2922e1b",
+    "tests/test_generalization_harness.py": "ffcf911de4ec0916fe22992cf8061f612df99a30acefb8f7ed54ba3465d7660f",
+    "tests/test_precision.cpp": "6a24082a8443752ca54bce6924fc30bd3f4f7463b1f0b3850b17e7e1ba89f3f7",
+    "tests/test_tail.cpp": "a8dc7aacdded4f554ec38e5def9047cc6e159a23fc691e8e0a4d3dba888b510e",
+    "scripts/allocation_report.py": "61f6b0c847bbb4b7daed1592d74ae741629604ad353622b5571069a8b7bea68e",
+    "scripts/distortion_analysis.py": "fe40b539c68245ca6b0c7e69a3c82a9151141acb41d038fb4294aa42dcd05e50",
+    "scripts/distortion_report.py": "2d76947b9b136d2ef8503460eb7e6f572691e6a4ebeba016029b99ca99daf8a9",
+    "scripts/distortion_run.py": "1ef284fcbdd578bc0a77f7ffdbc15f0738ddb45307a2fcadd64d9b3f0416905c",
+    "scripts/fidelity_report.py": "74e53d7394cc23727f629b7a97bbe412ab4748fa6cdfd28554f12514e84f60e5",
+    "scripts/fidelity_run.py": "bcb81648acb845ddfed9dc9458275f6af789d171b46dd6a584a75ebdbb746864",
+    "scripts/fidelity_select.py": "871ad1ba586350b9c7ca9ff00a8af8d89f9acdd4536ba7f8cf98a52429d39542",
+    "scripts/fidelity_verify.py": "316b82130c9078b89bf2ae13bb80402c1b1ef824f24864f2bd78bfa9ccd0d519",
+    "scripts/fidelity_verify_selection.py": "8c74428cfc4fb6d239b14dfda1b5fc24f0fc084679762e9e5d0798574858812b",
+    "scripts/generalization_common.py": "51509b7edb71f338d667eadd556a0bd23ffc7d74083826b8c71ed20929acc01b",
+    "scripts/generalization_d7_screen.py": "0923d8a4d32c6694ec3cc417efc92ca1ab378151812ea9d23f3442d4ef9fcdf7",
+    "scripts/generalization_figures.py": "11a1a980c32887c1f28675fc4f5602396b74665d07bb73c2028ead52c098a09a",
+    "scripts/generalization_finish_references.py": "a9cbc3021ff2e71f80a650a8a0b42a1e45f5b28c2292cf6f9fe4392abbc10234",
+    "scripts/generalization_oracle_audit.py": "3f3dfb65041e5deb7849f05d11a0e7071075ecea84b119d50d887a2e4ffaaef2",
+    "scripts/generalization_prepare.py": "9f1660c2c59445c8e3064dc484c89e0c535f8df56fbcefe9fa8e2fcda9f57e6c",
+    "scripts/generalization_replace_wingnut.py": "1b83afad3f137375abce6591e30d3f6499edaeaba190f73d610d62585f4e875e",
+    "scripts/generalization_report.py": "0322c5e15769a7716b4ff94cdcab6b11c92a65f20aa460c48f7ea1549336da74",
+    "scripts/generalization_reproduce.py": "e15035254edce63e0ba5fdcbf9752071110031c9d4829e9179ab96bebb750f16",
+    "scripts/generalization_resource_pilot.py": "216c96cb8fb49aaaa58eae8c21a763b324872507041e7e6c6cbf679bf1d7d4d9",
+    "scripts/generalization_run.py": "b5d5c7b129f39d6c69033180e49da1a586ad96400d3a2763bba3fb8e9f3153a6",
+    "scripts/generalization_screen.py": "5aaf9632c331c6b5b0a42f03198b7465f203682618d3687ed595e3a86ed2f417",
+    "scripts/generalization_screen_verify.py": "71d4029a6a3c5c670dbefceb9271ebf96f92ec8f5761cd2fbae1045b327a51c2",
+    "scripts/generalization_verify.py": "97bfe769acbabe1ef33f1841b34ce0210d0b2c288c7b8bde64fe330568e77168",
+    "scripts/make_fixtures.py": "60bca95392f35bf073e5d4890cc80e8a9964813e156395ab3a9fdfb348b7e10b",
+    "scripts/precision_evidence.py": "c5d1d4e0e561fac3039ec4e034325a2e883ceb4fcb455268c53173bc825e0d9a",
+    "scripts/precision_plots.py": "6fbaebbd5c9e248bca399675545acf62f73385c69c4aea6d9fac5f4400642327",
+    "scripts/refinement_analysis.py": "368d3d5548a4270576ef7ecbd1c18672cba47d5f893b36c94838f0909f3b4198",
+    "scripts/refinement_report.py": "e9c64c2efe4b93105f555c814fe5e1cc61442e57872763a5a58fc026ecc22048",
+    "scripts/refinement_run.py": "7279f2e6b67dfd0b918330be73143845d5d4090463ffe406469fe099a70e2144",
+    "scripts/refinement_select.py": "0beb8045792b1738431eed38774ef3448e8e1d772b3e4218bd20226812de0680",
+    "scripts/refinement_verify_selection.py": "059da19bbf3efdff323b0bfe044fbb8a712bd8dff7d8997e6c0b5e2442b30764",
+    "scripts/report.py": "dd3a643cb8861a04329cfac430ddbed1f90e72d8ff96eff590f6388ec1c006c9",
+    "scripts/sweep.py": "1b36c09569b16fcdd82ffc3b5fafed4f6adc6b1169c0e94d6b8856d78a6f4454",
+    "scripts/tail_evidence.py": "05202a43b1e11b17a98ef4df140ce98dbef0aa4110f6082ba025589e47a62024",
+    "scripts/tail_plots.py": "6104903fbbc403ce6e1315164081474cb4d4b859d54b659eaf614c5b49c23474",
+    "scripts/tail_publication.py": "8e2772813828e1cc654e890c9043eafb3d5b82ae892dfe39914b1216926752b3",
+    "scripts/tail_run.py": "59b72b2f8b98f29476256fdafa20f060858efe869d82466e2656f5f8c4bad4ee",
+    "scripts/verify_allocation.py": "ff29ca4915926e01d41d0f68a7dea65617135e37596cf75a018788c631c3ef7b",
+    "fixtures/allocation_cases.csv": "88c49be4e03b7353f6fca7511f1c79e24b8210d30f6d4dfd84ebf6aee88b46ac",
+    "fixtures/cube.off": "6c21864720e4f4ffc9fbd6785fc0a844c451a264f4bd361b2c64f2eecf4708e0",
+    "fixtures/degenerate.off": "40199be0ba3207ea64a167a950d2cdcba6ce50ecd5d19ebc71cb1967734b468a",
+    "fixtures/intersecting.off": "c0d18ea76941bad6460511aa68a5d600060af238fcab101ac5be55507cdc81fe",
+    "fixtures/open.off": "57939a62dac8594371190134c795a6e1a185da374430d8bfc5618d4794e51bf3",
+    "fixtures/outside.off": "c77544d354681a2cce69629bbf8eb66f557f5e4a1ad20db437475db48c0f69de",
+    "fixtures/thin_box.off": "c18c1087113dc8e4dda1f326e96b2f5568be5a748b88e19477b6eaa2842c05dd",
+    "fixtures/thin_box_probes.csv": "337910ebdc14870275492a679ce0fe24ddbc404d0a84d484019f968e8ea7d9b6",
+    "fixtures/torus.off": "1a9f8136730b904d5800ab756d4e854dbe504ae0fa78f777eea06affc2e28dee",
+    "fixtures/torus_probes.csv": "40c7afd5085aae1e76da613630afb7df22dfee9f315182821949acb65d4241fe"
+  },
+  "executable_sha256": "399c094878ef51404bafc96d42498c987119a25c5c140a862aa62c0349454ef3",
+  "reference_sha256": {
+    "00_thin_box/audit.bin": "23ec354283f2df0004eaed4424f0ceed302097b233b3f0b1487c17a292975382",
+    "00_thin_box/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "00_thin_box/expected_euler.txt": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+    "00_thin_box/geometry.txt": "a62fe91bdd54af812c67bb7caadbeab9d4e5bf2fd1b3731d9c5d3aaf5bd0eaea",
+    "00_thin_box/independent_reference.json": "45692f1a1ec2e5f0686656a2fd469168c55eb1ad577f20a60531934deff70999",
+    "00_thin_box/lattice_64.bin": "261cc4d699fcbb8385cc2549963957af5bc7aa0d83d155d2d5ef0861f0aa8484",
+    "00_thin_box/lattice_96.bin": "6ede17a10dcde0ec53bf3946540aed50610c15a41727bd3f2ad6c908a2f4b52c",
+    "00_thin_box/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "00_thin_box/near.bin": "7ae056447509c7155358be5a9d7426a79e0d1bc4f16564f6286afb6949196c9d",
+    "00_thin_box/oracle.json": "c274baf75c7002b1b42423bd16c53438344fabb3f1bb0994459f00fa88bc2b90",
+    "00_thin_box/oracle_0_64.obj": "f13eddb0a7de5e681492dfcb0e2fb68b877ad2f533313c728d92d46b8d9982e0",
+    "00_thin_box/oracle_0_96.obj": "534693384e852e0c1ab3bcb829764d683dd678dcf0d4c78695332a6c000c654f",
+    "00_thin_box/probe_groups.txt": "8570d5d9d809ad614eb846fc0f51d1b242f15ff6037eb66baaf4d21f8a8715cd",
+    "00_thin_box/probes.bin": "4fb765d4b31dffd6a9d2e7b82d0db86d0218bcd7efa604ad218034acbc62321a",
+    "00_thin_box/probes.points": "6bef5b1be311bee8fcd6e257eb16356dddac6f564f8041aa160bceb31299f532",
+    "00_thin_box/qualification.log": "3d97afa09a56d26bf6f0f962a0e866528556579283e3aa41a6ea273b18cde599",
+    "00_thin_box/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "00_thin_box/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "00_thin_box/rays.txt": "96cf7e7e7a4d5ada79181cb7df36cfa7a30cb329b0160d807f20397149937c1c",
+    "00_thin_box/reference_roots.csv": "6ff9ffc8867a0d451b6f04b753ac407e8b48bf1c86e348be9a89d91f758c4ede",
+    "00_thin_box/reference_topology.csv": "22bbe85608613e9a7cc5c6d4dca266d2ec8b6f6057c4e69c1d661fca68159f31",
+    "00_thin_box/uniform.bin": "0323ecee99014a344f4006d10cbd60a398a8255fecf859345380f4be51d737db",
+    "01_thin_box/audit.bin": "aa5e5cb5b7e32ff79d8e4026e3f435131c011fc0d0ab806fb706e193050cdef2",
+    "01_thin_box/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "01_thin_box/expected_euler.txt": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+    "01_thin_box/geometry.txt": "92f427b28da5b6ccc020973861afc3a1657176fa350efd38afbf3b8088bdb9a2",
+    "01_thin_box/independent_reference.json": "45692f1a1ec2e5f0686656a2fd469168c55eb1ad577f20a60531934deff70999",
+    "01_thin_box/lattice_64.bin": "7b78fab1b8bc0332dad2e8d8a6dbe2b63404de66277492649db0f71278e6cb5a",
+    "01_thin_box/lattice_96.bin": "c6fa504b1a9585009bdd24f2242cecf2025f7ddf30e29871af5274566ad26296",
+    "01_thin_box/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "01_thin_box/near.bin": "26c3b77311afd03873d207dd371fa599b0e3af3567a46e365927ad5cffcc6bc8",
+    "01_thin_box/oracle.json": "efeecb9a68c7eb3f3622e03c08cf0189d8d46ee114e5ac217d679637d7268b88",
+    "01_thin_box/oracle_0_64.obj": "b59b00e5d48712d1ae3c41804b023f1338fc9e0e88ed68de8521e0c273774cb7",
+    "01_thin_box/oracle_0_96.obj": "e0ee826557dc0a5efff4ef3d3ac8f6b6e3b8be8ca5d2465b9b79cbea2b57ae15",
+    "01_thin_box/probe_groups.txt": "8570d5d9d809ad614eb846fc0f51d1b242f15ff6037eb66baaf4d21f8a8715cd",
+    "01_thin_box/probes.bin": "cac20048d5069e841a40a6adcba68561ca3fe777d6f66a7c60ba79780f9af39a",
+    "01_thin_box/probes.points": "534d219eebada46791e71479da17b0eeabcaa95c7ebe21e55502e83f1b6b1790",
+    "01_thin_box/qualification.log": "ac705150c0a9ca2e5cd964ba76bce1765dde504dedda5321a569f0e0badc80c9",
+    "01_thin_box/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "01_thin_box/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "01_thin_box/rays.txt": "7e283005b61636b4ee0c36db24b19f482e5bf1b5e506c5e48db2337b10e1ec37",
+    "01_thin_box/reference_roots.csv": "eccf9794e31df0a8a811df8561444f576645d058b080a01c322189573b279821",
+    "01_thin_box/reference_topology.csv": "c6c1615e7653506fed7b99132240d3429876ae552d117aea4f3f80b9133af93d",
+    "01_thin_box/uniform.bin": "40300b760ea39ad4d22cd9d034e90ef6930bfc1a8f8cf4e3fc5e1ff4ce97a0e1",
+    "02_torus/audit.bin": "92703db267861eeab40eae2a328de4ee683f7032648e4e999fbb148929226000",
+    "02_torus/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "02_torus/expected_euler.txt": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+    "02_torus/geometry.txt": "5805dcf819ec3ac862969ad597a605d51d1554710611576868b9570840a1e80b",
+    "02_torus/independent_reference.json": "45692f1a1ec2e5f0686656a2fd469168c55eb1ad577f20a60531934deff70999",
+    "02_torus/lattice_64.bin": "23de22e25efc62e91683fa04c7481b1e63910739b9d787ed631e622cb0f15956",
+    "02_torus/lattice_96.bin": "6fe9c13a8b0d48e50cf015a754589c91c765af85b84c08dfc6a3b68becf629ee",
+    "02_torus/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "02_torus/near.bin": "3aa72cbf0bbf50fc574bb9fff12d8f5affe51942c9fed4d1df070e9623820fea",
+    "02_torus/oracle.json": "1e3330333b0d3f669105a5008bf1a5c6372d36950ccfb80a6321496028a3043c",
+    "02_torus/oracle_0_64.obj": "c9ae7611903c5464407f4bdee9f581cf7e23930d3b61ab918914104d72b553e6",
+    "02_torus/oracle_0_96.obj": "f4fbbfbed5e0dd87c469a76c654a3efeb7898f9ce53c7845cc635081bdc207b0",
+    "02_torus/probe_groups.txt": "8570d5d9d809ad614eb846fc0f51d1b242f15ff6037eb66baaf4d21f8a8715cd",
+    "02_torus/probes.bin": "9cd5a296d690e2c109268a26620c9f4c5db60c8f19bd0f02ba689676ee076517",
+    "02_torus/probes.points": "b5250c42b86f4add5332e8edda8ed7fc5f2529c3a06bf2767f43181b9e8699a1",
+    "02_torus/qualification.log": "7f208ba885e2ea42c5d51543dd2b7c5b45987aeb31fd026f766bab4a60df2f56",
+    "02_torus/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "02_torus/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "02_torus/rays.txt": "2b6d05f568e3d8d2d599c1d738355c04459950b4cd5044046ba6858ed3739889",
+    "02_torus/reference_roots.csv": "8465ed53f7236e83a32b74622f6b4b011e595a76e678434a65b1e05928b3f12d",
+    "02_torus/reference_topology.csv": "7a51380ffa8befcc6420301ac6ad534469fbe1641f489b37a96e15f71f861f11",
+    "02_torus/uniform.bin": "48ccb8bea2a47625db47d119d0b38b904eb214bfc7b8c75cbda75f769edd01bc",
+    "03_torus/audit.bin": "a71d458056b4fa8ce125e4fbdf180354c2109b8a02f40d9a949bad4a9ba7d39b",
+    "03_torus/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "03_torus/expected_euler.txt": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+    "03_torus/geometry.txt": "f1656d0409bdd3313b5dedf6a28bfb93e1b212cf00e611bef60e4a57f3eab165",
+    "03_torus/independent_reference.json": "45692f1a1ec2e5f0686656a2fd469168c55eb1ad577f20a60531934deff70999",
+    "03_torus/lattice_64.bin": "c7bbaae16490a3f013d8495674f031c4bc3eff3edb88f9f62bfac52d3e3f332e",
+    "03_torus/lattice_96.bin": "4f03cd6c5be13ba8c649296cc7d1b4f9f5a2196ce27db80e05bc6b61362bc19a",
+    "03_torus/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "03_torus/near.bin": "45a50d91d87e250ed71a1b660daa6ea4171d8aa62e8523640290ca9d43015592",
+    "03_torus/oracle.json": "71a3de7b3eaf26e73f53a426ff3a1be798c18f4a5a00bf85676d0fac93833273",
+    "03_torus/oracle_0_64.obj": "58414c9cff2c861a5e09bd594713877bf9bbd1c8d19e2d3a8510e26e6e00757b",
+    "03_torus/oracle_0_96.obj": "33a1b6fede8646d340ea18c45b3bc270bc92937dc2daa205d93fe9dc5e533517",
+    "03_torus/probe_groups.txt": "8570d5d9d809ad614eb846fc0f51d1b242f15ff6037eb66baaf4d21f8a8715cd",
+    "03_torus/probes.bin": "ae483f5ac40516face78ccea959e5d312103dbcb1ae26e169433131cf60836ba",
+    "03_torus/probes.points": "b45376a92ab4ff9cdf30f84b8702df83b4fe84ea0190dbba50dd440b716fb904",
+    "03_torus/qualification.log": "bb137d572a620784e7923161c4c33c1a95daf1f32fa719d7d0946b01f110f1c6",
+    "03_torus/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "03_torus/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "03_torus/rays.txt": "d264e16ae4eb475bc8d28e31dc658baf5929333a3e5efbbb0cf4dee7b4ff5dc5",
+    "03_torus/reference_roots.csv": "1d63e796524e1a3e6ea7782d756b1dfcb2fb3c2a5154560313ede37fbc743017",
+    "03_torus/reference_topology.csv": "1042a058fdaf300a19b775c32788d0a4a7b0d219796b881b7c0eac32c7275bdf",
+    "03_torus/uniform.bin": "1056430290f6c005367093919b0af6e79b2313eb70609d3123a8a05ed67aa1bf",
+    "04_double_sphere/audit.bin": "c1742c634008d2b0d31d80447163f817002b39aa13dba919a891fd5b79e20e35",
+    "04_double_sphere/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "04_double_sphere/expected_euler.txt": "04412575067f0bdb6722e31a7ee45744cc1ecf2dfacec4cfbfa70cfd364bb7e2",
+    "04_double_sphere/geometry.txt": "3ce4f34193758237cb87fea8fadfe85ee0c932aa553d64ff3c5f36576f639e71",
+    "04_double_sphere/independent_reference.json": "45692f1a1ec2e5f0686656a2fd469168c55eb1ad577f20a60531934deff70999",
+    "04_double_sphere/lattice_64.bin": "12a74e80c83a4722fac73bdec4e6752fb12d19b1ba78d202a49d244c2b820cc9",
+    "04_double_sphere/lattice_96.bin": "a5c6326ffe5a4fc45db3ba84526f071f4ac14977d25deffa22c11cee5ecf84fa",
+    "04_double_sphere/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "04_double_sphere/near.bin": "e3b44b62ceb81389928530c2570268f08bf82f7c4ac954aed07a111e8b8b3161",
+    "04_double_sphere/oracle.json": "1f3ab24ab38ab77cf1a54c4059462fb57925845874cb2f5fb1889e51964c86f5",
+    "04_double_sphere/oracle_0_64.obj": "38071eab86ec9cd2baea0c0de80d5ff4d302ea94ebde56daba7738a4d3b514ab",
+    "04_double_sphere/oracle_0_96.obj": "bd5957c756ee3e03cf6e55f02b49c9106bab3bb5adf73d17656cd2bca403e347",
+    "04_double_sphere/probe_groups.txt": "217146740310b7d8d6f24f702bbd2323d4e71671ccd6282200fb6347671bb680",
+    "04_double_sphere/probes.bin": "11952f3b7b1bc100ad911e122eff2014c62ae6a60b016f4d16f3555e4c100c48",
+    "04_double_sphere/probes.points": "ddb27e61af1912bd5656a164732cc64f6502473fc8622b17b0422154c587a1f1",
+    "04_double_sphere/qualification.log": "858646f2ec6ec6ac623cc0d412fdf3f169c1a59182de73f5707e9c0fa128b1a7",
+    "04_double_sphere/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "04_double_sphere/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "04_double_sphere/rays.txt": "d3ac4f81b7ec685b9e14d452258ba9b5667ac0894241a1b104da4d03c4bae1cc",
+    "04_double_sphere/reference_roots.csv": "5462ac7575c7e6eeb9c321e02a26e5d11a30b2ac684e6b2be7a4213e02648feb",
+    "04_double_sphere/reference_topology.csv": "e66dad5a9dc19823c46d20b58ec990892e2152d16e68917d8c2357d0a772860c",
+    "04_double_sphere/uniform.bin": "5358bde35cc9b4811d3062b373702ca3fcdcda43ff6bf0210fe11a178896506f",
+    "05_double_sphere/audit.bin": "5ed39154ce930f633e7e9671534ef075bd937f6437a528de8eb4049695a03343",
+    "05_double_sphere/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "05_double_sphere/expected_euler.txt": "04412575067f0bdb6722e31a7ee45744cc1ecf2dfacec4cfbfa70cfd364bb7e2",
+    "05_double_sphere/geometry.txt": "b4501c4c20507a94cfd2000093367f24d301322094a83279a679e2928c9b491a",
+    "05_double_sphere/independent_reference.json": "45692f1a1ec2e5f0686656a2fd469168c55eb1ad577f20a60531934deff70999",
+    "05_double_sphere/lattice_64.bin": "87e32b8c4863171bd42557b9f36aa2c3959ec3d296e7f25d0dbe77961d42c3ab",
+    "05_double_sphere/lattice_96.bin": "12148e231a7c47b409c8ccdfec7bddb8695c6a9eb7d9928b9b305f476c8ebf0e",
+    "05_double_sphere/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "05_double_sphere/near.bin": "c085061b8f8feb182b8a303497d95c9952ea92f10cb3839dd7f1ee1e3d2bf8a5",
+    "05_double_sphere/oracle.json": "6404c1f9631ceff3f83d32af32e12fcb1df041f41817cee351120812bd0705da",
+    "05_double_sphere/oracle_0_64.obj": "65b4a1838f84e6baa57d3ecca326a7f981cce382fe3c3cc5c84235475f1f1e4d",
+    "05_double_sphere/oracle_0_96.obj": "8555a78e97d0c50d9bfc1fdd125943b9f70192f25dc07323f1b7077dcb4d1afa",
+    "05_double_sphere/probe_groups.txt": "217146740310b7d8d6f24f702bbd2323d4e71671ccd6282200fb6347671bb680",
+    "05_double_sphere/probes.bin": "6cd581fbe4367e8e20c92d79f1ed84fe37495cdcb709fe0900aecb3dd8ce41e7",
+    "05_double_sphere/probes.points": "28a005861eb74786bb8f51bed6d6f0d13340b177152e643eccc0cd638a79c96e",
+    "05_double_sphere/qualification.log": "f9e01949b1ed7a99e5e705889bfe7e9c73ec7ac29c488e9c016779e491df0264",
+    "05_double_sphere/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "05_double_sphere/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "05_double_sphere/rays.txt": "9423a92ec39c66dc4eda56669e8270f816783aba2f07691bbda6f9efbbbe0502",
+    "05_double_sphere/reference_roots.csv": "a5237c2dff98e1c87b26fc5273db81fbae6e6c92641d2e58c8dc28a258fbef89",
+    "05_double_sphere/reference_topology.csv": "f75a8c4f99fe293adef2f16995f74cd7fa52e1eb52eb933c8cb17f1b01d0e098",
+    "05_double_sphere/uniform.bin": "a8776d1f396bc67c04b47ce36f5785b9d231cc77bde8e580df1e180361402e05",
+    "06_capsule/audit.bin": "6f35136d4ec64be725a4ea47b4529b2969f8bd35094ebb1b22efa4280e001696",
+    "06_capsule/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "06_capsule/expected_euler.txt": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+    "06_capsule/geometry.txt": "3bea30685442992a318943ebb777d02335a3676dbe04fba43c0011123ebbbd6e",
+    "06_capsule/independent_reference.json": "45692f1a1ec2e5f0686656a2fd469168c55eb1ad577f20a60531934deff70999",
+    "06_capsule/lattice_64.bin": "14ac40bbe8cde61174edc527b395abdc8dc18d30956b54845282de1dba7254ff",
+    "06_capsule/lattice_96.bin": "2ec8402a3aa29e9de187214aa93ef62bc075c41a4d113e96cf45de2d7502c992",
+    "06_capsule/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "06_capsule/near.bin": "f8f9646d48b79005d45e2591a34a780c9ad9c71fa7b10dd34160b49e56668a98",
+    "06_capsule/oracle.json": "9d4bd74998b0372902356846de8820b394d6078c2f429645d106f9a5a85776c2",
+    "06_capsule/oracle_0_64.obj": "ffce3b39d87f6d71aff0e9ef320436f94fb4d8dcb6371d0edd974637e9bdc25b",
+    "06_capsule/oracle_0_96.obj": "67437b636161f999609b61105e2a95e05a4b306e4fb3eec7e7f3da8d2e1d0c18",
+    "06_capsule/probe_groups.txt": "8570d5d9d809ad614eb846fc0f51d1b242f15ff6037eb66baaf4d21f8a8715cd",
+    "06_capsule/probes.bin": "55672acace807c106b9f98277159ac95dfedda9122bb89d9cc16c2a137d184cf",
+    "06_capsule/probes.points": "6328c8555b154ac99a9ebbad073603a7ebdbef403fbadc9f99c54b94be49b7c4",
+    "06_capsule/qualification.log": "77b78f48f309cc40cc3983eb8efe3d16f7e1188307d8fae4dc2807a761d4c945",
+    "06_capsule/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "06_capsule/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "06_capsule/rays.txt": "7223856abce96ada0ec79ce7a08e2ec33e8764b2a2a850a464fad8ee2febbc8d",
+    "06_capsule/reference_roots.csv": "b5ac389fd49a2408e34a087bd9e103bd8e8fcd2bacf42e79db6efad9ece43078",
+    "06_capsule/reference_topology.csv": "8292ebe6e4b4f7eb7d75fc404e32faa6df6bed837cf3b4e6a658c13178a66beb",
+    "06_capsule/uniform.bin": "dd739fc2dd4b91af33b7b8b876c641f9f8311906b8ffe80b141cc639afe6ccfe",
+    "07_capsule/audit.bin": "8b7ccdfda6a1749b2ef89fbc2307b755dcb3fdd0dbdb8f913bab7f4a8796ae14",
+    "07_capsule/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "07_capsule/expected_euler.txt": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+    "07_capsule/geometry.txt": "02abba648855b4993335617744bf043531540b41eaf476594595cff5e0a3f2d2",
+    "07_capsule/independent_reference.json": "45692f1a1ec2e5f0686656a2fd469168c55eb1ad577f20a60531934deff70999",
+    "07_capsule/lattice_64.bin": "490d97a5e17b36a55f807640708d0df0a762076effb048dbe94319c60592f216",
+    "07_capsule/lattice_96.bin": "049c8c15fe5fb47a7fe541df62d9188dc203f23d6c868da0faff2f722b1354bc",
+    "07_capsule/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "07_capsule/near.bin": "6362b75ab6271f9b2587742a6988996b6d1db220c3f44e2a517df2252d28f31c",
+    "07_capsule/oracle.json": "b7301a8918bccd7401427c4494836bc90b43efae2c53a7b57e914166e84f0375",
+    "07_capsule/oracle_0_64.obj": "ddf2d9bc41d1596b5ae3a3ebf4ac834bb83d2b5ac6236fa0ca96e49ec767708d",
+    "07_capsule/oracle_0_96.obj": "4074bc5a410ccb0ca7e22fc0708f8fd8a4197c7c1ae66c53179e29f1d6e15c34",
+    "07_capsule/probe_groups.txt": "8570d5d9d809ad614eb846fc0f51d1b242f15ff6037eb66baaf4d21f8a8715cd",
+    "07_capsule/probes.bin": "690464d5db5a1af634bbfb99a36b18ac65cd921050673defa825f4eb3ea08197",
+    "07_capsule/probes.points": "70519417d79d331e9fe81469dff7ac7c08082aa099b39f25130d9dc0abbc92a2",
+    "07_capsule/qualification.log": "b08f27e37acbe262ade73c0e898ff12c93d9b9e5532d2b3d6170b46d7f192014",
+    "07_capsule/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "07_capsule/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "07_capsule/rays.txt": "caf45f0d97f717deb6e244ad783ba5818c0536ccd9ff5c61b4351d0ca554e0a8",
+    "07_capsule/reference_roots.csv": "204e2661f80f545ea87b91acf6a901bf72de202d77b826a04ba1cee3252b2f64",
+    "07_capsule/reference_topology.csv": "9815ad65841a7681f115a495799d81a8e92b165a0e657c6a1f1fd84807888f99",
+    "07_capsule/uniform.bin": "fef25ebc4722d008f19a74b01e043288f8ca84b8f1bda22edde08ef590980d5c",
+    "08_cylinder/audit.bin": "025248fe435555c75f9fd55642dcbc10d9d29df77f32267336b175fd8709e22a",
+    "08_cylinder/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "08_cylinder/expected_euler.txt": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+    "08_cylinder/geometry.txt": "1bc1f68a8adf3b053c681436d6c386067d109d93bb65782af3ee489f9e5f5c4a",
+    "08_cylinder/independent_reference.json": "45692f1a1ec2e5f0686656a2fd469168c55eb1ad577f20a60531934deff70999",
+    "08_cylinder/lattice_64.bin": "387fe22ba727d05873260d1d1b5c839caf8dcf23e02e10cdf034b9397ee19b0b",
+    "08_cylinder/lattice_96.bin": "b4ecb951cb0ff07052bfcb9a590e8c57aa28939cee91b9454233d6c89ebbe9aa",
+    "08_cylinder/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "08_cylinder/near.bin": "b0afacfdc0e3dbfcc18e4db41efc957ac1481cbcbf6a7f4c860b77643aa1f5f3",
+    "08_cylinder/oracle.json": "2f05edc0c23e3c82fb7f79d218c4ac4208288fd667bd93bb5f4ddf29fd84a517",
+    "08_cylinder/oracle_0_64.obj": "536c3f6f7249bcc88db9a94718c126b15598f69fd31dabf899408fe032311698",
+    "08_cylinder/oracle_0_96.obj": "8dfe2cec74cb12ac064a780c3b1402d79d61c9ad7daf5838052106ba12895ded",
+    "08_cylinder/probe_groups.txt": "8570d5d9d809ad614eb846fc0f51d1b242f15ff6037eb66baaf4d21f8a8715cd",
+    "08_cylinder/probes.bin": "148cc0b9e17152092e792cbb0065113d362850cb7c7651333916890b3a75c4c2",
+    "08_cylinder/probes.points": "5b3dea5fb142f1918dcaceec84f5c27f7626e9de72cbaa72cdd4cd925993b675",
+    "08_cylinder/qualification.log": "7696b0ee6d1029fc7d6faf66f0df8161033bb80f516ee36fb3a535ac2e069baf",
+    "08_cylinder/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "08_cylinder/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "08_cylinder/rays.txt": "fb3332aac9cb5a34c03a703b2f74f59bc288200dd23817c2e735cece7469e2ec",
+    "08_cylinder/reference_roots.csv": "227a3d78637cbd915a938237c5d2d5c3a982e6deb309efe49b568e5a4aecbc23",
+    "08_cylinder/reference_topology.csv": "4b52931d72facf57f028399921e7f372c82045d32fec6f2779f55e443eb1e3c1",
+    "08_cylinder/uniform.bin": "570d173f279442abe912e1ec97f287359be266260ac6bd33715f9ca4111316e0",
+    "09_cylinder/audit.bin": "0bef9d308b3f590e9a4123c01d1a9597b67a1e5593b81eb25c57c4f4a80e2ce2",
+    "09_cylinder/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "09_cylinder/expected_euler.txt": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+    "09_cylinder/geometry.txt": "9c5ba082707d398fdb43666cad12065316dfb727bdde6ede2cf347dbc78425c2",
+    "09_cylinder/independent_reference.json": "45692f1a1ec2e5f0686656a2fd469168c55eb1ad577f20a60531934deff70999",
+    "09_cylinder/lattice_64.bin": "9d48afc1234899c0a296dda0ce7ed1f24ff312ae55958ed19f660684c5e29341",
+    "09_cylinder/lattice_96.bin": "c6214ef5f50c7edefa5ffd9c4c0678dbefc47a18188bfdcebe189370bd16a2f7",
+    "09_cylinder/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "09_cylinder/near.bin": "637b82611ef0df97729c394372f09c6f041e522a023fb5a2dd1ec8a4d28d6899",
+    "09_cylinder/oracle.json": "ae750a36beb2cae851b6481359ea53668e893a3dec227277458dadab260e6b8d",
+    "09_cylinder/oracle_0_64.obj": "3898443cb4caf6c2d6ccea1d0ef36337c3a2c8b151036329d27bcd4ebceed3e6",
+    "09_cylinder/oracle_0_96.obj": "b39bcfbf6366473eb2085b44b82801477e32e102115641bfe33e13c524c82fae",
+    "09_cylinder/probe_groups.txt": "8570d5d9d809ad614eb846fc0f51d1b242f15ff6037eb66baaf4d21f8a8715cd",
+    "09_cylinder/probes.bin": "78d8ada8c76f0f1b27f54d11b7049f5fb83765305154738743646488eaad616c",
+    "09_cylinder/probes.points": "910df363159f6ad7e56bd2b2c561b5d9c3e54ee29b23b0e3aab709b3a01bf669",
+    "09_cylinder/qualification.log": "dc0f22e5e6cd0b4ed2d88180ff55906f224c8c9bdff689ac3c2e053326098176",
+    "09_cylinder/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "09_cylinder/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "09_cylinder/rays.txt": "08c0723770c5f365dc8e6bbb00e0e0dd1cd24c210ec2b0fb252a4ff35d737716",
+    "09_cylinder/reference_roots.csv": "7fc84e1ea23539a4d4268ae01ee7ab6469752cce09d2ec91a9767ae26a3b64f9",
+    "09_cylinder/reference_topology.csv": "9b47894907adedd7fdd216f3cc5e3435ef65cf1e4b14645af6146281d59df9f9",
+    "09_cylinder/uniform.bin": "1218751dff13486730867518c10225dbadc4fee822c153803bacb4d9e03b0e94",
+    "10_rounded_box/audit.bin": "9d411367244c25ea3e91fb49ae7be24f681b39edbeb3022fe28bb70f2f03fa44",
+    "10_rounded_box/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "10_rounded_box/expected_euler.txt": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+    "10_rounded_box/geometry.txt": "f75a09990794ee5675c3933473ab7665c2692afa746e3318831f8a0d7da1b550",
+    "10_rounded_box/independent_reference.json": "45692f1a1ec2e5f0686656a2fd469168c55eb1ad577f20a60531934deff70999",
+    "10_rounded_box/lattice_64.bin": "108de8f0465ea4a1e676f4302607e21f25681fe56d1a5545a7e90745423ed27f",
+    "10_rounded_box/lattice_96.bin": "62c8a22cbd494326f00ca5a416321f9b9a58a1cc8a8ec8e45502381217aa4673",
+    "10_rounded_box/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "10_rounded_box/near.bin": "8bf4090af002cbbcc146b9888680ea5cea7cd839270112818688361b10367a04",
+    "10_rounded_box/oracle.json": "1417a9db8e801c1e0702de44bafefbe34040dd800e06fc7440494e9d1e2fa812",
+    "10_rounded_box/oracle_0_64.obj": "3ce7f7149fd4cf275e33a6d1503c3c6fc9888d9fe1f15f0c1bda2bd2a7e3e60e",
+    "10_rounded_box/oracle_0_96.obj": "7d5f360b32363ff755862e1cca32b251e74edcf46ea2b67d3c8e56a6534911b5",
+    "10_rounded_box/probe_groups.txt": "8570d5d9d809ad614eb846fc0f51d1b242f15ff6037eb66baaf4d21f8a8715cd",
+    "10_rounded_box/probes.bin": "357db7d2b621a412eebc1d98d55762c19c6882352da20bfb024d921c363dfa4a",
+    "10_rounded_box/probes.points": "e6f1b19a46e7a524358a9235767abd88737691f1a1af65db028b4b044b0fb6d8",
+    "10_rounded_box/qualification.log": "56a29e4ec298f9efcfdb95f0fcda04394f142082f05a57dc66d7b565b0310c12",
+    "10_rounded_box/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "10_rounded_box/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "10_rounded_box/rays.txt": "4f7e477a448a7ae28f5ac3f4b77eff94dd258674d3d29450b135b9e9737ebfef",
+    "10_rounded_box/reference_roots.csv": "e21006c712250212ec5d9a9574ef5311434b77522799d78b14d4123e4c87004f",
+    "10_rounded_box/reference_topology.csv": "39f3a325d8beef42d62885a9cea502d22728320cac934645035b01b88f1b190e",
+    "10_rounded_box/uniform.bin": "c21d0a8b0bddb86067b23143207630dcfed8a41b1f6b83f229b05a36c704807c",
+    "11_shell/audit.bin": "5ad418be63b5bfa6569431b70b1f07e6fb736d3c068e7a8ddfe37671852cdf62",
+    "11_shell/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "11_shell/expected_euler.txt": "04412575067f0bdb6722e31a7ee45744cc1ecf2dfacec4cfbfa70cfd364bb7e2",
+    "11_shell/geometry.txt": "48f5d085b693da977856e1bcbc1557aab3d2a5f751bb77e87681cc44137e068b",
+    "11_shell/independent_reference.json": "45692f1a1ec2e5f0686656a2fd469168c55eb1ad577f20a60531934deff70999",
+    "11_shell/lattice_64.bin": "34c74505efcbea7fb0c79380ca8655d4703e0568015ac6ba646ff8f978f14867",
+    "11_shell/lattice_96.bin": "8e425651f6deb07b6bdda49251860bcea8ef6d37cafd3180c6569ea430905297",
+    "11_shell/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "11_shell/near.bin": "e577a525a392b8821c033a60ecbb2a8caf4e450a984ef1e3cacfb00a62f5cfd6",
+    "11_shell/oracle.json": "68651be8a67c4ad3539379bfc6509cbf5221b73173ba8714f92dfea646554844",
+    "11_shell/oracle_0_64.obj": "fd739385968ac54c6b80fd7b53f71281f191c43ded13a1e0adbca7b17e657b84",
+    "11_shell/oracle_0_96.obj": "748e79c868e41bbff70681a3293baea008e241acec8de3782f6bc0ebef003f68",
+    "11_shell/probe_groups.txt": "741322509d03280e299c19c88717c83975ec97e1790ea6ffb36b800c681dabcb",
+    "11_shell/probes.bin": "251b2c8970436138c8fd5cdba18bbb3fbdbcf732848a4f30807d92650779f2c5",
+    "11_shell/probes.points": "c0ad9401e2a93d00847b7546f3c601eba8013a2e23d012afd5fb26f891e98025",
+    "11_shell/qualification.log": "def19a29234bbfc69f31a015411381b07c6b1ca05a3af55262ad07578d2de8e8",
+    "11_shell/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "11_shell/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "11_shell/rays.txt": "2a75bec5b190c462cc56d25f80d2c93834cfc0d5ab9ccb1c2b131d7f2b7a6345",
+    "11_shell/reference_roots.csv": "1ac23553a571466025ea905541e3e9b35a3ccda5853876fa3c131751d876296c",
+    "11_shell/reference_topology.csv": "0552f472f25b81354abdddad8a09e159746741211ad4c006a1bf0886bdda2d9f",
+    "11_shell/uniform.bin": "97c5a32c49c6d69b562fae4989f8f6ff60c98484d34dc18943f7f524dcae0348",
+    "12_goathead/audit.bin": "09c2a6d0b76cee5f07de53714c44b37aa3cdf417953303faffd8832282279c7e",
+    "12_goathead/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "12_goathead/expected_euler.txt": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+    "12_goathead/geometry.txt": "4706d9c5c719492484f051fe8855812c9a9f124081047bbf7023a6fe31ab8f1c",
+    "12_goathead/INTERRUPTED.txt": "7149e73f409645ec76636048216c87496982baff41f8f290eea214f5cc7dc53e",
+    "12_goathead/lattice_64.bin": "44cc3e17274f956992afaa4b8d4aa228a7bc8209d0202a687343ddf34293b3d2",
+    "12_goathead/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "12_goathead/near.bin": "66d85a28513d61b3f88300b6b287a9b8e05b02858f93f23f3ff2421fdbf01de0",
+    "12_goathead/oracle_0_64.obj": "95ab62d8713075066b4001ab828b40a110c2241dca42d425822995b7399ce49a",
+    "12_goathead/probe_groups.txt": "c1b3785c0690fbd885b4e18de7d064479a9db9a0fa801b09ad7f2a1483d7dc9c",
+    "12_goathead/probes.bin": "fe42cba66ca9a73669b654535563b2cd03f5bb41792138b9c45321cd6371e0b5",
+    "12_goathead/probes.points": "24662d85987d76d736fc8a3d9f3bc55be2e1afa9bef6fd636fd4fba906aaccfd",
+    "12_goathead/qualification.log": "7355b960f404c5ae3857b4f8b6ff5136e24d8fef567d15bfdefdf1288008dca3",
+    "12_goathead/rays.txt": "35d24534782746c1d0d75f5697eff23fa80edb774fac0a3fa7afc4cbca108bea",
+    "12_goathead/reference_roots.csv": "7ed5b04b288c0e9b14a742d2c1d0fb7bb4d3361e621cb5731a08c4d68dfc361e",
+    "12_goathead/reference_topology.csv": "af4bcb33a1a7e0d35274cfdd10109cf501f7da7137f2a7468bc3cf99df00c186",
+    "12_goathead/uniform.bin": "0c72420e8c3139bd10a6a79627c1dc7a87f948070c525be0a86866b613a13ce4"
+  },
+  "reference_fast_sha256": {
+    "12_goathead/audit.bin": "abe62a53090d541557535313f7fc0fee5be3b5a9f69308c4eeb1a45905532ee5",
+    "12_goathead/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "12_goathead/expected_euler.txt": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+    "12_goathead/expected_ray_roots.csv": "14ddebb7c676492b73980c899246a94e6c4337b0334ee0141dc1184966b013f8",
+    "12_goathead/geometry.txt": "7c4d7d99c93bfe87b9303b570b6fd38bb7a468c107c66169c9f13b3265b3c000",
+    "12_goathead/independent_reference.json": "e90beff5313ffca0c06fb754db6166e605245695cef9b1fe04705323a6c8cbfc",
+    "12_goathead/lattice_64.bin": "636baa273df03ebf57b3b1e9bfaf2aadac18f514f9ec304cdc3ee7e89015925e",
+    "12_goathead/lattice_96.bin": "1371980f735cef0ccf4a3144355c95cfc8cb7ee91693851902605ea08fcf7b4c",
+    "12_goathead/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "12_goathead/metadata.json": "4ecdfdc14781a3716aad8523f80aa4c564de90b46d5c847f0755de204f6734f6",
+    "12_goathead/near.bin": "e56e2c3e011256945efc42ebf4c4517a16cd90aee68d2de19eba8f85a2d903a4",
+    "12_goathead/oracle.json": "351c5270cde1a4ab155023b7767ee72b1b4da18768b96634ce8d211d5be25bba",
+    "12_goathead/oracle_0_64.obj": "4689f64a1100ba936b85620efdefe55d3ffaa1abfb1617e69da385d6fa022fc6",
+    "12_goathead/oracle_0_96.obj": "4a0e5313ec9edd3ae3c96c20ce6e52e24486e975b596106fd964aa908794caec",
+    "12_goathead/probe_groups.txt": "c1b3785c0690fbd885b4e18de7d064479a9db9a0fa801b09ad7f2a1483d7dc9c",
+    "12_goathead/probes.bin": "a4e71f9ed9180d896dedbb69e49a6aac4988844a77693f69127774610184f0f8",
+    "12_goathead/probes.points": "24662d85987d76d736fc8a3d9f3bc55be2e1afa9bef6fd636fd4fba906aaccfd",
+    "12_goathead/qualification.log": "9b803908dd685ca252c24b24363e599c81dc51787f0553363fd8a8e1367a2f2d",
+    "12_goathead/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "12_goathead/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "12_goathead/rays.txt": "35d24534782746c1d0d75f5697eff23fa80edb774fac0a3fa7afc4cbca108bea",
+    "12_goathead/reference_roots.csv": "21dca1f336c2d5f7f306d0b265213eb43e11aa90c41bd70c2a21ec02e4c15ee9",
+    "12_goathead/reference_topology.csv": "fcb5a4b68b7e4af69436e7167611e50dcbb1a8f291c34842c014a66a2daaf6cb",
+    "12_goathead/uniform.bin": "02391b10a7873034676104a02fc88b290b447d9e2c36b33102e043f38fc550ee",
+    "13_penguin/audit.bin": "12a7eeeaefe26c0a8b4ba3d9f7c26d5798210182af0cf0703b476214ee6b31df",
+    "13_penguin/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "13_penguin/expected_euler.txt": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+    "13_penguin/expected_ray_roots.csv": "acb3b12971761b64ad14cfdfbd640b7f856477c5f88daf71b95c548d72706082",
+    "13_penguin/geometry.txt": "321bb6b96a4d4e89b757dc87611aecf52be633f211bb393dfce4e470393e9daf",
+    "13_penguin/independent_reference.json": "e90beff5313ffca0c06fb754db6166e605245695cef9b1fe04705323a6c8cbfc",
+    "13_penguin/lattice_128.bin": "55f2c41490fd908e64e89032a7a9b1f5c303f5fafcea62bc7b7fab4d39b087e0",
+    "13_penguin/lattice_192.bin": "637aee895bf101ed75201da80c6a859a7a490f7a4e2da10148c03b263b48b08b",
+    "13_penguin/lattice_64.bin": "96ccc65fbc2d6960b2f1ac3e8aec77cd0a89a7df241532d3c629a67cb8f72511",
+    "13_penguin/lattice_96.bin": "ff2ff36323576bf00337e871277222e40c950c487bbaa53f035a1d48d7a65172",
+    "13_penguin/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "13_penguin/metadata.json": "0e8025bb6a9b398c09457541322c6ebf38bdd8fb378da236d1e852eba0f41807",
+    "13_penguin/near.bin": "486ae4d976dce09180a7867a00cf8a5eb016faf54b4b0da0c9f8550874c4127f",
+    "13_penguin/oracle.json": "906561fdacafd28c38eddb1e8eafcb40f1ea3937c31dc76f1e202f36f3adf323",
+    "13_penguin/oracle_0_128.obj": "738104c50d623f5d6a2d5ecec8952df0beb8d29085cc6d352da5da4f6de8024e",
+    "13_penguin/oracle_0_192.obj": "d09fef89961bdf5019e4a33fcdcb82a3bd6784a5035eb2ffd036e6264b8eb672",
+    "13_penguin/oracle_0_64.obj": "950e5d21fd52e4eee976c790c4201d876a45f8900ae9c83a4f992ab8159731c0",
+    "13_penguin/oracle_0_96.obj": "b38e91fb3c5e05067f1ee3a95599dbb9e1e16364f508924d09da09f228e27e47",
+    "13_penguin/probe_groups.txt": "ccc64b6958e97b9e4670dc30c995c91cda1c893f19cf2b6fddd103cb519b9fb0",
+    "13_penguin/probes.bin": "cfb906415f161892bb6f87fd9cfbd1303d88ef783c669e286afe6953b1e1b103",
+    "13_penguin/probes.points": "b5746e4b591868fd499fac16844074b20e7d90da7c075fefcf2070cc5f4e92df",
+    "13_penguin/qualification.log": "49dda7917d9d098863b11a2a6f63d824d52656e1124a1fcfce0577fa3ccf1c60",
+    "13_penguin/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "13_penguin/qualified_levels.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "13_penguin/rays.txt": "ecf516cff6122761844b50b4c389b42ce1771565378841b74b57eb8e76148908",
+    "13_penguin/reference_roots.csv": "678e61eef8fa50fc1be2122c7149c43d8f7ef64d4ca7b32e1a32aa505cb4e5d6",
+    "13_penguin/reference_topology.csv": "bb0e13a286baf884665a2b859ca51172324e5c23f101dee20b4c3798524cde7a",
+    "13_penguin/uniform.bin": "4e6c0e15bbf9a6638a9635b5c79597f3a81b5293077c90751482be1b88c2cac8",
+    "14_spot/audit.bin": "5a3e922547bc8da685f23ae752eb730aff9bfa12859f633b2093d35d72b29f5e",
+    "14_spot/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "14_spot/expected_euler.txt": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+    "14_spot/expected_ray_roots.csv": "76fbe245fd3e98ed8b8e50b9be35f7906add8a7ffa2456a78400836ac5c7170d",
+    "14_spot/geometry.txt": "23733f701381832c49db2aae2b403b0cc8099297bb189974b84909da5e347ddd",
+    "14_spot/independent_reference.json": "e90beff5313ffca0c06fb754db6166e605245695cef9b1fe04705323a6c8cbfc",
+    "14_spot/lattice_64.bin": "3c6a5b65205ec8e7b73de692f6ae29b250301a4778659d5b3d37b8236ca002e9",
+    "14_spot/lattice_96.bin": "670c597eedf43dde4e3b6f30b2d8321f35cbd029efacf638003028e142f1ea19",
+    "14_spot/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "14_spot/metadata.json": "5ef310789dfaa8d91d013ce898b222fa368ff51463c95f0f56eba5849fe4c726",
+    "14_spot/near.bin": "4f89dff0985390e131b7a65a53c2573b5fecd9fe18cd8f33e139327f8733be4a",
+    "14_spot/oracle.json": "d3eb17cf17c1452031598c5b66b2849f18a10482e7de367301c5e3b091db52b9",
+    "14_spot/oracle_0_64.obj": "e14e710dfe2f8ac5f35baf2d554dcae66ea0c0c77e1d575a18d00a895ae3c63f",
+    "14_spot/oracle_0_96.obj": "b47a1b45614d37090c6e731474004110cc28d75d9e74d70aa089a5ec54837baa",
+    "14_spot/probe_groups.txt": "3fdf15b6ff48a801c2a0318de07359491b190d32635bb24e3fc02a10f6c81e76",
+    "14_spot/probes.bin": "dd02406701bfd00bfb82402e537dbbdb48cad527d719a847daa5d59b839169dd",
+    "14_spot/probes.points": "7c3a59c3c9cbd0acd3939a1e899a62f7f46b0d79366690beb6dee8affb13743b",
+    "14_spot/qualification.log": "7e5f5a0e8758d8299bd2563786a11d3901cfb5734ca269b0c6c44d07fe5699c0",
+    "14_spot/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "14_spot/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "14_spot/rays.txt": "4243bc53fbf82c895594f51d41d4f56240b7ce031878fdfae56ccb056574ab80",
+    "14_spot/reference_roots.csv": "6d14092d2b0030f8e22794011f463685a13ef49ebdcb2eccff65843e2f183bd6",
+    "14_spot/reference_topology.csv": "893c1862f79f92735c0ef261b6e699f3322abd7b1a0d21da8e2b4efbe8649a9e",
+    "14_spot/uniform.bin": "1715916bf24aedeeec231a183ed38d571a045efcb6f35d7fadb70414fbb7ddf4",
+    "15_brucewick/audit.bin": "91ec0f5f0e910d7d55f03bf9934920ae067d71f1f5c85575d24c812713cfa429",
+    "15_brucewick/audit.points": "16d6a7a8dcdba848eaf2286b4edbb438f39f886f9dec79ea5c3d120ab3eac585",
+    "15_brucewick/expected_euler.txt": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+    "15_brucewick/expected_ray_roots.csv": "b880a48fb471ee3d7144664ff2a59fdf0512655874038fc62341433e38230291",
+    "15_brucewick/geometry.txt": "bdf321c1dab3720ebacb67b5e7011ad87c4938b736dd0856f9af1c70c5af261a",
+    "15_brucewick/independent_reference.json": "e90beff5313ffca0c06fb754db6166e605245695cef9b1fe04705323a6c8cbfc",
+    "15_brucewick/lattice_64.bin": "b0878b15e7d354a45600b89c292ff6ad8bbc3c47ab10e7982261c2d88251cc7f",
+    "15_brucewick/lattice_96.bin": "93f2f75a823eeede83a6af9650940d3725d0017c2ea8a309f724c04965819dfa",
+    "15_brucewick/levels.txt": "bad4d7d4fb0461c144e06fa7e9db8163b5928b780abf943c6487c10b557dd8f5",
+    "15_brucewick/metadata.json": "4db324c2fdb21dd38a502f6e47c59adfcbe06a1b262f829c83dab40c14824e7a",
+    "15_brucewick/near.bin": "9394c33aa7f19b0d493b9757e9ccb544cfa9262c6da3c9d2dbec56e5125a6a8c",
+    "15_brucewick/oracle.json": "bcfea7934ae573604df6f733894ac43299fd78ad5e939dc8f16a47c1752446eb",
+    "15_brucewick/oracle_0_64.obj": "f7ac64b5381ce10f5fa78e1d6350e197b7bf5dc81a53a1bc4c4463465b16b060",
+    "15_brucewick/oracle_0_96.obj": "5203213a5df706c80ea8322d45d762582ea23fbb906ea55c047265537aefc60f",
+    "15_brucewick/probe_groups.txt": "48edd0bd660aafb78e7c4d585fef9d137ff6f36aeabf47b3d35b864f6ef21ed7",
+    "15_brucewick/probes.bin": "b9ee2e52b74e4cc69ee58ba6a09e5bea45403702542c5c1550f7133bdba8b633",
+    "15_brucewick/probes.points": "8dd5d43511d5c1ca19dfd62c876eb0f572b4f03aaf53f3e541554f30ca357788",
+    "15_brucewick/qualification.log": "7e72553df493a2312abf50f8ae6422debce6402054251ce8e6147600fa099458",
+    "15_brucewick/QUALIFIED": "2719c62106e59cf715afe82ce1a00d1d9a05970f869d494c50b5c03b9ebde25f",
+    "15_brucewick/qualified_levels.txt": "f4966c6cfe048c082687210f9573378cc6c1bdf3d025197e8152db109872cbf6",
+    "15_brucewick/rays.txt": "018d0b208316e7934a703e471803444bf0e783afb248d931f893c2131a10f4fc",
+    "15_brucewick/reference_roots.csv": "b3347176e86feb118537303024bacae6301a8d3921068a25efeab1833472f1c6",
+    "15_brucewick/reference_topology.csv": "0dbbd9320406d2caf45c551b0e0aef2f67ece04e2cda5c87bd500ae44ac702a3",
+    "15_brucewick/uniform.bin": "f71c32f4229a9f5705c7d33d1051a72a578f66a4948a9ccde72e693b8ee3c66c"
+  },
+  "oracle_audit_sha256": {
+    "12_goathead/comparison.json": "7671279c5ec565a93bdeb54fe3217b580cc23f098662dc17406eaf6c592b6ab9",
+    "12_goathead/comparison.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "12_goathead/comparison.points": "cdd081adacc307e4a1dc4f93156a33f9e32870f2953aa8abd841ffb1d6133453",
+    "12_goathead/COMPLETE": "043512caa74284a385e4b8845fc86f8c78e12382c8c573e7c905570443bb4913",
+    "12_goathead/epeck.bin": "d0ce89ea876d31ba50b63a6274c7f9d35e3e7993bebb6bec0993e42807ff86a4",
+    "12_goathead/epick.bin": "2b01daf4b25f987578283f170a6540617416085dcd7f935a7f4794992d2848fb",
+    "12_goathead/geometry.txt": "4706d9c5c719492484f051fe8855812c9a9f124081047bbf7023a6fe31ab8f1c",
+    "12_goathead/groups.json": "598dea511450863da4c01fa471c5b3c8bc2679b7757a5bc69f37bd37627cc85d",
+    "12_goathead/RESULT.json": "57fb5839e9ed8faac7a520193768f08127aa0940a4e097af96f6dcd32d54e705",
+    "13_penguin/comparison.json": "fe4a180632c06d559e2b1c1459294d7b1206cab7e0bcb069dfaae7e4aaf9076c",
+    "13_penguin/comparison.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "13_penguin/comparison.points": "725411bde8121f580386044c91162f1b0cdfa264bfedfd4636535bf175f51574",
+    "13_penguin/COMPLETE": "043512caa74284a385e4b8845fc86f8c78e12382c8c573e7c905570443bb4913",
+    "13_penguin/epeck.bin": "5890909b5307bbcf122619b4a0cdaa59ec4c825d541d97809843f2e16ecd3228",
+    "13_penguin/epick.bin": "84fdb4288d7180f230229e22f7c5e4fb987188266379c464f0a67ae1232560cf",
+    "13_penguin/geometry.txt": "cc5550e160d3fd68bb4f33a5489940cb04dece156aa789a939c18b425a9d9829",
+    "13_penguin/groups.json": "8a406330afe258afd3a6dfd089842ed09fc1cefff2c592ceaf43572c125e1bed",
+    "13_penguin/RESULT.json": "bfdbe8c74268813130753a03c432dee193e37d66db2a620d3796566f5b75dc16",
+    "14_spot/comparison.json": "5a9338a468d2bdf298e8e4cdc93d2db7881cb0aab2e99418fad8e85cc054974c",
+    "14_spot/comparison.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "14_spot/comparison.points": "6aeabc6be1d66f5996e4926b8469db8d7615da420d8dd8f261d4af494eb4a40f",
+    "14_spot/COMPLETE": "043512caa74284a385e4b8845fc86f8c78e12382c8c573e7c905570443bb4913",
+    "14_spot/epeck.bin": "32c01ce3913fdb6f31c176c0b856f74f258ff268c7a14ba01a1cda34d218047c",
+    "14_spot/epick.bin": "608ea0af0db8c5e3bb2cf8cbdf078f9aefe4cd3625d102253505445d82617493",
+    "14_spot/geometry.txt": "d9660943ca56d80381bcc1ca5b18e4364cb726f374a13762a04ac1c89f28c0fc",
+    "14_spot/groups.json": "b98687a3b7543973b2993b644389d3093e3d671394a0a968af0fa51ccf3ac702",
+    "14_spot/RESULT.json": "e33776dce0216ef8f149bde24af4f1ebe16d2963950ff7e3d20f3a933dfc684b",
+    "14_wingnut/comparison.log": "1b15ac31d01196f7f2c77df90e8b8c87e410ca05669ca3559d65041005c3637c",
+    "14_wingnut/comparison.points": "1ee45fa59b19c184a3a9d5f60a5a6484d4cfdb38db87b427ea79ba34de0ced42",
+    "14_wingnut/geometry.txt": "08e02cf4a918234593dd3b712caf6e776c60d778aca6ea9167ca557f86c5086f",
+    "14_wingnut/groups.json": "9bd0196c9fe6cba6fed87f01f59ced6fb097e9966f9e2804ba1b566a50680976",
+    "15_brucewick/comparison.json": "64f005b57ea3da61822936bf4667a2bd16ead1237f80c9283dd865d09e333b9a",
+    "15_brucewick/comparison.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "15_brucewick/comparison.points": "cc17e45ab170499b2f4cd0fb8f513cfb07ba17b0ae3abb3394cf5ec77a138941",
+    "15_brucewick/COMPLETE": "043512caa74284a385e4b8845fc86f8c78e12382c8c573e7c905570443bb4913",
+    "15_brucewick/epeck.bin": "727ad83fddbb70796af2b7b15adab436560f28200909f99a845bfa86a154769c",
+    "15_brucewick/epick.bin": "290ec4bc9673b2a1710dda15952c9e2a95f83e3b73b5b3e31113d9d051c1fe16",
+    "15_brucewick/geometry.txt": "4340911fc13247a0d4b184ba122bda772bdbc90ff0d2778c7a1166441f9f197b",
+    "15_brucewick/groups.json": "ae5579103715ca8c2f962f6a6db8463bd4e82f1ca2893881e00a02a724934ad8",
+    "15_brucewick/RESULT.json": "7ae2ca31b52bffaca0e52433440b6a9131cc6058e1fb1cad569372ef37d251c2",
+    "SUMMARY.json": "a410a6c3fa7f82040355a24cf07618f63d441977d8d860837c6526cc55e894eb"
+  },
+  "input_sha256": {
+    "brucewick-normalized.obj": "475805dd89959326bce71ee5be435ad1174ef4142cb077cab0335da6fac81065",
+    "brucewick-README.md": "6a77e93cd293227f3c4a293dddd71011551adecdb2f620348ef7bdf1ca46eb90",
+    "brucewick.obj": "dd15ece1a38ecaf8cf35be6e8bd5085ab57e48d6da2b7014936cd906182a2401",
+    "goathead-normalized.obj": "ef65fd58095d52e0b59667d385acb8387a6a59afdbc6ebc9104a055e67538ab1",
+    "goathead-README.md": "239947c667a62910614ee9de69f7f3a3ee8d5ca93be90a0d74b595049a051245",
+    "goathead.obj": "b0aa414ce3c46e5e30ee506261f1e3cb85025e2a33b5b18bc638b08a7c57a6cb",
+    "penguin-normalized.obj": "9d63eb53fea73dae44d51a6bf8b0439e4004f52f6d32816d3d066888a8382248",
+    "penguin-README.md": "c3454032fe80191b92b996d25911cf9005affdcb3dab2b30f61d16decd91e7d9",
+    "penguin.obj": "ff6c992f97ea34c1a1f6a9477a2bcd68148a60fae68797d85765f7730d5ee9f2",
+    "REJECTED-wingnut.json": "d1c958baffec6fc58dac81507d09897230a59d722bcfb9cdade3061ee3ecd77c",
+    "rejections.json": "34978e8a3d6bf48f14fc53216302e576d1c57b2014524d3a6b7ecccec79f4b3a",
+    "spot-normalized.obj": "566dac562592d382f4537c8ef91ca0ea4a521be5995be6319e58d079783f43f5",
+    "spot-README.md": "7181ef960d96fdbf2495a7a094728a1b06c95899694c098378fef812c35db501",
+    "spot_low_resolution.obj": "87e930ef794271d6c6ab18ded4f8b8343d414720fe655489336c09cc9e7d5430",
+    "wingnut-normalized.obj": "a13b49e352989653708f1b49f2d8abf421664f90543a1d3f605b2c57ec30eee0",
+    "wingnut-README.md": "f5290b0b59ed09709341b78290eb38443fa2d245fa306078f0f43b0d3564dce4",
+    "wingnut.obj": "ff8d168e9cf43194d3821eef1f6efeac5149eed8b1578e6d97bc6a6aba95254a"
+  },
+  "platform": "Windows-11-10.0.26300-SP0",
+  "machine": "Intel64 Family 6 Model 165 Stepping 5, GenuineIntel",
+  "numpy_version": "2.5.3",
+  "created_utc": "2026-10-12T14:48:32Z"
+}

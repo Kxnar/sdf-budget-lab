@@ -1,0 +1,451 @@
+[
+  {
+    "geometry": "12_goathead",
+    "result": {
+      "geometry": "12_goathead",
+      "passed": true,
+      "queries": 36188,
+      "stratified_queries": 8192,
+      "maximum_distance_difference": 3.3306690738754696e-16,
+      "distance_threshold": 1e-10,
+      "unexplained_sign_mismatches": 0,
+      "near_band_sign_mismatches": 12011,
+      "tiny_sign_band": 1e-09,
+      "epeck_seconds": 23.1060028,
+      "epick_seconds": 0.1509428,
+      "sampler_max_delta": 2.2215299868541707e-16,
+      "epeck_geometric_validation": true,
+      "independent_brute_force_queries": 160,
+      "source_sha256": "b0aa414ce3c46e5e30ee506261f1e3cb85025e2a33b5b18bc638b08a7c57a6cb",
+      "normalized_sha256": "ef65fd58095d52e0b59667d385acb8387a6a59afdbc6ebc9104a055e67538ab1",
+      "executable_sha256": "b3e6e1b41ebba758cab5ab67056b971c2169be52d72b8fd92ca6429331e7f10f"
+    },
+    "comparison": {
+      "stratified_queries": 8192,
+      "total_queries": 36188,
+      "epeck_seconds": 23.1060028,
+      "epick_seconds": 0.1509428,
+      "sampler_max_delta": 2.2215299868541707e-16,
+      "epeck_input_validation": true
+    },
+    "audit_manifest": {
+      "comparison.json": "7671279c5ec565a93bdeb54fe3217b580cc23f098662dc17406eaf6c592b6ab9",
+      "comparison.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparison.points": "cdd081adacc307e4a1dc4f93156a33f9e32870f2953aa8abd841ffb1d6133453",
+      "COMPLETE": "043512caa74284a385e4b8845fc86f8c78e12382c8c573e7c905570443bb4913",
+      "epeck.bin": "d0ce89ea876d31ba50b63a6274c7f9d35e3e7993bebb6bec0993e42807ff86a4",
+      "epick.bin": "2b01daf4b25f987578283f170a6540617416085dcd7f935a7f4794992d2848fb",
+      "geometry.txt": "4706d9c5c719492484f051fe8855812c9a9f124081047bbf7023a6fe31ab8f1c",
+      "groups.json": "598dea511450863da4c01fa471c5b3c8bc2679b7757a5bc69f37bd37627cc85d",
+      "RESULT.json": "57fb5839e9ed8faac7a520193768f08127aa0940a4e097af96f6dcd32d54e705"
+    },
+    "input_provenance": {
+      "id": "12_goathead",
+      "shape": "mesh",
+      "stratum": "real_mesh",
+      "parameters": [
+        0.04,
+        1,
+        0
+      ],
+      "rotation": [
+        [
+          -0.8525205271834121,
+          0.10603062708562172,
+          -0.5118263932729017
+        ],
+        [
+          -0.3243341342955253,
+          0.660589494209573,
+          0.6770737695928802
+        ],
+        [
+          0.40989769462841497,
+          0.74322205716715,
+          -0.5287767522107419
+        ]
+      ],
+      "translation": [
+        -0.02869421718823183,
+        -0.026739020621359442,
+        -8.469977521674554e-05
+      ],
+      "noise": 0.02,
+      "expected_euler": [
+        2
+      ],
+      "normalized_mesh": "runs/generalization-v1/inputs/goathead-normalized.obj",
+      "source_mesh": "runs/generalization-v1/inputs/goathead.obj",
+      "source_revision": "835213277571d625722d25880c9c3010c6f45a5a",
+      "source_url": "https://raw.githubusercontent.com/odedstein/meshes/835213277571d625722d25880c9c3010c6f45a5a/objects/goathead/goathead.obj",
+      "license_text": "# Goat head\n\nMesh of a goat heat, remeshed from a mesh by by [hugoelec via Thingiverse](https://www.thingiverse.com/thing:42256).\n\n![goathead](goathead.png)\n\nThe mesh is hereby released under the [Creative Commons Attribution 3.0 Unported (CC BY 3.0) license](https://creativecommons.org/licenses/by/3.0/), with appropriate attribution to the original contributor.\n\nYou can cite this object in your work using this bibtex snippet:\n```\n@misc{goathead-mesh,\n  title = {{Goat head}},\n  author = {hugoelec},\n  note = {Downloaded modified version from odedstein-meshes \\url{github.com/odedstein/meshes/tree/master/objects/goathead}, originally from \\url{thingiverse.com/thing:42256}. Asset licensed under CC BY 3.0.},\n  year = {2019}\n}\n```\n",
+      "source_sha256": "b0aa414ce3c46e5e30ee506261f1e3cb85025e2a33b5b18bc638b08a7c57a6cb",
+      "normalized_sha256": "ef65fd58095d52e0b59667d385acb8387a6a59afdbc6ebc9104a055e67538ab1",
+      "normalization": {
+        "original_center": [
+          0.7988499999999998,
+          2.7070454999999995,
+          0.714709
+        ],
+        "original_radius": 10.696591163496306,
+        "scale_to_domain": 0.0701157956339853,
+        "original_units": "unspecified in upstream OBJ; distances convert by dividing scale_to_domain",
+        "normalized_bounding_sphere_radius": 0.75
+      },
+      "vertices": 2763,
+      "triangles": 5522,
+      "oracle": "CGAL:EPICK-audited",
+      "oracle_comparison_sha256": "57fb5839e9ed8faac7a520193768f08127aa0940a4e097af96f6dcd32d54e705",
+      "epeck_validation_sha256": "57fb5839e9ed8faac7a520193768f08127aa0940a4e097af96f6dcd32d54e705",
+      "reference_subdir": "reference-fast/12_goathead",
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1,
+        2
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 12.838992595672607
+    }
+  },
+  {
+    "geometry": "13_penguin",
+    "result": {
+      "geometry": "13_penguin",
+      "passed": true,
+      "queries": 42232,
+      "stratified_queries": 8192,
+      "maximum_distance_difference": 3.375447867678762e-16,
+      "distance_threshold": 1e-10,
+      "unexplained_sign_mismatches": 0,
+      "near_band_sign_mismatches": 14467,
+      "tiny_sign_band": 1e-09,
+      "epeck_seconds": 24.728013,
+      "epick_seconds": 0.1607743,
+      "sampler_max_delta": 2.2247786310271853e-16,
+      "epeck_geometric_validation": true,
+      "independent_brute_force_queries": 160,
+      "source_sha256": "ff6c992f97ea34c1a1f6a9477a2bcd68148a60fae68797d85765f7730d5ee9f2",
+      "normalized_sha256": "9d63eb53fea73dae44d51a6bf8b0439e4004f52f6d32816d3d066888a8382248",
+      "executable_sha256": "b3e6e1b41ebba758cab5ab67056b971c2169be52d72b8fd92ca6429331e7f10f"
+    },
+    "comparison": {
+      "stratified_queries": 8192,
+      "total_queries": 42232,
+      "epeck_seconds": 24.728013,
+      "epick_seconds": 0.1607743,
+      "sampler_max_delta": 2.2247786310271853e-16,
+      "epeck_input_validation": true
+    },
+    "audit_manifest": {
+      "comparison.json": "fe4a180632c06d559e2b1c1459294d7b1206cab7e0bcb069dfaae7e4aaf9076c",
+      "comparison.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparison.points": "725411bde8121f580386044c91162f1b0cdfa264bfedfd4636535bf175f51574",
+      "COMPLETE": "043512caa74284a385e4b8845fc86f8c78e12382c8c573e7c905570443bb4913",
+      "epeck.bin": "5890909b5307bbcf122619b4a0cdaa59ec4c825d541d97809843f2e16ecd3228",
+      "epick.bin": "84fdb4288d7180f230229e22f7c5e4fb987188266379c464f0a67ae1232560cf",
+      "geometry.txt": "cc5550e160d3fd68bb4f33a5489940cb04dece156aa789a939c18b425a9d9829",
+      "groups.json": "8a406330afe258afd3a6dfd089842ed09fc1cefff2c592ceaf43572c125e1bed",
+      "RESULT.json": "bfdbe8c74268813130753a03c432dee193e37d66db2a620d3796566f5b75dc16"
+    },
+    "input_provenance": {
+      "id": "13_penguin",
+      "shape": "mesh",
+      "stratum": "real_mesh",
+      "parameters": [
+        0.04,
+        1,
+        0
+      ],
+      "rotation": [
+        [
+          -0.03137697116921201,
+          0.9995074351151519,
+          0.0006105978846465907
+        ],
+        [
+          0.08206047111993428,
+          0.001967240662638176,
+          0.9966254105950489
+        ],
+        [
+          0.9961333067214553,
+          0.031321192724823865,
+          -0.08208177706698103
+        ]
+      ],
+      "translation": [
+        -0.010090846286138194,
+        0.02530174966885751,
+        -0.01781223528750303
+      ],
+      "noise": 0.02,
+      "expected_euler": [
+        2
+      ],
+      "normalized_mesh": "runs/generalization-v1/inputs/penguin-normalized.obj",
+      "source_mesh": "runs/generalization-v1/inputs/penguin.obj",
+      "source_revision": "835213277571d625722d25880c9c3010c6f45a5a",
+      "source_url": "https://raw.githubusercontent.com/odedstein/meshes/835213277571d625722d25880c9c3010c6f45a5a/objects/penguin/penguin.obj",
+      "license_text": "# Penguin\n\nControl mesh and high-resolution mesh of a penguin.\n\nPenguin:\n![penguin](penguin.png)\n\nHigher-resolution penguin:\n![Higher-resolution penguin](penguin_hr.png)\n\nPenguin control mesh:\n![penguin_control_mesh](penguin_control_mesh.png)\n\nThe mesh is hereby released under the [Creative Commons Attribution 4.0 International (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/).\n\nYou can cite this object in your work using this bibtex snippet:\n```\n@misc{penguin-mesh,\n  title = {{Penguin}},\n  author = {Stein, Oded},\n  note = {Downloaded from odedstein-meshes \\url{github.com/odedstein/meshes/tree/master/objects/pengiun}. Asset licensed under CC BY 4.0.},\n  year = {2023}\n}\n```\n",
+      "source_sha256": "ff6c992f97ea34c1a1f6a9477a2bcd68148a60fae68797d85765f7730d5ee9f2",
+      "normalized_sha256": "9d63eb53fea73dae44d51a6bf8b0439e4004f52f6d32816d3d066888a8382248",
+      "normalization": {
+        "original_center": [
+          0.02658900000000003,
+          -0.1274320000000001,
+          -0.0903815
+        ],
+        "original_radius": 1.6596359092982562,
+        "scale_to_domain": 0.4519063463245517,
+        "original_units": "unspecified in upstream OBJ; distances convert by dividing scale_to_domain",
+        "normalized_bounding_sphere_radius": 0.75
+      },
+      "vertices": 3362,
+      "triangles": 6720,
+      "oracle": "CGAL:EPICK-audited",
+      "oracle_comparison_sha256": "bfdbe8c74268813130753a03c432dee193e37d66db2a620d3796566f5b75dc16",
+      "epeck_validation_sha256": "bfdbe8c74268813130753a03c432dee193e37d66db2a620d3796566f5b75dc16",
+      "reference_subdir": "reference-fast/13_penguin",
+      "qualified_levels": [],
+      "reference_status": "oracle_resolution_unresolved",
+      "feature_groups": [
+        0,
+        1,
+        2
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 77.92828416824341
+    }
+  },
+  {
+    "geometry": "14_spot",
+    "result": {
+      "geometry": "14_spot",
+      "passed": true,
+      "queries": 16870,
+      "stratified_queries": 8192,
+      "maximum_distance_difference": 3.3306690738754696e-16,
+      "distance_threshold": 1e-10,
+      "unexplained_sign_mismatches": 0,
+      "near_band_sign_mismatches": 3658,
+      "tiny_sign_band": 1e-09,
+      "epeck_seconds": 9.4102806,
+      "epick_seconds": 0.0589481,
+      "sampler_max_delta": 2.2887833992611187e-16,
+      "epeck_geometric_validation": true,
+      "independent_brute_force_queries": 160,
+      "source_sha256": "87e930ef794271d6c6ab18ded4f8b8343d414720fe655489336c09cc9e7d5430",
+      "normalized_sha256": "566dac562592d382f4537c8ef91ca0ea4a521be5995be6319e58d079783f43f5",
+      "executable_sha256": "b3e6e1b41ebba758cab5ab67056b971c2169be52d72b8fd92ca6429331e7f10f"
+    },
+    "comparison": {
+      "stratified_queries": 8192,
+      "total_queries": 16870,
+      "epeck_seconds": 9.4102806,
+      "epick_seconds": 0.0589481,
+      "sampler_max_delta": 2.2887833992611187e-16,
+      "epeck_input_validation": true
+    },
+    "audit_manifest": {
+      "comparison.json": "5a9338a468d2bdf298e8e4cdc93d2db7881cb0aab2e99418fad8e85cc054974c",
+      "comparison.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparison.points": "6aeabc6be1d66f5996e4926b8469db8d7615da420d8dd8f261d4af494eb4a40f",
+      "COMPLETE": "043512caa74284a385e4b8845fc86f8c78e12382c8c573e7c905570443bb4913",
+      "epeck.bin": "32c01ce3913fdb6f31c176c0b856f74f258ff268c7a14ba01a1cda34d218047c",
+      "epick.bin": "608ea0af0db8c5e3bb2cf8cbdf078f9aefe4cd3625d102253505445d82617493",
+      "geometry.txt": "d9660943ca56d80381bcc1ca5b18e4364cb726f374a13762a04ac1c89f28c0fc",
+      "groups.json": "b98687a3b7543973b2993b644389d3093e3d671394a0a968af0fa51ccf3ac702",
+      "RESULT.json": "e33776dce0216ef8f149bde24af4f1ebe16d2963950ff7e3d20f3a933dfc684b"
+    },
+    "input_provenance": {
+      "id": "14_spot",
+      "shape": "mesh",
+      "stratum": "real_mesh",
+      "parameters": [
+        0.04,
+        1,
+        0
+      ],
+      "rotation": [
+        [
+          -0.26169390472859333,
+          0.9258914901335028,
+          -0.27247247333678226
+        ],
+        [
+          0.062144932174199995,
+          -0.2655601671630933,
+          -0.9620892916051887
+        ],
+        [
+          -0.9631481234124718,
+          -0.26870568679257895,
+          0.011956013230272348
+        ]
+      ],
+      "translation": [
+        0.025320707979265146,
+        -0.0005281845626807988,
+        0.03025815029852455
+      ],
+      "noise": 0.02,
+      "expected_euler": [
+        2
+      ],
+      "normalized_mesh": "runs/generalization-v1/inputs/spot-normalized.obj",
+      "source_mesh": "runs/generalization-v1/inputs/spot_low_resolution.obj",
+      "source_revision": "835213277571d625722d25880c9c3010c6f45a5a",
+      "source_url": "https://raw.githubusercontent.com/odedstein/meshes/835213277571d625722d25880c9c3010c6f45a5a/objects/spot/spot_low_resolution.obj",
+      "license_text": "# Spot\n\nThe quad control mesh and textures, as well as triangle meshes with two different resolutions of Spot the cow by [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/).\n\nSpot:\n![spot](spot.png)\n\nLow-resolution spot:\n![spot_low_resolution](spot_low_resolution.png)\n\nSpot control mesh:\n![spot_control_mesh](spot_control_mesh.png)\n\nThe original quad mesh was released into the public domain by its creator.\nThe remeshed versions are hereby also released into the public domain.\n\nYou can cite this object in your work using this bibtex snippet:\n```\n@misc{spot-mesh,\n  title = {{Spot}},\n  author = {Crane, Keenan},\n  note = {Downloaded modified version from odedstein-meshes \\url{github.com/odedstein/meshes/tree/master/objects/spot}, originally from \\url{cs.cmu.edu/~kmcrane/Projects/ModelRepository}.},\n  year = {2019}\n}\n```\n",
+      "source_sha256": "87e930ef794271d6c6ab18ded4f8b8343d414720fe655489336c09cc9e7d5430",
+      "normalized_sha256": "566dac562592d382f4537c8ef91ca0ea4a521be5995be6319e58d079783f43f5",
+      "normalization": {
+        "original_center": [
+          0.008706499999999978,
+          0.1460075,
+          0.18894199999999994
+        ],
+        "original_radius": 1.108548749482629,
+        "scale_to_domain": 0.6765602327818535,
+        "original_units": "unspecified in upstream OBJ; distances convert by dividing scale_to_domain",
+        "normalized_bounding_sphere_radius": 0.75
+      },
+      "vertices": 829,
+      "triangles": 1654,
+      "oracle": "CGAL:EPICK-audited",
+      "oracle_comparison_sha256": "e33776dce0216ef8f149bde24af4f1ebe16d2963950ff7e3d20f3a933dfc684b",
+      "epeck_validation_sha256": "e33776dce0216ef8f149bde24af4f1ebe16d2963950ff7e3d20f3a933dfc684b",
+      "reference_subdir": "reference-fast/14_spot",
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1,
+        2
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 8.847062349319458
+    }
+  },
+  {
+    "geometry": "15_brucewick",
+    "result": {
+      "geometry": "15_brucewick",
+      "passed": true,
+      "queries": 22974,
+      "stratified_queries": 8192,
+      "maximum_distance_difference": 3.885780586188048e-16,
+      "distance_threshold": 1e-10,
+      "unexplained_sign_mismatches": 0,
+      "near_band_sign_mismatches": 6432,
+      "tiny_sign_band": 1e-09,
+      "epeck_seconds": 13.9212003,
+      "epick_seconds": 0.1112477,
+      "sampler_max_delta": 2.2887833992611187e-16,
+      "epeck_geometric_validation": true,
+      "independent_brute_force_queries": 160,
+      "source_sha256": "dd15ece1a38ecaf8cf35be6e8bd5085ab57e48d6da2b7014936cd906182a2401",
+      "normalized_sha256": "475805dd89959326bce71ee5be435ad1174ef4142cb077cab0335da6fac81065",
+      "executable_sha256": "b3e6e1b41ebba758cab5ab67056b971c2169be52d72b8fd92ca6429331e7f10f"
+    },
+    "comparison": {
+      "stratified_queries": 8192,
+      "total_queries": 22974,
+      "epeck_seconds": 13.9212003,
+      "epick_seconds": 0.1112477,
+      "sampler_max_delta": 2.2887833992611187e-16,
+      "epeck_input_validation": true
+    },
+    "audit_manifest": {
+      "comparison.json": "64f005b57ea3da61822936bf4667a2bd16ead1237f80c9283dd865d09e333b9a",
+      "comparison.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparison.points": "cc17e45ab170499b2f4cd0fb8f513cfb07ba17b0ae3abb3394cf5ec77a138941",
+      "COMPLETE": "043512caa74284a385e4b8845fc86f8c78e12382c8c573e7c905570443bb4913",
+      "epeck.bin": "727ad83fddbb70796af2b7b15adab436560f28200909f99a845bfa86a154769c",
+      "epick.bin": "290ec4bc9673b2a1710dda15952c9e2a95f83e3b73b5b3e31113d9d051c1fe16",
+      "geometry.txt": "4340911fc13247a0d4b184ba122bda772bdbc90ff0d2778c7a1166441f9f197b",
+      "groups.json": "ae5579103715ca8c2f962f6a6db8463bd4e82f1ca2893881e00a02a724934ad8",
+      "RESULT.json": "7ae2ca31b52bffaca0e52433440b6a9131cc6058e1fb1cad569372ef37d251c2"
+    },
+    "input_provenance": {
+      "id": "15_brucewick",
+      "shape": "mesh",
+      "stratum": "real_mesh",
+      "parameters": [
+        0.04,
+        1,
+        0
+      ],
+      "rotation": [
+        [
+          -0.22197960734389544,
+          -0.9541219139965812,
+          -0.2009388642223067
+        ],
+        [
+          -0.2761781371823861,
+          -0.1361158737166583,
+          0.9514189957452068
+        ],
+        [
+          -0.935120682300374,
+          0.2666905363035054,
+          -0.2332926646515735
+        ]
+      ],
+      "translation": [
+        -0.024432651101843134,
+        0.016627493616778052,
+        0.02561929331964615
+      ],
+      "noise": 0.02,
+      "expected_euler": [
+        2
+      ],
+      "normalized_mesh": "runs/generalization-v1/inputs/brucewick-normalized.obj",
+      "source_mesh": "runs/generalization-v1/inputs/brucewick.obj",
+      "source_revision": "835213277571d625722d25880c9c3010c6f45a5a",
+      "source_url": "https://raw.githubusercontent.com/odedstein/meshes/835213277571d625722d25880c9c3010c6f45a5a/objects/brucewick/brucewick.obj",
+      "license_text": "# Brucewick\n\nMesh of a head created by [Josh Holinaty](https://holinaty.com/).\n\n![brucewick](brucewick.png)\n\nLicensed under the [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/) License.\n\nYou can cite this object in your work using this bibtex snippet:\n```\n@misc{brucewick-mesh,\n  title = {{Brucewick}},\n  author = {Holinaty, Josh},\n  note = {Downloaded from odedstein-meshes \\url{github.com/odedstein/meshes/tree/master/objects/brucewick}. Asset licensed under CC BY-NC 4.0.},\n  year = {2023}\n}\n```\n",
+      "source_sha256": "dd15ece1a38ecaf8cf35be6e8bd5085ab57e48d6da2b7014936cd906182a2401",
+      "normalized_sha256": "475805dd89959326bce71ee5be435ad1174ef4142cb077cab0335da6fac81065",
+      "normalization": {
+        "original_center": [
+          -0.5673414999999999,
+          0.15245599999999998,
+          0.30720949999999997
+        ],
+        "original_radius": 1.4728197921156208,
+        "scale_to_domain": 0.5092272686821164,
+        "original_units": "unspecified in upstream OBJ; distances convert by dividing scale_to_domain",
+        "normalized_bounding_sphere_radius": 0.75
+      },
+      "vertices": 1431,
+      "triangles": 2858,
+      "oracle": "CGAL:EPICK-audited",
+      "oracle_comparison_sha256": "7ae2ca31b52bffaca0e52433440b6a9131cc6058e1fb1cad569372ef37d251c2",
+      "epeck_validation_sha256": "7ae2ca31b52bffaca0e52433440b6a9131cc6058e1fb1cad569372ef37d251c2",
+      "reference_subdir": "reference-fast/15_brucewick",
+      "qualified_levels": [
+        64,
+        96
+      ],
+      "reference_status": "qualified",
+      "feature_groups": [
+        0,
+        1,
+        2
+      ],
+      "ray_count": 96,
+      "qualification_seconds": 12.167105197906494
+    }
+  }
+]

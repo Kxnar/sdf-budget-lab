@@ -1,0 +1,17 @@
+{
+  "frozen_sha256": "d4d55bdd672a954bb91564dbfede2b0661d6f34fed41a869b7a58fbad4cfa533",
+  "helpers": {
+    "generalization_v2_report_amended.py": "f0aaeea102558b8b79ad655a74c7aa6b05662fc1314702ed381f44ecb7edd300",
+    "generalization_v2_reproduce_amended.py": "f787283f2d85e2dd0ed3db8c30caed692f50f15cc3d0daf6e39c45e8c1590b0b"
+  },
+  "scope": "Reporting and reproduction coverage only; no field, gate, evaluator, codec or reference changes",
+  "checks": [
+    "verification full SHA256 manifest and original freeze/evaluator identity",
+    "retain44 base reproduction jobs and add every other contributing fitting-seed crossing and adjacent smaller cap",
+    "compare exact flags, roots/tangencies, signed interval witnesses, surfaces/topology and decoded-invalid outcomes",
+    "deterministic compact/grid comparisons emitted once",
+    "physical encoded-field records versus distinct binary hashes",
+    "conditional qualified-mesh savings with unresolved Fish explicit",
+    "per-gate failures, query/build phases and separate cumulative construction/total process peaks"
+  ]
+}

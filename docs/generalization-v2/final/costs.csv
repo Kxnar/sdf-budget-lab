@@ -1,0 +1,157 @@
+geometry,method,seed,native_build_and_sweep_pack_seconds,query_median_ns,query_maximum_batch_ns,query_scope,logical_build_or_query_triangle_work,owned_process_elapsed_seconds
+00_fish,grid,0,2.3792068,24.392,34.157,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",250047,3.531240224838257
+00_fish,mse,340,1.2506668,68.039,98.136,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,3.5080997943878174
+00_fish,mse,341,1.2848796,73.032,99.38,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,3.50860595703125
+00_fish,mse,342,1.2504249,69.632,99.114,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,3.5078940391540527
+00_fish,mse,343,1.2588986999999998,68.31,98.775,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,3.5088908672332764
+00_fish,mse,344,1.2563667,70.034,94.545,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,3.5083160400390625
+00_fish,sign,340,1.2558887,70.173,101.788,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,3.508718490600586
+00_fish,sign,341,1.2581104,68.573,108.863,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,3.5110979080200195
+00_fish,sign,342,1.2583776000000002,75.928,99.877,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,3.5087502002716064
+00_fish,sign,343,1.2956627,69.698,116.093,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,3.5086963176727295
+00_fish,sign,344,1.2956644000000002,72.506,97.055,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,3.509127378463745
+00_fish,cvar99,340,5.2538831,67.139,87.762,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,7.514599800109863
+00_fish,cvar99,341,5.221964,67.297,89.609,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,7.51263427734375
+00_fish,cvar99,342,5.0796861,66.976,87.332,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,7.013731002807617
+00_fish,cvar99,343,5.2388068,67.322,95.913,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,7.513627767562866
+00_fish,cvar99,344,5.2371056,67.499,94.283,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,7.512802362442017
+00_fish,selective32,340,1.2930277000000001,68.634,112.938,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,3.509824514389038
+00_fish,selective32,341,1.2894847,69.859,99.511,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,3.5112671852111816
+00_fish,selective32,342,1.3045936,73.343,118.197,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,3.5088882446289062
+00_fish,selective32,343,1.2633911999999998,68.18,101.496,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,3.508762836456299
+00_fish,selective32,344,1.2608700999999998,72.369,93.54,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,3.509183645248413
+00_fish,candidate_original,340,1.3516171,65.248,96.458,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,3.5095713138580322
+00_fish,candidate_original,341,1.3153717,65.459,113.599,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,3.508816719055176
+00_fish,candidate_original,342,1.3234405999999999,70.709,137.598,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,3.5091309547424316
+00_fish,candidate_original,343,1.5838229000000001,73.212,102.131,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,4.0090556144714355
+00_fish,candidate_original,344,1.2999197,69.65,109.885,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,3.508843421936035
+00_fish,coverage_q8,340,3.8197463,67.054,105.547,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,6.011713743209839
+00_fish,coverage_q8,341,3.7926238999999997,68.339,106.571,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,6.012060880661011
+00_fish,coverage_q8,342,3.7666918,67.442,119.74,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,6.011969089508057
+00_fish,coverage_q8,343,3.7516325999999998,68.63,95.727,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,6.012230157852173
+00_fish,coverage_q8,344,3.7565969999999997,68.149,91.728,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,6.011903762817383
+00_fish,candidate,340,5.2799466,67.214,97.52,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,7.512892961502075
+00_fish,candidate,341,5.2630675,64.533,96.911,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,7.514988660812378
+00_fish,candidate,342,5.264003000000001,65.985,107.775,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,7.512596845626831
+00_fish,candidate,343,5.216313100000001,66.719,92.102,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,7.512495756149292
+00_fish,candidate,344,5.3423706,66.015,91.454,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,7.513111591339111
+00_fish,compact_f64,0,0.2025685,137672.2900390625,142692.2607421875,"4096 matched uniform sites, nine batches",22106010,37.546695709228516
+00_fish,compact_f32,0,0.1726459,137449.90234375,139811.23046875,"4096 matched uniform sites, nine batches",22106010,36.53843307495117
+00_fish,compact_Q24,0,0.2089576,152058.7890625,162602.4169921875,"4096 matched uniform sites, nine batches",22106010,41.05213236808777
+01_mushroom,grid,0,7.797909,25.048,48.269,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",250047,10.03137469291687
+01_mushroom,mse,340,3.8855988999999997,66.79,98.624,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.511867046356201
+01_mushroom,mse,341,3.8442093,67.282,97.637,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.512628078460693
+01_mushroom,mse,342,3.8790295999999995,67.249,97.071,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.5141682624816895
+01_mushroom,mse,343,3.9189777,70.614,96.932,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.511263370513916
+01_mushroom,mse,344,3.8500205000000003,67.693,94.011,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.511178731918335
+01_mushroom,sign,340,4.0367821,68.026,94.912,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.511000394821167
+01_mushroom,sign,341,3.9428608999999994,69.509,100.193,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.511892318725586
+01_mushroom,sign,342,3.9563751000000003,68.247,100.779,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.511744022369385
+01_mushroom,sign,343,4.3892314,69.074,121.865,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,7.032590627670288
+01_mushroom,sign,344,3.9744938000000007,67.166,119.201,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.5125343799591064
+01_mushroom,cvar99,340,7.883216900000001,67.73,99.176,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,10.516133785247803
+01_mushroom,cvar99,341,7.7569954,67.993,92.755,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,10.515750169754028
+01_mushroom,cvar99,342,8.0843866,67.257,88.637,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,10.516971826553345
+01_mushroom,cvar99,343,8.1352096,69.262,101.339,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,11.016781330108643
+01_mushroom,cvar99,344,8.1643244,69.568,78.84199999999998,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,11.016490459442139
+01_mushroom,selective32,340,3.9295959,68.969,95.718,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,6.511790990829468
+01_mushroom,selective32,341,4.0500386,71.026,162.84799999999998,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,7.011569023132324
+01_mushroom,selective32,342,4.002333,71.82,123.592,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,7.012399911880493
+01_mushroom,selective32,343,3.9651601,69.054,109.398,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,6.512915849685669
+01_mushroom,selective32,344,3.9255466,70.079,98.972,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,6.512511730194092
+01_mushroom,candidate_original,340,4.1366407,66.404,108.254,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,7.013672828674316
+01_mushroom,candidate_original,341,4.2802726,79.915,115.212,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,7.514803171157837
+01_mushroom,candidate_original,342,4.1336123,65.126,94.554,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,7.01227331161499
+01_mushroom,candidate_original,343,4.0510556,65.04,100.496,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,6.513650894165039
+01_mushroom,candidate_original,344,4.1572994,69.454,117.581,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,7.014206171035767
+01_mushroom,coverage_q8,340,11.3907225,69.705,100.406,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,14.019129037857056
+01_mushroom,coverage_q8,341,11.3633789,68.809,105.221,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,14.019749164581299
+01_mushroom,coverage_q8,342,10.9394521,66.484,97.708,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,13.518592119216919
+01_mushroom,coverage_q8,343,11.956292999999999,90.305,557.582,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,16.02176260948181
+01_mushroom,coverage_q8,344,11.697582400000002,68.331,96.078,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,14.519788265228271
+01_mushroom,candidate,340,15.391345900000001,67.193,115.959,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,18.02299451828003
+01_mushroom,candidate,341,15.4151247,67.225,98.286,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,18.022311210632324
+01_mushroom,candidate,342,15.5122563,67.973,97.722,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,18.52208638191223
+01_mushroom,candidate,343,15.787497100000001,68.845,94.842,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,18.521605968475342
+01_mushroom,candidate,344,15.786912899999999,68.612,105.484,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,18.523409128189087
+01_mushroom,compact_f64,0,2.5915926,346962.01171875,367883.1298828125,"4096 matched uniform sites, nine batches",54324988,92.0826301574707
+01_mushroom,compact_f32,0,2.1425345,341226.1962890625,351173.6328125,"4096 matched uniform sites, nine batches",54324988,89.08371829986572
+01_mushroom,compact_Q24,0,2.5714518,367633.447265625,373763.1103515625,"4096 matched uniform sites, nine batches",54325009,97.59412384033203
+02_springer,grid,0,7.0939783,24.378,34.406,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",250047,9.014275789260864
+02_springer,mse,340,3.6180295,70.899,116.728,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.513307094573975
+02_springer,mse,341,3.5631956000000002,69.179,101.793,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.011371374130249
+02_springer,mse,342,3.5060192,70.001,106.837,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.010765075683594
+02_springer,mse,343,3.4577941,69.382,93.795,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.011983871459961
+02_springer,mse,344,3.4558761,70.984,93.816,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.011703014373779
+02_springer,sign,340,3.3901952,68.609,97.689,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.012332439422607
+02_springer,sign,341,3.4652247,67.67,93.848,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.011988639831543
+02_springer,sign,342,3.4927080999999998,67.371,93.28,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.012075662612915
+02_springer,sign,343,3.3674227000000005,67.196,95.935,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.013525724411011
+02_springer,sign,344,3.4098165999999996,71.76,99.103,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,6.010397672653198
+02_springer,cvar99,340,7.166320099999999,67.903,89.244,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,9.516664981842041
+02_springer,cvar99,341,7.4365715,66.994,92.42,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,10.016576766967773
+02_springer,cvar99,342,7.2503932,67.062,95.917,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,9.516823291778564
+02_springer,cvar99,343,7.335214899999999,67.038,81.116,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,10.018144130706787
+02_springer,cvar99,344,7.291608500000001,67.858,86.727,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,9.513869524002075
+02_springer,selective32,340,3.50403,67.227,105.895,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,6.013765573501587
+02_springer,selective32,341,3.434439200000001,69.357,94.995,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,6.011342525482178
+02_springer,selective32,342,3.4463039999999996,67.338,105.482,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,6.011542558670044
+02_springer,selective32,343,3.5281867000000005,68.635,95.329,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,6.011784076690674
+02_springer,selective32,344,3.4583958999999993,68.323,102.579,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,6.0121190547943115
+02_springer,candidate_original,340,3.5883399000000002,65.693,92.595,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,6.012059450149536
+02_springer,candidate_original,341,3.6910900000000004,64.26,125.002,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,6.512378215789795
+02_springer,candidate_original,342,3.5420254,64.807,131.337,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,6.012227773666382
+02_springer,candidate_original,343,3.8092852,65.74,109.738,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,6.5120391845703125
+02_springer,candidate_original,344,3.5231609,65.258,99.408,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,6.012200117111206
+02_springer,coverage_q8,340,9.3586408,65.422,99.479,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,12.017644166946411
+02_springer,coverage_q8,341,9.3587228,68.06,95.934,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,12.018320560455322
+02_springer,coverage_q8,342,9.354462199999999,66.062,97.727,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,12.016696453094482
+02_springer,coverage_q8,343,9.276959399999999,66.845,97.235,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,12.01818561553955
+02_springer,coverage_q8,344,9.338932299999998,66.017,129.791,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,12.019088745117188
+02_springer,candidate,340,12.3264681,67.601,90.205,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,15.019533634185791
+02_springer,candidate,341,12.248710699999998,68.283,93.481,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,15.02148151397705
+02_springer,candidate,342,12.672374900000001,67.168,93.348,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,15.02048635482788
+02_springer,candidate,343,12.4879909,66.085,91.022,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,15.020095825195312
+02_springer,candidate,344,12.443859199999999,64.611,101.485,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,15.018336534500122
+02_springer,compact_f64,0,2.1124019,303807.8125,311062.841796875,"4096 matched uniform sites, nine batches",46893725,107.60286951065063
+02_springer,compact_f32,0,2.6395736999999997,314032.373046875,343211.4990234375,"4096 matched uniform sites, nine batches",46893754,108.11742615699768
+02_springer,compact_Q24,0,2.184401,318693.45703125,323100.390625,"4096 matched uniform sites, nine batches",46893802,116.61978483200073
+03_hammer,grid,0,25.7670986,25.0,35.235,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",250047,29.561511039733887
+03_hammer,mse,340,13.140716600000001,70.38,97.93,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,17.02075743675232
+03_hammer,mse,341,13.201675900000001,69.589,98.423,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,17.020730018615723
+03_hammer,mse,342,13.290685,73.941,94.799,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,17.02199625968933
+03_hammer,mse,343,13.045966100000001,73.592,100.353,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,17.021320343017578
+03_hammer,mse,344,13.0424695,69.857,112.709,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,17.022221326828003
+03_hammer,sign,340,13.1688245,71.05,96.411,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,17.021079063415527
+03_hammer,sign,341,13.0690134,69.869,106.036,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,17.02271842956543
+03_hammer,sign,342,13.198740600000002,70.936,96.424,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,17.022529125213623
+03_hammer,sign,343,13.111577999999998,72.006,125.311,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,17.02261781692505
+03_hammer,sign,344,13.112947000000002,70.231,98.008,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",309592,17.024071216583252
+03_hammer,cvar99,340,16.8184753,64.872,85.339,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,20.526735305786133
+03_hammer,cvar99,341,16.742559699999997,65.068,81.356,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,20.026174068450928
+03_hammer,cvar99,342,16.6977282,64.307,73.03,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,20.024364233016968
+03_hammer,cvar99,343,16.6682604,64.366,76.339,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,20.02498745918274
+03_hammer,cvar99,344,16.5134086,64.437,70.396,"100000 uniform sites, nine batches per cap; CVaR cap-specific allocation summed",309592,20.025096893310547
+03_hammer,selective32,340,13.1517885,67.346,97.93,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,17.02110981941223
+03_hammer,selective32,341,13.232633,71.843,96.1,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,17.019570112228394
+03_hammer,selective32,342,13.1529298,69.958,94.869,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,17.022676706314087
+03_hammer,selective32,343,13.263570000000001,68.875,94.057,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,17.02277636528015
+03_hammer,selective32,344,13.436535000000001,69.515,95.257,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",311640,17.52234172821045
+03_hammer,candidate_original,340,13.603232,67.805,93.178,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,17.52574324607849
+03_hammer,candidate_original,341,13.5805636,72.692,110.06,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,17.521949768066406
+03_hammer,candidate_original,342,13.5671734,68.897,123.911,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,17.526036262512207
+03_hammer,candidate_original,343,13.6737055,67.884,104.503,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,17.521801948547363
+03_hammer,candidate_original,344,13.5776914,68.806,102.252,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",325976,17.023765087127686
+03_hammer,coverage_q8,340,27.047152699999998,67.618,102.586,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,31.035385131835938
+03_hammer,coverage_q8,341,27.5317477,68.049,102.505,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,31.03654170036316
+03_hammer,coverage_q8,342,26.910389399999996,67.476,94.542,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,30.53469443321228
+03_hammer,coverage_q8,343,26.853345999999995,68.321,123.41,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,30.53240728378296
+03_hammer,coverage_q8,344,26.696811299999997,67.181,98.23,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",866648,30.53131079673767
+03_hammer,candidate,340,35.6914902,67.383,113.393,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,39.542845249176025
+03_hammer,candidate,341,36.3023547,68.096,96.161,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,40.043638944625854
+03_hammer,candidate,342,36.2394589,69.0,94.977,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,40.04231786727905
+03_hammer,candidate,343,36.559637200000004,68.52,93.388,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,40.04305148124695
+03_hammer,candidate,344,35.2285857,66.524,109.733,"100000 uniform sites, nine batches per cap; combined maximum frontier/allocation phase counted once; oracle setup excluded",1128792,39.040653228759766
+03_hammer,compact_f64,0,6.5425848,1009625.9033203125,1021771.6552734376,"4096 matched uniform sites, nine batches",167838511,246.73239970207214
+03_hammer,compact_f32,0,5.469358,983566.4550781251,1008989.6728515625,"4096 matched uniform sites, nine batches",167838526,241.22213697433472
+03_hammer,compact_Q24,0,6.4991037,1082089.990234375,1098684.5947265625,"4096 matched uniform sites, nine batches",167838803,266.24447655677795

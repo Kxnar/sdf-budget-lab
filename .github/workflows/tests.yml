@@ -1,0 +1,31 @@
+name: correctness
+on: [push, pull_request]
+jobs:
+  analytic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y libboost-dev
+      - run: cmake -S . -B build -DSDF_WITH_CGAL=OFF -DCMAKE_BUILD_TYPE=Release
+      - run: cmake --build build --parallel 2
+      - run: ctest --test-dir build --output-on-failure
+      - run: ./build/sdf_bench --shape torus --seeds 0 --budgets 8192 --train 1024 --test 1024 --slice-size 65 --out runs/smoke
+      - run: ./build/sdf_allocation_bench --out runs/allocation-smoke
+      - run: python3 scripts/allocation_report.py runs/allocation-smoke --exe build/sdf_allocation_bench
+      - run: python3 scripts/verify_allocation.py runs/allocation-smoke
+      - run: python3 scripts/precision_evidence.py runs/precision-smoke --run --smoke --exe build/sdf_precision_bench
+      - run: python3 -m pip install numpy
+      - run: python3 -m unittest discover -s tests -p 'test_*.py'
+        env:
+          SDF_COMPACT_TESTS_EXE: ${{ github.workspace }}/build/sdf_compact_tests
+          SDF_GENERALIZATION_BENCH_EXE: ${{ github.workspace }}/build/sdf_generalization_bench
+      - run: python3 scripts/tail_run.py runs/tail-smoke --exe build/sdf_tail_bench --stage evaluation --grid 9 --smoke
+      - run: python3 scripts/tail_evidence.py runs/tail-smoke
+  mesh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y libcgal-dev
+      - run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+      - run: cmake --build build --parallel 2
+      - run: ctest --test-dir build --output-on-failure

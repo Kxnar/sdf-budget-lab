@@ -1,0 +1,13 @@
+{
+  "identity": {
+    "v1_frozen_sha256": "01a639c2d02f74eb0986d9abdeeb28eaa4990e5363accf86ada7f6c55688c3a4",
+    "native_sha256": "5aea1419f4328414eb6f311a53587472dc744d0f54fc7cc6791d4e9a0d0a7315",
+    "python_sha256": "a200e2257dfcc9c6b156ef3f06af3cd32081965aceba62ba1f3347096325bac8",
+    "script_sha256": "1ce27a1cb2a0becddd8adf1254ad954b43750584bb3d524948d73c14fc9321ba"
+  },
+  "fields": 344,
+  "unique_fields": 312,
+  "old_passes_rejected": 15,
+  "complete_rays": true,
+  "prior_artifacts_unchanged": true
+}

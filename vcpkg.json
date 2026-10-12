@@ -1,0 +1,6 @@
+{
+  "name": "sdf-budget-lab",
+  "version-string": "0.1.0",
+  "builtin-baseline": "08d0fe224aa55920c20eac560021b004102dbe8f",
+  "dependencies": ["cgal"]
+}

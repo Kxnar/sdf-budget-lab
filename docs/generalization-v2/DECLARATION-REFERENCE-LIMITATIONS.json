@@ -1,0 +1,10 @@
+{
+  "protocol_sha256": "8d2123e7ff6b166c96bb0efb15f553b89b9109b86e9f97259205e2c6815a288a",
+  "plan_sha256": "9fade3f2e629fa9dec996d2ef94c5ce57318181083ffdf1b6ea8e009e27ee7ea",
+  "candidate_ray_min_interval_eligibility": 1e-05,
+  "triangle_hit_proximity_deduplication": 1e-08,
+  "not_certified_geometric_identity": true,
+  "no_selected_interval_removal": true,
+  "no_result_driven_rejection": true,
+  "before_new_reference_generation": true
+}

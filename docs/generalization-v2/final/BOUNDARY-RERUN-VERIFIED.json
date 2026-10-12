@@ -1,0 +1,22 @@
+{
+  "exact_matching_files": {
+    "field.bin": "fde72642b68896c3a31a72ee33af9ed806daa4d94e4211df96447131a50c2783",
+    "uniform_pred.bin": "10a647961352ef0e8b04b19c41d260e14f5c8e88c79b048644f837aa6544bd1a",
+    "near_pred.bin": "750d083ab20a2b9261925c58c06f6550b41e6d6d77bb02c83a40740c274188b9",
+    "probes_pred.bin": "749bbb0ab322bc8572a0eaed47d11ffdff0f4bb781eaad74177c9939126eea29",
+    "audit_pred.bin": "98120bcf606ce46e595035960f197e5126b3fff48991309041f8956703d5de39",
+    "boundary_pred.bin": "b9bca3ea49362a82b5dca95cb3464bd154e274f11827d9405f72a1a06325a713",
+    "uniform_flags.bin": "7afaec9db2d1f347e46eee3af2a29726de4d4a78c6306b0bc2f3f7f859f918eb",
+    "near_flags.bin": "7afaec9db2d1f347e46eee3af2a29726de4d4a78c6306b0bc2f3f7f859f918eb",
+    "probes_flags.bin": "5cf4c99653bf7b21460a25273680c8992f5b25adba052ba176464ab1bd8ec3e2",
+    "audit_flags.bin": "922d5bc2baebc10166f919e5e2df86a29fdfff9538c7910f23f6db47770f2167",
+    "boundary_flags.bin": "f40ae0b5c3ef9b289d6ae6643c8432e77994ad72118031aa7a28aa1357efd88c",
+    "roots.csv": "ecbe2e8c20a07d61e97da7fd085361694eedd62a3975c19118155407a9e317db",
+    "ray_witnesses.csv": "746c80235ca6cb78dbf6cb1d387d89f41c9948a6658cf1e61ad29403a03f7c20",
+    "topology.csv": "2ea6a9157c744c5c47af5d42d49f3499eba308f88c932128e409ca57430dffcb"
+  },
+  "detached_exit": "unobserved",
+  "rerun_exit": 0,
+  "native_field_unchanged": true,
+  "frozen_sha256": "d4d55bdd672a954bb91564dbfede2b0661d6f34fed41a869b7a58fbad4cfa533"
+}

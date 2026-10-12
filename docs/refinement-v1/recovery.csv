@@ -1,0 +1,5 @@
+shape,method,depth,minimum_tested_recovered_feature
+torus,mse_q8,5,0.06
+torus,selective_q8,6,0.035
+double_sphere,mse_q8,5,0.1
+double_sphere,selective_q8,6,0.1

@@ -1,0 +1,34 @@
+{
+  "frozen_sha256": "d4d55bdd672a954bb91564dbfede2b0661d6f34fed41a869b7a58fbad4cfa533",
+  "helpers": {
+    "generalization_v2_report_amended4.py": "1e0ccfee04bb26ca3802a6af31df71d9ab180e08e434aba2f508a91d6626eccf",
+    "generalization_v2_reproduce_amended2.py": "b73d47d1e761d4174f45e61868233506292130d423a37714cd8bc4e5f6e5da6e",
+    "generalization_v2_figures.py": "b49f4f64938d8e9175095ca8ce334d03bb0aea47f91ce8f796ac336e79f33c69"
+  },
+  "scope": "Reporting and reproduction coverage only; no field, gate, evaluator, codec or reference changes",
+  "checks": [
+    "verification full SHA256 manifest and original freeze/evaluator identity",
+    "retain44 base reproduction jobs and add every other contributing fitting-seed crossing and adjacent smaller cap",
+    "compare exact flags, roots/tangencies, signed interval witnesses, surfaces/topology and decoded-invalid outcomes",
+    "deterministic compact/grid comparisons emitted once",
+    "physical encoded-field records versus distinct binary hashes",
+    "conditional qualified-mesh savings with unresolved Fish explicit",
+    "per-gate failures, query/build phases and separate cumulative construction/total process peaks"
+  ],
+  "prior_amendment_sha256": "ad29636685c6ef653577771706adeca44300496a6325a0e9b15087fa492b2c4a",
+  "corrections": [
+    "Timing columns are retained separately and excluded from deterministic acceptance equality",
+    "Exact flags/events/witnesses/surfaces remain byte comparisons",
+    "Decoded-invalid outcomes do not assume prediction files",
+    "Mojibake is replaced with ASCII; compact matched-scope cost/peak table and plot links added",
+    "Derive separate baseline logical and compact independent subset totals from per-job caches; preserved mixed metadata key clarified in report",
+    "Numerical flags counted even with reference-unresolved primary status; decoded-invalid gates are unassessed, not observed false",
+    "Compact observed topology failures derived from per-level assessment records; skipped topology counted separately"
+  ],
+  "focused_tests": {
+    "source_sha256": "5e4e80f044f2ff0322856619f75ad8b7d97e46dd8dd5da1a1cb024c216b6dbb7",
+    "checks": 4,
+    "passed": true,
+    "prior_test_source": "reporting-amendment2-source\\test_generalization_v2_procedural.py"
+  }
+}

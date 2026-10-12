@@ -1,0 +1,6 @@
+{
+  "k": 32,
+  "development_csv": "runs/refinement-v1-dev/development.csv",
+  "development_sha256": "ff188bf377364b374aa9a895611652be7de901ef8f38c5b62abf89ad5d4268a2",
+  "rule": "smallest K with mean SSE excess <=1% and every case <=5% versus K=1024"
+}

@@ -1,0 +1,7 @@
+shape,depth,budget,method,minimum_feature,full_size
+double_sphere,4,84324,full_q8,0.1,0.1
+double_sphere,5,674148,full_q8,0.1,0.1
+thin_box,4,84324,full_q8,0.035,0.07
+thin_box,5,674148,full_q8,0.02,0.04
+torus,4,84324,full_q8,0.1,0.2
+torus,5,674148,full_q8,0.06,0.12

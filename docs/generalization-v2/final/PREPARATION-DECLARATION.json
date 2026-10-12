@@ -1,0 +1,202 @@
+{
+  "protocol": "generalization-v2-compact",
+  "revision": "835213277571d625722d25880c9c3010c6f45a5a",
+  "slots": [
+    {
+      "slot": 0,
+      "primary": "fish",
+      "rotation_angles": [
+        0.8916582789685918,
+        -0.6722911057931098,
+        -2.9217421713245084
+      ],
+      "rotation": [
+        [
+          -0.7635646256871833,
+          0.6099133791678004,
+          0.2120724694799084
+        ],
+        [
+          -0.17062800847496848,
+          -0.5073215858125389,
+          0.8446957388862081
+        ],
+        [
+          0.6227801739964575,
+          0.6087942825624808,
+          0.4914411220036196
+        ]
+      ],
+      "translation": [
+        0.03288087985925266,
+        0.003925822376599615,
+        0.0016315069349287711
+      ],
+      "query_seed": 1880001,
+      "kernel_audit_seed": 591007
+    },
+    {
+      "slot": 1,
+      "primary": "mushroom",
+      "rotation_angles": [
+        -1.3698778145608217,
+        -1.6881577487417423,
+        -1.1971530704782063
+      ],
+      "rotation": [
+        [
+          -0.042739789086805424,
+          0.5410066038623501,
+          0.8399316430556367
+        ],
+        [
+          0.10901326300652378,
+          -0.8331550504218547,
+          0.5421888697172114
+        ],
+        [
+          0.993121049478605,
+          0.11473672704885282,
+          -0.023368024063475788
+        ]
+      ],
+      "translation": [
+        0.03143598809684932,
+        0.019044597844273106,
+        -0.010458341705947508
+      ],
+      "query_seed": 1881001,
+      "kernel_audit_seed": 591008
+    },
+    {
+      "slot": 2,
+      "primary": "springer",
+      "rotation_angles": [
+        1.1945020654947465,
+        1.48201201632423,
+        -2.8929069140287544
+      ],
+      "rotation": [
+        [
+          -0.0859400056669847,
+          -0.807424355396127,
+          -0.5836781867939793
+        ],
+        [
+          -0.021823814775911412,
+          -0.5841794404137816,
+          0.8113310683725034
+        ],
+        [
+          -0.996061261436557,
+          0.08246388125106532,
+          0.0325833048419716
+        ]
+      ],
+      "translation": [
+        -0.0341808085384465,
+        0.014985588618789472,
+        -0.02175885382596438
+      ],
+      "query_seed": 1882001,
+      "kernel_audit_seed": 591009
+    },
+    {
+      "slot": 3,
+      "primary": "hammer",
+      "rotation_angles": [
+        -1.3290149468404682,
+        2.642821646072205,
+        -0.9009010565997082
+      ],
+      "rotation": [
+        [
+          -0.5452598615267146,
+          -0.1006802288493339,
+          0.8321989995948769
+        ],
+        [
+          0.6883866506046782,
+          0.5127274372723007,
+          0.513063733212017
+        ],
+        [
+          -0.4783466344369331,
+          0.8526277420932448,
+          -0.2102627659283364
+        ]
+      ],
+      "translation": [
+        0.026871020762103015,
+        0.009757768555916743,
+        0.029946805769758
+      ],
+      "query_seed": 1883001,
+      "kernel_audit_seed": 591010
+    }
+  ],
+  "fallback_order": [
+    "stuffedtoy",
+    "boat"
+  ],
+  "files": {
+    "fish": "fish_low_resolution.obj",
+    "mushroom": "mushroom.obj",
+    "springer": "springer.obj",
+    "hammer": "hammer.obj",
+    "stuffedtoy": "stuffedtoy.obj",
+    "boat": "boat.obj"
+  },
+  "licenses": {
+    "fish": [
+      "Public domain",
+      "Keenan Crane"
+    ],
+    "mushroom": [
+      "CC BY-NC 4.0",
+      "Josh Holinaty"
+    ],
+    "springer": [
+      "GPLv2",
+      "TimEdwards"
+    ],
+    "hammer": [
+      "CC BY 4.0",
+      "Andrea Spognetta"
+    ],
+    "stuffedtoy": [
+      "Individual README follows libigl license; verify linked scope before use",
+      "Ilya Baran and Cosmic blobs"
+    ],
+    "boat": [
+      "CC BY 4.0",
+      "Oded Stein, Eitan Grinspun and Keenan Crane"
+    ]
+  },
+  "fit_seeds": [
+    340,
+    341,
+    342,
+    343,
+    344
+  ],
+  "fit_count": 10000,
+  "uniform_count": 100000,
+  "near_count": 100000,
+  "noise": 0.02,
+  "normalized_radius": 0.75,
+  "reference_ray_seed": 713007,
+  "reference_min_interval_eligibility": 1e-05,
+  "reference_hit_proximity_dedup": 1e-08,
+  "reference_probe_min_absolute_label": 1e-08,
+  "reference_ladder": [
+    64,
+    96,
+    128,
+    192
+  ],
+  "kernel_comparison_stratified_queries": 8192,
+  "kernel_distance_threshold": 1e-10,
+  "kernel_sign_band": 1e-09,
+  "no_fresh_representation_fitting": true
+}

@@ -1,0 +1,11 @@
+case,baseline_failed_probes,failures_in_selected_d5_cells
+double_sphere_0.060000_40,40,40
+double_sphere_0.060000_41,40,40
+double_sphere_0.100000_40,6,6
+double_sphere_0.100000_41,6,6
+torus_0.035000_40,51,50
+torus_0.035000_41,51,47
+torus_0.060000_40,0,0
+torus_0.060000_41,0,0
+torus_0.100000_40,0,0
+torus_0.100000_41,0,0

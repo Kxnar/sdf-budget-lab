@@ -1,0 +1,22 @@
+{
+  "helper_sha256": "a3a49bc146e8b95a0708bff570a21e64ac805d396d573a4a53b29060ad5033ab",
+  "frozen_sha256": "d4d55bdd672a954bb91564dbfede2b0661d6f34fed41a869b7a58fbad4cfa533",
+  "verified_manifest_sha256": "68e7676d8f7299794ca10646270de7350e8f8601e5f7c49488ba3bf54ff5afcb",
+  "reproduction_manifest_sha256": "a559c9a2d59cc2c72253dfea77cdcc87aca486c337a9c765d783e2b3641194fc",
+  "reproduction_seal_sha256": "59cbd3770898e756105ed93804475a1930c6ec80f786dcc9b93ca964858e4b64",
+  "completed_reproduction": {
+    "jobs": 44,
+    "observed_zero_exits": 44,
+    "selection_exact": true
+  },
+  "reporting_amendment_sha256": "e04e11a9bf1526c6a4c1128b6d2c3e2ec5028724ea5914137d9c4d15c1dedaea",
+  "report_sha256": "dff15d26526597b1aa86f07cdd0a25c3e2eea5fc60b03fed58d106cfde530c84",
+  "commands_sha256": "e9cd921661d8d81bb7234d2b8f6e92b426752a2fd20f1e63f5a72efdbcea3b81",
+  "documentation_sha256": {
+    "docs\\generalization-v2\\README.md": "2d7067be29b2995d1e8f333c58f829a243b5e1a6e53ec132b6de5a0647b8ee97",
+    "docs\\generalization-v2-current-interpretation.md": "711d9015b2f20871d8884bf02f0a35e96924f7a90755e9dd86f35504c9a80b04",
+    "README.md": "b95b6c8ab32ab64b38098936d189a9045a2a6e507c0bb08fed69d759b6caa605",
+    "docs\\fidelity-study.md": "05ecb9e0ae1656cc82e2dc5865924a04cec204b353fa3d32a85033213347e013"
+  },
+  "utf8_strict_decode_pass": true
+}

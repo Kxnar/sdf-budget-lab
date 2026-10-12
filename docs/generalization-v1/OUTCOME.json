@@ -1,0 +1,82 @@
+{
+  "universally_lower_memory": false,
+  "observed_lower_memory_grid_seed_cases": 20,
+  "observed_lower_memory_strongest_q8_seed_cases": 13,
+  "geometry_lower_memory_all_seeds": [
+    [
+      "00_thin_box",
+      false
+    ],
+    [
+      "01_thin_box",
+      true
+    ],
+    [
+      "02_torus",
+      false
+    ],
+    [
+      "03_torus",
+      false
+    ],
+    [
+      "04_double_sphere",
+      false
+    ],
+    [
+      "05_double_sphere",
+      false
+    ],
+    [
+      "06_capsule",
+      false
+    ],
+    [
+      "07_capsule",
+      false
+    ],
+    [
+      "08_cylinder",
+      false
+    ],
+    [
+      "09_cylinder",
+      false
+    ],
+    [
+      "10_rounded_box",
+      true
+    ],
+    [
+      "11_shell",
+      false
+    ],
+    [
+      "12_goathead",
+      false
+    ],
+    [
+      "13_penguin",
+      false
+    ],
+    [
+      "14_spot",
+      false
+    ],
+    [
+      "15_brucewick",
+      false
+    ]
+  ],
+  "novel_geometry_positive_joint_seed_counts": [
+    [
+      "06_capsule",
+      3
+    ],
+    [
+      "10_rounded_box",
+      5
+    ]
+  ],
+  "frozen_sha256": "01a639c2d02f74eb0986d9abdeeb28eaa4990e5363accf86ada7f6c55688c3a4"
+}

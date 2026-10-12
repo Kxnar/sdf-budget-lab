@@ -1,0 +1,929 @@
+{
+  "config": {
+    "schema": 1,
+    "shape": "mesh",
+    "oracle": "CGAL:EPECK",
+    "mesh": "fixtures/torus.off",
+    "probes": "fixtures/torus_probes.csv",
+    "feature": 0.04,
+    "training_samples": 2048,
+    "test_samples_per_distribution": 2048,
+    "train_surface_fraction": 0.5,
+    "noise_sigma": 0.02,
+    "sign_penalty": 0.0025,
+    "max_depth": 10,
+    "timing_repeats": 11,
+    "slice_size": 129,
+    "slice_plane": "xy",
+    "budgets": [
+      32768
+    ],
+    "seeds": [
+      0
+    ],
+    "seed_streams": {
+      "train": 0,
+      "uniform": 10000,
+      "near": 20000,
+      "shift": 30000
+    },
+    "node_bytes": 36,
+    "grid_object_bytes": 64,
+    "adaptive_object_bytes": 64,
+    "build_configuration": "Release",
+    "compiler": "MSVC 194435228",
+    "cgal_version": "6.2.1-I-900"
+  },
+  "summaries": [
+    {
+      "budget_bytes": 32768,
+      "dataset": "near",
+      "method": "adaptive_mse",
+      "seeds": 1,
+      "representation_bytes_mean": 32644.0,
+      "metrics": {
+        "mae": {
+          "mean": 0.015878213935951107,
+          "seed_sd": null
+        },
+        "p99": {
+          "mean": 0.04149803678283617,
+          "seed_sd": null
+        },
+        "cvar99": {
+          "mean": 0.04318560626122751,
+          "seed_sd": null
+        },
+        "sign_error": {
+          "mean": 0.25390625,
+          "seed_sd": null
+        },
+        "inside_recall": {
+          "mean": 0.32684824902723736,
+          "seed_sd": null
+        },
+        "outside_recall": {
+          "mean": 0.9992169146436961,
+          "seed_sd": null
+        },
+        "median_ns_per_query": {
+          "mean": 47.65625,
+          "seed_sd": null
+        }
+      },
+      "delta_vs_uniform": {
+        "mae": {
+          "mean": -0.013272800560241903,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "p99": {
+          "mean": -0.021551045271250166,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "cvar99": {
+          "mean": -0.02295838914287665,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "sign_error": {
+          "mean": -0.12255859375,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "inside_recall": {
+          "mean": 0.32684824902723736,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "outside_recall": {
+          "mean": -0.000783085356303892,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "median_ns_per_query": {
+          "mean": 24.658203125,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        }
+      }
+    },
+    {
+      "budget_bytes": 32768,
+      "dataset": "near",
+      "method": "adaptive_risk",
+      "seeds": 1,
+      "representation_bytes_mean": 32644.0,
+      "metrics": {
+        "mae": {
+          "mean": 0.014896664186994712,
+          "seed_sd": null
+        },
+        "p99": {
+          "mean": 0.06255458539992385,
+          "seed_sd": null
+        },
+        "cvar99": {
+          "mean": 0.06798221917303124,
+          "seed_sd": null
+        },
+        "sign_error": {
+          "mean": 0.22802734375,
+          "seed_sd": null
+        },
+        "inside_recall": {
+          "mean": 0.3955901426718547,
+          "seed_sd": null
+        },
+        "outside_recall": {
+          "mean": 0.9992169146436961,
+          "seed_sd": null
+        },
+        "median_ns_per_query": {
+          "mean": 42.28515625,
+          "seed_sd": null
+        }
+      },
+      "delta_vs_uniform": {
+        "mae": {
+          "mean": -0.014254350309198298,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "p99": {
+          "mean": -0.0004944966541624851,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "cvar99": {
+          "mean": 0.0018382237689270747,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "sign_error": {
+          "mean": -0.1484375,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "inside_recall": {
+          "mean": 0.3955901426718547,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "outside_recall": {
+          "mean": -0.000783085356303892,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "median_ns_per_query": {
+          "mean": 19.287109375,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        }
+      }
+    },
+    {
+      "budget_bytes": 32768,
+      "dataset": "near",
+      "method": "uniform",
+      "seeds": 1,
+      "representation_bytes_mean": 32064.0,
+      "metrics": {
+        "mae": {
+          "mean": 0.02915101449619301,
+          "seed_sd": null
+        },
+        "p99": {
+          "mean": 0.06304908205408634,
+          "seed_sd": null
+        },
+        "cvar99": {
+          "mean": 0.06614399540410416,
+          "seed_sd": null
+        },
+        "sign_error": {
+          "mean": 0.37646484375,
+          "seed_sd": null
+        },
+        "inside_recall": {
+          "mean": 0.0,
+          "seed_sd": null
+        },
+        "outside_recall": {
+          "mean": 1.0,
+          "seed_sd": null
+        },
+        "median_ns_per_query": {
+          "mean": 22.998046875,
+          "seed_sd": null
+        }
+      },
+      "delta_vs_uniform": {
+        "mae": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "p99": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "cvar99": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "sign_error": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "inside_recall": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "outside_recall": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "median_ns_per_query": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        }
+      }
+    },
+    {
+      "budget_bytes": 32768,
+      "dataset": "probes",
+      "method": "adaptive_mse",
+      "seeds": 1,
+      "representation_bytes_mean": 32644.0,
+      "metrics": {
+        "mae": {
+          "mean": 0.017099577225379404,
+          "seed_sd": null
+        },
+        "p99": {
+          "mean": 0.048604643800553037,
+          "seed_sd": null
+        },
+        "cvar99": {
+          "mean": 0.04881579396781144,
+          "seed_sd": null
+        },
+        "sign_error": {
+          "mean": 0.08203125,
+          "seed_sd": null
+        },
+        "inside_recall": {
+          "mean": 0.8359375,
+          "seed_sd": null
+        },
+        "outside_recall": {
+          "mean": 1.0,
+          "seed_sd": null
+        },
+        "median_ns_per_query": {
+          "mean": 47.65625,
+          "seed_sd": null
+        }
+      },
+      "delta_vs_uniform": {
+        "mae": {
+          "mean": -0.029863608860207617,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "p99": {
+          "mean": -0.023572799084487304,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "cvar99": {
+          "mean": -0.02336164891722893,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "sign_error": {
+          "mean": -0.41796875,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "inside_recall": {
+          "mean": 0.8359375,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "outside_recall": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "median_ns_per_query": {
+          "mean": 24.658203125,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        }
+      }
+    },
+    {
+      "budget_bytes": 32768,
+      "dataset": "probes",
+      "method": "adaptive_risk",
+      "seeds": 1,
+      "representation_bytes_mean": 32644.0,
+      "metrics": {
+        "mae": {
+          "mean": 0.017476027665193905,
+          "seed_sd": null
+        },
+        "p99": {
+          "mean": 0.0667045095269081,
+          "seed_sd": null
+        },
+        "cvar99": {
+          "mean": 0.07254201768813451,
+          "seed_sd": null
+        },
+        "sign_error": {
+          "mean": 0.068359375,
+          "seed_sd": null
+        },
+        "inside_recall": {
+          "mean": 0.86328125,
+          "seed_sd": null
+        },
+        "outside_recall": {
+          "mean": 1.0,
+          "seed_sd": null
+        },
+        "median_ns_per_query": {
+          "mean": 42.28515625,
+          "seed_sd": null
+        }
+      },
+      "delta_vs_uniform": {
+        "mae": {
+          "mean": -0.029487158420393116,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "p99": {
+          "mean": -0.005472933358132245,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "cvar99": {
+          "mean": 0.00036457480309413925,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "sign_error": {
+          "mean": -0.431640625,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "inside_recall": {
+          "mean": 0.86328125,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "outside_recall": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "median_ns_per_query": {
+          "mean": 19.287109375,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        }
+      }
+    },
+    {
+      "budget_bytes": 32768,
+      "dataset": "probes",
+      "method": "uniform",
+      "seeds": 1,
+      "representation_bytes_mean": 32064.0,
+      "metrics": {
+        "mae": {
+          "mean": 0.04696318608558702,
+          "seed_sd": null
+        },
+        "p99": {
+          "mean": 0.07217744288504034,
+          "seed_sd": null
+        },
+        "cvar99": {
+          "mean": 0.07217744288504037,
+          "seed_sd": null
+        },
+        "sign_error": {
+          "mean": 0.5,
+          "seed_sd": null
+        },
+        "inside_recall": {
+          "mean": 0.0,
+          "seed_sd": null
+        },
+        "outside_recall": {
+          "mean": 1.0,
+          "seed_sd": null
+        },
+        "median_ns_per_query": {
+          "mean": 22.998046875,
+          "seed_sd": null
+        }
+      },
+      "delta_vs_uniform": {
+        "mae": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "p99": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "cvar99": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "sign_error": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "inside_recall": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "outside_recall": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "median_ns_per_query": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        }
+      }
+    },
+    {
+      "budget_bytes": 32768,
+      "dataset": "shift",
+      "method": "adaptive_mse",
+      "seeds": 1,
+      "representation_bytes_mean": 32644.0,
+      "metrics": {
+        "mae": {
+          "mean": 0.014982584740677563,
+          "seed_sd": null
+        },
+        "p99": {
+          "mean": 0.039562005825080473,
+          "seed_sd": null
+        },
+        "cvar99": {
+          "mean": 0.042385100748002176,
+          "seed_sd": null
+        },
+        "sign_error": {
+          "mean": 0.05908203125,
+          "seed_sd": null
+        },
+        "inside_recall": {
+          "mean": 0.3277777777777778,
+          "seed_sd": null
+        },
+        "outside_recall": {
+          "mean": 1.0,
+          "seed_sd": null
+        },
+        "median_ns_per_query": {
+          "mean": 47.65625,
+          "seed_sd": null
+        }
+      },
+      "delta_vs_uniform": {
+        "mae": {
+          "mean": 0.0022193944004537582,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "p99": {
+          "mean": -0.016623003913477083,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "cvar99": {
+          "mean": -0.019813260472087715,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "sign_error": {
+          "mean": -0.02880859375,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "inside_recall": {
+          "mean": 0.3277777777777778,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "outside_recall": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "median_ns_per_query": {
+          "mean": 24.658203125,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        }
+      }
+    },
+    {
+      "budget_bytes": 32768,
+      "dataset": "shift",
+      "method": "adaptive_risk",
+      "seeds": 1,
+      "representation_bytes_mean": 32644.0,
+      "metrics": {
+        "mae": {
+          "mean": 0.015841073374732985,
+          "seed_sd": null
+        },
+        "p99": {
+          "mean": 0.04992069174882874,
+          "seed_sd": null
+        },
+        "cvar99": {
+          "mean": 0.059456416058034804,
+          "seed_sd": null
+        },
+        "sign_error": {
+          "mean": 0.0517578125,
+          "seed_sd": null
+        },
+        "inside_recall": {
+          "mean": 0.4111111111111111,
+          "seed_sd": null
+        },
+        "outside_recall": {
+          "mean": 1.0,
+          "seed_sd": null
+        },
+        "median_ns_per_query": {
+          "mean": 42.28515625,
+          "seed_sd": null
+        }
+      },
+      "delta_vs_uniform": {
+        "mae": {
+          "mean": 0.0030778830345091802,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "p99": {
+          "mean": -0.006264317989728818,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "cvar99": {
+          "mean": -0.002741945162055087,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "sign_error": {
+          "mean": -0.0361328125,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "inside_recall": {
+          "mean": 0.4111111111111111,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "outside_recall": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "median_ns_per_query": {
+          "mean": 19.287109375,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        }
+      }
+    },
+    {
+      "budget_bytes": 32768,
+      "dataset": "shift",
+      "method": "uniform",
+      "seeds": 1,
+      "representation_bytes_mean": 32064.0,
+      "metrics": {
+        "mae": {
+          "mean": 0.012763190340223805,
+          "seed_sd": null
+        },
+        "p99": {
+          "mean": 0.056185009738557556,
+          "seed_sd": null
+        },
+        "cvar99": {
+          "mean": 0.06219836122008989,
+          "seed_sd": null
+        },
+        "sign_error": {
+          "mean": 0.087890625,
+          "seed_sd": null
+        },
+        "inside_recall": {
+          "mean": 0.0,
+          "seed_sd": null
+        },
+        "outside_recall": {
+          "mean": 1.0,
+          "seed_sd": null
+        },
+        "median_ns_per_query": {
+          "mean": 22.998046875,
+          "seed_sd": null
+        }
+      },
+      "delta_vs_uniform": {
+        "mae": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "p99": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "cvar99": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "sign_error": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "inside_recall": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "outside_recall": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "median_ns_per_query": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        }
+      }
+    },
+    {
+      "budget_bytes": 32768,
+      "dataset": "uniform",
+      "method": "adaptive_mse",
+      "seeds": 1,
+      "representation_bytes_mean": 32644.0,
+      "metrics": {
+        "mae": {
+          "mean": 0.0141629587403896,
+          "seed_sd": null
+        },
+        "p99": {
+          "mean": 0.04335993278096528,
+          "seed_sd": null
+        },
+        "cvar99": {
+          "mean": 0.04967840369141406,
+          "seed_sd": null
+        },
+        "sign_error": {
+          "mean": 0.001953125,
+          "seed_sd": null
+        },
+        "inside_recall": {
+          "mean": 0.3333333333333333,
+          "seed_sd": null
+        },
+        "outside_recall": {
+          "mean": 1.0,
+          "seed_sd": null
+        },
+        "median_ns_per_query": {
+          "mean": 47.65625,
+          "seed_sd": null
+        }
+      },
+      "delta_vs_uniform": {
+        "mae": {
+          "mean": 0.01163931414898131,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "p99": {
+          "mean": 0.02722570921921285,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "cvar99": {
+          "mean": 0.02113195360362165,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "sign_error": {
+          "mean": -0.0009765625,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "inside_recall": {
+          "mean": 0.3333333333333333,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "outside_recall": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "median_ns_per_query": {
+          "mean": 24.658203125,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        }
+      }
+    },
+    {
+      "budget_bytes": 32768,
+      "dataset": "uniform",
+      "method": "adaptive_risk",
+      "seeds": 1,
+      "representation_bytes_mean": 32644.0,
+      "metrics": {
+        "mae": {
+          "mean": 0.021449270471426515,
+          "seed_sd": null
+        },
+        "p99": {
+          "mean": 0.05254330149379438,
+          "seed_sd": null
+        },
+        "cvar99": {
+          "mean": 0.054485501196267494,
+          "seed_sd": null
+        },
+        "sign_error": {
+          "mean": 0.001953125,
+          "seed_sd": null
+        },
+        "inside_recall": {
+          "mean": 0.3333333333333333,
+          "seed_sd": null
+        },
+        "outside_recall": {
+          "mean": 1.0,
+          "seed_sd": null
+        },
+        "median_ns_per_query": {
+          "mean": 42.28515625,
+          "seed_sd": null
+        }
+      },
+      "delta_vs_uniform": {
+        "mae": {
+          "mean": 0.018925625880018226,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "p99": {
+          "mean": 0.03640907793204195,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "cvar99": {
+          "mean": 0.025939051108475084,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "sign_error": {
+          "mean": -0.0009765625,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "inside_recall": {
+          "mean": 0.3333333333333333,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "outside_recall": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "median_ns_per_query": {
+          "mean": 19.287109375,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        }
+      }
+    },
+    {
+      "budget_bytes": 32768,
+      "dataset": "uniform",
+      "method": "uniform",
+      "seeds": 1,
+      "representation_bytes_mean": 32064.0,
+      "metrics": {
+        "mae": {
+          "mean": 0.00252364459140829,
+          "seed_sd": null
+        },
+        "p99": {
+          "mean": 0.016134223561752432,
+          "seed_sd": null
+        },
+        "cvar99": {
+          "mean": 0.02854645008779241,
+          "seed_sd": null
+        },
+        "sign_error": {
+          "mean": 0.0029296875,
+          "seed_sd": null
+        },
+        "inside_recall": {
+          "mean": 0.0,
+          "seed_sd": null
+        },
+        "outside_recall": {
+          "mean": 1.0,
+          "seed_sd": null
+        },
+        "median_ns_per_query": {
+          "mean": 22.998046875,
+          "seed_sd": null
+        }
+      },
+      "delta_vs_uniform": {
+        "mae": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "p99": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "cvar99": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "sign_error": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "inside_recall": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "outside_recall": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        },
+        "median_ns_per_query": {
+          "mean": 0.0,
+          "bootstrap95_low": null,
+          "bootstrap95_high": null
+        }
+      }
+    }
+  ],
+  "analysis_source_sha256": "dd3a643cb8861a04329cfac430ddbed1f90e72d8ff96eff590f6388ec1c006c9",
+  "limits": "Development results. Bootstrap resamples paired seeds, not queries. Three seeds give a coarse variability estimate. Feature probes and 2D contours do not certify 3D topology."
+}

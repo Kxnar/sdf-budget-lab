@@ -1,0 +1,6 @@
+{
+  "frozen_sha256": "d4d55bdd672a954bb91564dbfede2b0661d6f34fed41a869b7a58fbad4cfa533",
+  "preserved_key": "expected_unique_encoded_fields",
+  "preserved_value": 1884,
+  "interpretation": "Physical encoded-field records:1820 adaptive cap records,52 grid records,12 deterministic compact records. Distinct binary content hashes may be fewer; no count of distinct buffers is implied."
+}

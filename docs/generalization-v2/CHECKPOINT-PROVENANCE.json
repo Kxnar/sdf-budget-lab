@@ -1,0 +1,11 @@
+{
+  "snapshot_sha256": "89b24fa3320eeb8af601eb0b602883a74225310218987dce9586a479584f2277",
+  "executed_native_sha256": "5aea1419f4328414eb6f311a53587472dc744d0f54fc7cc6791d4e9a0d0a7315",
+  "old_frozen_sha256": "01a639c2d02f74eb0986d9abdeeb28eaa4990e5363accf86ada7f6c55688c3a4",
+  "reassessment_complete_sha256": "6435b725e75b2c423d15cdb90a7ffbd3f95a5ab598019dbabcbdd450cc16d20a",
+  "feasibility_checkpoint_sha256": "12534f75c0be41c54acc22094db0fbc6c0b1f000fa7120f8ab906a8d12c61b38",
+  "oracle_checks_sha256": "4e4728f21d37d0da03132773d5a9a9fedd350aca73a73dfb97db78df614bb6e6",
+  "native_phase_timing_scope": "Cache reset at each depth; oracle already constructed and prior process warming retained; includes probe/corner labels, segment evidence writes and all three encoding/root evaluations; excludes oracle setup and independent verification",
+  "no_screen_fitting": true,
+  "no_fresh_fitting": true
+}

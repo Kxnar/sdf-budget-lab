@@ -1,0 +1,14 @@
+{
+  "visual_checks": [
+    "joint-gates.png",
+    "memory-savings.png",
+    "tails-and-maxima.png",
+    "performance.png",
+    "surface-00_thin_box.png",
+    "surface-06_capsule.png",
+    "surface-12_goathead.png"
+  ],
+  "utf8_strict": true,
+  "compact_manifest_checked": true,
+  "method_settings_unchanged": true
+}

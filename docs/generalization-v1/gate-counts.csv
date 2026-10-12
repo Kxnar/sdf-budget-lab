@@ -1,0 +1,9 @@
+method,fields,joint_passes,scalar_rejections,feature_rejections,width_rejections,observed_topology_failures,skipped_topology,reference_unresolved
+grid,208,5,201,88,117,0,203,13
+mse,1040,0,1040,373,548,0,1040,65
+sign,1040,0,1040,334,518,0,1040,65
+cvar99,1040,0,1040,369,609,0,1040,65
+selective32,1040,0,1040,373,622,0,1040,65
+candidate_original,1040,14,1026,326,586,0,1026,65
+coverage_q8,1040,45,976,413,578,0,995,65
+candidate,1040,179,817,365,586,0,861,65

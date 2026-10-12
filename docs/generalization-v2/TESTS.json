@@ -1,0 +1,11 @@
+{
+  "fresh_core_build": "build-generalization-v2-core",
+  "fresh_cgal_build": "build-generalization-v2-cgal",
+  "native_suites_each": 6,
+  "native_ray_checks": 14,
+  "python_generalization_tests": 19,
+  "all_passed": true,
+  "cgal_log_sha256": "eac9f9a7f3eaee0962737d8b7d68d3a561a6a5e61f56b193801cf508e25de656",
+  "cgal_build_log_sha256": "dde8acac7ef0f989ba0be07ce0e65fcb7c9d7cb6f8a80626966cbb7ad80ecc70",
+  "core_build_log_sha256": "98175e9a244ea931bfc00b83f8f3fc44c304786e3dd2f81508dd1c071a9c790a"
+}

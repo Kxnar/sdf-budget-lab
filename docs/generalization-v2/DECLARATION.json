@@ -1,0 +1,77 @@
+{
+  "protocol": "generalization-v2",
+  "created_utc": "2026-10-12T16:36:20.190221+00:00",
+  "protocol_sha256": "e04c07e5a698e4853775dc00cba45cb0e6d2875c0805b30902aeea3b05353704",
+  "old_frozen_sha256": "01a639c2d02f74eb0986d9abdeeb28eaa4990e5363accf86ada7f6c55688c3a4",
+  "policies": [
+    "old_d7",
+    "capacity4096",
+    "data4096",
+    "focused2048",
+    "focused4096"
+  ],
+  "depths": [
+    7,
+    9,
+    12
+  ],
+  "virtual_encodings": [
+    "q8",
+    "f32",
+    "f64"
+  ],
+  "screen_meshes": [
+    "12_goathead",
+    "14_spot",
+    "15_brucewick"
+  ],
+  "screen_seeds": [
+    240,
+    241
+  ],
+  "caps": [
+    8192,
+    12288,
+    16384,
+    24576,
+    32768,
+    49152,
+    65536,
+    98304,
+    131072,
+    196608,
+    262144,
+    524288,
+    1048576
+  ],
+  "fresh_fit_seeds": [
+    340,
+    341,
+    342,
+    343,
+    344
+  ],
+  "fresh_query_namespace": 1880001,
+  "fresh_revision": "835213277571d625722d25880c9c3010c6f45a5a",
+  "fresh_files": [
+    "fish/fish_low_resolution.obj",
+    "mushroom/mushroom.obj",
+    "springer/springer.obj",
+    "hammer/hammer.obj"
+  ],
+  "fallback_order": [
+    "stuffedtoy",
+    "boat"
+  ],
+  "rank_scale_floor": 1e-05,
+  "weight_scale": 0.01,
+  "multiscale_anchors": 32768,
+  "multiscale_labels": 557056,
+  "max_nodes": 250441,
+  "max_dp_states": 8000000,
+  "max_transitions": 1000000000,
+  "cache_entries": 262144,
+  "heavy_workers": 1,
+  "reserved_free_disk_bytes": 32212254720,
+  "target_new_evidence_bytes": 42949672960
+}

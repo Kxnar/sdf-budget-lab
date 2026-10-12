@@ -1,0 +1,7 @@
+{
+  "original_declaration_sha256": "828a1472a56e2c6f0457f36235ae905d55d13c6ee6243446c083edc76937dd68",
+  "protocol_sha256": "f54ce84fb1e77ef76420ed6251966303dad9e50ccc9d11cb9dd958d9c6b8ddcf",
+  "max_process_working_set_bytes": 1610612736,
+  "selection_score": "Least requested common passing cap per mesh, then maximum actual retained bytes of the two seeds there; sum across meshes,2MiB for missing common crossing; physical/logical costs and policy order ties",
+  "before_screen_outcomes": true
+}

@@ -1,0 +1,31 @@
+{
+  "strict_utf8_text_files": 50,
+  "mojibake_check_pass": true,
+  "full_matrix_rows": 2028,
+  "copied_matrix_and_original_freeze_equal": true,
+  "complete_compact_assessments": 12,
+  "matched_compact_batch_rows": 144,
+  "publication_and_helper_identities_pass": true,
+  "rebuild_and_fixture_copies_equal": true,
+  "independent_recovery_audit": {
+    "reproduction_manifest_entries": 1118,
+    "per_record_hashes": 442,
+    "exact_selection_jobs": 44,
+    "observed_zero_exits": 44
+  },
+  "independent_visual_qa": {
+    "pass_all_seven": true,
+    "png_sha256": {
+      "failed-ray.png": "b73be7d0b257b05ee994693250dada7aeae09e57f1dab579c5dd4b8840629249",
+      "joint_gates.png": "31c1e9600ccc4098605330194d6e942a3baaf180a18de352c911333e8a145dff",
+      "storage.png": "73d7dc30d040398a225fc707f4392ebf1ea1ebbe806a4e5c0a8d000fc00bc4ba",
+      "surface-01_mushroom.png": "e906fb98970baf3f5e65b81484c4a59eb243f3fbed69061f2c9a2c3ed80009fb",
+      "surface-02_springer.png": "2583417892c4811c5b38a1554d18446f0c8b17eaf8a99a650301eb88491fac87",
+      "surface-03_hammer.png": "3188fce4ca531fbf5563ec9f70aff148f6b3bf3c9578604688157ae7fb996787",
+      "tails.png": "9ee61abe48fa3c50967e6ed3173e46724a6cca45e43a819e0443c0bf2335fbe1"
+    }
+  },
+  "completion_record_sha256": "8d869bf612eb56274cb5f0319bf8a17b4b45fe5a3633c8dfa816e0c35b23ee36",
+  "local_links_checked": 74,
+  "local_links_pass": true
+}

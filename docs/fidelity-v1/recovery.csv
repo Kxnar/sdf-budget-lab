@@ -1,0 +1,11 @@
+shape,method,feature,individual_pass,recovered
+torus,baseline_q8,0.035,True,True
+torus,baseline_q8,0.06,True,True
+torus,baseline_q8,0.1,True,True
+torus,risk_q8,0.035,True,True
+torus,risk_q8,0.06,True,True
+torus,risk_q8,0.1,True,True
+double_sphere,baseline_q8,0.06,False,False
+double_sphere,baseline_q8,0.1,True,True
+double_sphere,risk_q8,0.06,True,True
+double_sphere,risk_q8,0.1,True,True
