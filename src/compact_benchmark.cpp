@@ -3,6 +3,7 @@
 #include "sdf/generalization.hpp"
 #include "sdf/metrics.hpp"
 #include <chrono>
+#include <cstring>
 #include <filesystem>
 #include <iostream>
 #include <limits>

@@ -2,12 +2,21 @@
 #include <CGAL/Exact_predicates_inexact_constructions_kernel.h>
 #include <CGAL/Surface_mesh.h>
 #include <CGAL/AABB_tree.h>
+#if __has_include(<CGAL/AABB_traits_3.h>)
 #include <CGAL/AABB_traits_3.h>
+#else
+#include <CGAL/AABB_traits.h>
+#endif
 #include <CGAL/AABB_face_graph_triangle_primitive.h>
 #include <CGAL/Side_of_triangle_mesh.h>
 #include <CGAL/boost/graph/IO/polygon_mesh_io.h>
 namespace sdf { namespace {
-using K=CGAL::Exact_predicates_inexact_constructions_kernel;using M=CGAL::Surface_mesh<K::Point_3>;using P=CGAL::AABB_face_graph_triangle_primitive<M>;using T=CGAL::AABB_tree<CGAL::AABB_traits_3<K,P>>;
+using K=CGAL::Exact_predicates_inexact_constructions_kernel;using M=CGAL::Surface_mesh<K::Point_3>;using P=CGAL::AABB_face_graph_triangle_primitive<M>;
+#if __has_include(<CGAL/AABB_traits_3.h>)
+using T=CGAL::AABB_tree<CGAL::AABB_traits_3<K,P>>;
+#else
+using T=CGAL::AABB_tree<CGAL::AABB_traits<K,P>>;
+#endif
 Vec3 vec(const K::Point_3& p){return {p.x(),p.y(),p.z()};}
 class Fast final:public Oracle {
     M mesh_;T tree_;std::unique_ptr<CGAL::Side_of_triangle_mesh<M,K>> side_;std::vector<std::array<Vec3,3>> triangles_;std::vector<double> areas_;
