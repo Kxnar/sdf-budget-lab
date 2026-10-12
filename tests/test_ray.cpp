@@ -13,8 +13,14 @@ auto near=segmented_transitions({segment(0,.5,[](Vec3 p){return p.x-(.5-1e-9);})
 auto boundary=segmented_transitions({segment(0,.5,[](Vec3 p){return p.x-.5;}),segment(.5,1,[](Vec3 p){return p.x-.5;})},diagonal);require(boundary.crossings==std::vector<double>{.5},"Owned boundary crossing exactly once");
 for(double minimum:{1e-8,-1e-8}){auto r=segmented_transitions({segment(0,1,[&](Vec3 p){return (p.x-.5)*(p.y-.5)+minimum;})},diagonal);require(r.crossings.size()==(minimum>0?0:2)&&!r.ambiguous,"Resolved near tangent minimum");}
 for(double minimum:{1e-16,-1e-16}){auto r=segmented_transitions({segment(0,1,[&](Vec3 p){return (p.x-.5)*(p.y-.5)+minimum;})},diagonal);require(r.ambiguous,"Near tangent numeric uncertainty explicit");}
+for(int exponent:{-20,0,20})for(double direction:{-1.,1.}){
+    auto perturbed=segment(0,1,[](Vec3 p){return (p.x-.5)*(p.y-.5);});
+    for(auto& corner:perturbed.corners)corner=std::nextafter(std::ldexp(corner,exponent),std::copysign(std::numeric_limits<double>::infinity(),direction));
+    auto r=segmented_transitions({perturbed},diagonal);
+    require(r.ambiguous,"One-ULP binary64 corner perturbation remains ambiguous across amplitudes");
+}
 auto repeated=segmented_transitions({segment(0,1,[](Vec3 p){return (p.x-.5)*(p.y-(.5+1e-8))*(p.z-.8);})},diagonal);require(repeated.ambiguous,"Nearly repeated cubic uncertainty");
 double next=std::nextafter(.5,1.);auto tiny=segmented_transitions({segment(.5,next,[](Vec3 p){return p.x+1.;})},diagonal);require(tiny.ambiguous,"Unrepresentable segment midpoint");
 auto nearplanes=grid_ray_boundaries({{0,0,0},{1,std::nextafter(1.,2.),0},0,1},4);require(std::find(nearplanes.begin(),nearplanes.end(),.5)!=nearplanes.end()&&std::find(nearplanes.begin(),nearplanes.end(),.5/std::nextafter(1.,2.))!=nearplanes.end(),"Distinct near-coincident planes retained");
-std::cout<<"Fourteen meaningful segmented-ray checks passed\n";
+std::cout<<"Segmented-ray regression suite passed\n";
 }catch(const std::exception& e){std::cerr<<e.what()<<'\n';return 1;}}

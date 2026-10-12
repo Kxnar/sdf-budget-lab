@@ -32,7 +32,10 @@ inline int polynomial_side(const Cubic& c,long double u,int direction){
 inline RayTransitions segmented_transitions(const std::vector<RaySegment>& segments,const MeasurementRay& ray){
     RayTransitions result;std::vector<Cubic> polynomials;polynomials.reserve(segments.size());
     for(const auto& segment:segments){auto c=ray_polynomial(segment,ray);polynomials.push_back(c);if(std::all_of(c.begin(),c.end(),[](long double x){return x==0;})){++result.zero_segments;result.ambiguous=true;continue;}
-        long double scale=0;for(auto x:c)scale+=std::abs(x);for(auto x:segment.corners)scale=std::max(scale,static_cast<long double>(std::abs(x)));auto uncertainty=128*std::numeric_limits<long double>::epsilon()*scale;
+        long double scale=0;for(auto x:c)scale+=std::abs(x);for(auto x:segment.corners)scale=std::max(scale,static_cast<long double>(std::abs(x)));
+        // Corner values and segment geometry are binary64 inputs. Their uncertainty
+        // floor remains binary64 even when the polynomial accumulator is wider.
+        auto uncertainty=128L*static_cast<long double>(std::numeric_limits<double>::epsilon())*scale;
         if((segment.low+segment.high)/2==segment.low||(segment.low+segment.high)/2==segment.high)result.ambiguous=true;
         auto critical=critical_points(c);for(auto u:critical)if(std::abs(polynomial_value(c,u))<=uncertainty)result.ambiguous=true;
         for(long double u:{0.L,1.L}){auto v=polynomial_value(c,u);if(v!=0&&std::abs(v)<=uncertainty)result.ambiguous=true;}
